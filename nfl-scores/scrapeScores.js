@@ -1,36 +1,46 @@
+const fs = require('fs');
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const baseUrl = 'https://www.pro-football-reference.com/boxscores/';
+const baseUrl = 'https://www.pro-football-reference.com/years/2024/';
 
-async function fetchScores(week) {
+async function fetchWinners(week) {
     try {
-        const response = await axios.get(`${baseUrl}?week=${week}`);
+        const response = await axios.get(`${baseUrl}week_${week}.htm`);
         const $ = cheerio.load(response.data);
 
-        // Assuming the table with scores has the class 'game_summary'
-        const scores = [];
+        const winners = [];
 
         $('div.game_summary').each((index, element) => {
-            const homeTeam = $(element).find('.team_name').first().text().trim();
-            const awayTeam = $(element).find('.team_name').last().text().trim();
-            const homeScore = $(element).find('.score').first().text().trim();
-            const awayScore = $(element).find('.score').last().text().trim();
+            const teamsTable = $(element).find('table.teams');
+            const homeTeam = teamsTable.find('tr.winner td').eq(0).text().trim();
+            const awayTeam = teamsTable.find('tr.loser td').eq(0).text().trim();
+            const homeScore = parseInt(teamsTable.find('tr.winner td').eq(1).text().trim());
+            const awayScore = parseInt(teamsTable.find('tr.loser td').eq(1).text().trim());
 
-            scores.push({
-                homeTeam,
-                awayTeam,
-                homeScore,
-                awayScore
-            });
+            if (homeScore > awayScore) {
+                winners.push({
+                    team: homeTeam,
+                    score: homeScore
+                });
+            } else {
+                winners.push({
+                    team: awayTeam,
+                    score: awayScore
+                });
+            }
         });
 
-        console.log(`Scores for Week ${week}:`, scores);
-        return scores;
+        // Write winners to a JSON file
+        fs.writeFileSync('../winners.json', JSON.stringify(winners, null, 2));
+
+        console.log(`Winners for Week ${week}:`, winners);
+        return winners;
     } catch (error) {
-        console.error('Error fetching NFL scores:', error);
+        console.error('Error fetching NFL winners:', error);
+        return [];
     }
 }
 
 const week = 1; // Example week
-fetchScores(week);
+fetchWinners(week);

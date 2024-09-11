@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick 5 Pool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        #main-container {
+            display: flex;
+            width: 100%;
+            margin-top: 20px;
+        }
+        #players-tables {
+            width: 75%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        #winners-table-container {
+            width: 25%;
+            padding: 20px;
+            box-sizing: border-box;
+            border-left: 1px solid #ddd;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            text-align: center;
+            margin: 0 0 20px;
+        }
+        .table-header {
+            margin-top: 0;
+        }
+        #controls {
+            text-align: center;
+            margin: 20px;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pick 5 Pool</h1>
+
+    <div id="controls">
+        <label for="week-select">Select Week:</label>
+        <select id="week-select">
+        </select>
+    </div>
+
+    <div id="main-container">
+        <div id="players-tables">
+            <div id="players-tables-content">
+            </div>
+        </div>
+
+        <div id="winners-table-container">
+            <h2 class="table-header">Weekly Winners</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Team</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="winners-table">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const weekSelect = document.getElementById('week-select');
+        const playersTablesContent = document.getElementById('players-tables-content');
+        const winnersTableBody = document.getElementById('winners-table');
+        let currentWinners = [];
+
+        function populateWeekOptions() {
+            for (let i = 1; i <= 18; i++) {
+                const option = document.createElement('option');
+                option.value = i;
+                option.textContent = `Week ${i}`;
+                weekSelect.appendChild(option);
+            }
+        }
+
+        async function fetchWinners(week) {
+            try {
+                const response = await fetch(`winners.json`);
+                const winners = await response.json();
+                winnersTableBody.innerHTML = '';
+                currentWinners = winners.map(winner => ({
+                    team: winner.team,
+                    score: winner.score
+                })); // Store winners with team and score
+
+                winners.forEach(winner => {
+                    const row = document.createElement('tr');
+                    const teamCell = document.createElement('td');
+                    teamCell.textContent = winner.team;
+                    const scoreCell = document.createElement('td');
+                    scoreCell.textContent = winner.score;
+                    row.appendChild(teamCell);
+                    row.appendChild(scoreCell);
+                    winnersTableBody.appendChild(row);
+                });
+            } catch (error) {
+                console.error('Error fetching winners:', error);
+            }
+        }
+
+        async function fetchPlayersPicks(week) {
+            try {
+                const response = await fetch('players.json');
+                const data = await response.json();
+                playersTablesContent.innerHTML = '';
+
+                for (const [person, weeks] of Object.entries(data)) {
+                    if (weeks[`week${week}`]) {
+                        const table = document.createElement('table');
+                        const header = document.createElement('thead');
+                        const body = document.createElement('tbody');
+
+                        // Add header row with person's name
+                        const headerRow = document.createElement('tr');
+                        const headerCell = document.createElement('th');
+                        headerCell.colSpan = 2;
+                        headerCell.textContent = person;
+                        headerRow.appendChild(headerCell);
+                        header.appendChild(headerRow);
+
+                        // Add picks and points in two columns
+                        let totalPoints = 0;
+                        weeks[`week${week}`].forEach((pick, index) => {
+                            const row = document.createElement('tr');
+                            const pickCell = document.createElement('td');
+                            pickCell.textContent = pick;
+                            const pointsCell = document.createElement('td');
+
+                            let points = 0;
+                            const winningTeam = currentWinners.find(winner => winner.team === pick);
+
+                            if (winningTeam) {
+                                // Add 10 points if the pick is in the weekly winners
+                                points = 10;
+
+                                // If it's the first pick, add the winning team's score as well
+                                if (index === 0) {
+                                    points += winningTeam.score;
+                                }
+                            }
+
+                            pointsCell.textContent = points;
+                            row.appendChild(pickCell);
+                            row.appendChild(pointsCell);
+                            body.appendChild(row);
+                            totalPoints += points;
+                        });
+
+                        // Add total row
+                        const totalRow = document.createElement('tr');
+                        const totalLabelCell = document.createElement('td');
+                        totalLabelCell.textContent = 'Total';
+                        const totalPointsCell = document.createElement('td');
+                        totalPointsCell.textContent = totalPoints;
+                        totalRow.appendChild(totalLabelCell);
+                        totalRow.appendChild(totalPointsCell);
+                        body.appendChild(totalRow);
+
+                        table.appendChild(header);
+                        table.appendChild(body);
+                        playersTablesContent.appendChild(table);
+                    }
+                }
+            } catch (error) {
+                console.error('Error fetching players picks:', error);
+            }
+        }
+
+        function handleWeekChange() {
+            const selectedWeek = weekSelect.value;
+            if (selectedWeek) {
+                fetchWinners(selectedWeek).then(() => {
+                    fetchPlayersPicks(selectedWeek);
+                });
+            }
+        }
+
+        function initializePage() {
+            populateWeekOptions();
+            weekSelect.addEventListener('change', handleWeekChange);
+
+            if (weekSelect.options.length > 0) {
+                weekSelect.value = 1;
+                handleWeekChange();
+            }
+        }
+
+        window.onload = initializePage;
+    </script>
+</body>
+</html>

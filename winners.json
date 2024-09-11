@@ -1,0 +1,66 @@
+[
+  {
+    "team": "Kansas City Chiefs",
+    "score": 27
+  },
+  {
+    "team": "Philadelphia Eagles",
+    "score": 34
+  },
+  {
+    "team": "Pittsburgh Steelers",
+    "score": 18
+  },
+  {
+    "team": "Buffalo Bills",
+    "score": 34
+  },
+  {
+    "team": "Chicago Bears",
+    "score": 24
+  },
+  {
+    "team": "New England Patriots",
+    "score": 16
+  },
+  {
+    "team": "Houston Texans",
+    "score": 29
+  },
+  {
+    "team": "Miami Dolphins",
+    "score": 20
+  },
+  {
+    "team": "New Orleans Saints",
+    "score": 47
+  },
+  {
+    "team": "Minnesota Vikings",
+    "score": 28
+  },
+  {
+    "team": "Los Angeles Chargers",
+    "score": 22
+  },
+  {
+    "team": "Seattle Seahawks",
+    "score": 26
+  },
+  {
+    "team": "Dallas Cowboys",
+    "score": 33
+  },
+  {
+    "team": "Tampa Bay Buccaneers",
+    "score": 37
+  },
+  {
+    "team": "Detroit Lions",
+    "score": 26
+  },
+  {
+    "team": "San Francisco 49ers",
+    "score": 32
+  }
+]
