@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run scrapeScores.js
-        run: node scrapeScores.js
+        run: node nfl-scores/scrapeScores.js
 
       - name: Run calculateScores.js
         run: node calculateScores.js
