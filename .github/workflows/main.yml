@@ -16,10 +16,16 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Update Node.js version to 16 or higher for compatibility
+          node-version: '16'  # Specify the Node.js version
+
+      - name: Clear npm cache
+        run: npm cache clean --force
+
+      - name: Install npm (latest version)
+        run: npm install -g npm@latest
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --verbose
 
       - name: Run the scrapeScores.js script
         run: node nfl-scores/scrapeScores.js
