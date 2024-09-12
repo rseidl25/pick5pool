@@ -1,0 +1,35 @@
+name: Update NFL Scores
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:  # Allows manual triggers
+
+jobs:
+  update-scores:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14' # Specify the Node.js version
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run the script
+        run: node nfl-scores/scrapeScores.js
+
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'github-actions'
+          author_email: 'github-actions@github.com'
+          message: 'Update scores'
+          add: 'weekly_scores.json' # Specify the files to add (e.g., only include the JSON file you want to commit)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
