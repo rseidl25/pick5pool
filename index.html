@@ -78,6 +78,9 @@
         <label for="week-select">Select Week:</label>
         <select id="week-select">
         </select>
+        <label for="player-select">Select Player:</label>
+        <select id="player-select">
+        </select>
     </div>
 
     <div id="main-container">
@@ -96,6 +99,7 @@
 
     <script>
         const weekSelect = document.getElementById('week-select');
+        const playerSelect = document.getElementById('player-select');
         const playersTablesContent = document.getElementById('players-tables-content');
         const winnersTableContainer = document.getElementById('winners-table');
         let currentWinners = [];
@@ -106,6 +110,23 @@
                 option.value = i;
                 option.textContent = `Week ${i}`;
                 weekSelect.appendChild(option);
+            }
+        }
+
+        async function populatePlayerOptions() {
+            const response = await fetch('players.json');
+            const data = await response.json();
+
+            const allOption = document.createElement('option');
+            allOption.value = All;
+            allOption.textContent = "All";
+            playerSelect.appendChild(allOption);
+            
+            for (const [person] of Object.entries(data)) {
+                const option = document.createElement('option');
+                option.value = person;
+                option.textContent = person;
+                playerSelect.appendChild(option);
             }
         }
 
@@ -229,14 +250,14 @@
             }
         }
 
-        async function fetchPlayersPicks(week) {
+        async function fetchPlayersPicks(week, player) {
             try {
                 const response = await fetch('players.json');
                 const data = await response.json();
                 playersTablesContent.innerHTML = '';
 
                 for (const [person, weeks] of Object.entries(data)) {
-                    if (weeks[`week${week}`]) {
+                    if (weeks[`week${week}`] && (person[`${player}`] || (player === `All`))) {
                         const table = document.createElement('table');
                         table.classList.add('player-table');
                         table.id = `player-${person.replace(/\s+/g, '-').toLowerCase()}`; // ID for anchor links
@@ -301,17 +322,20 @@
 
         function handleWeekChange() {
             const selectedWeek = weekSelect.value;
-            if (selectedWeek) {
+            const selectedPlayer = playerSelect.value;
+            if (selectedWeek && selectedPlayer) {
                 fetchWinners(selectedWeek).then(() => {
-                    fetchPlayersPicks(selectedWeek);
+                    fetchPlayersPicks(selectedWeek, selectedPlayer);
                 });
             }
         }
 
         weekSelect.addEventListener('change', handleWeekChange);
+        playerSelect.addEventListener('change', handleWeekChange);
 
         // Initial population of week options and data fetching
         populateWeekOptions();
+        populatePlayerOptions();
         handleWeekChange();
     </script>
 </body>
