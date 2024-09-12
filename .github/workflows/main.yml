@@ -1,28 +1,35 @@
-name: Update Scores
+name: Run Scripts
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # Runs every 15 minutes
-  workflow_dispatch: # Allows manual triggering of the workflow
+    - cron: '*/15 * * * *'  # Runs every 15 minutes
+  workflow_dispatch:
 
 jobs:
-  update-scores:
+  run-scripts:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '14' # Adjust the Node.js version if needed
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'  # Use Node.js 16.x or higher
 
-      - name: Install dependencies
-        run: npm install
+    - name: Install dependencies
+      run: npm install
+      working-directory: nfl-scores
 
-      - name: Run scrapeScores.js
-        run: node nfl-scores/scrapeScores.js
+    - name: Run scrapeScores.js
+      run: node scrapeScores.js
+      working-directory: nfl-scores
 
-      - name: Run calculateScores.js
-        run: node calculateScores.js
+    - name: Install dependencies for calculateScores.js
+      run: npm install
+      working-directory: nfl-scores
+
+    - name: Run calculateScores.js
+      run: node calculateScores.js
+      working-directory: nfl-scores
