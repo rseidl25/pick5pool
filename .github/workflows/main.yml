@@ -2,7 +2,7 @@ name: Update NFL Scores
 
 on:
   schedule:
-    - cron: '0 */15 * * *'  # Runs every 15 minutes
+    - cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:  # Allows manual triggers
 
 jobs:
@@ -16,16 +16,26 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  # Upgrade to Node.js 18 or higher
+          node-version: '18'  # Use Node.js 18 or higher
 
       - name: Install dependencies
-        run: npm install --verbose
+        working-directory: nfl-scores  # Set working directory to nfl-scores
+        run: npm install
 
-      - name: Run the scrapeScores.js script
-        run: node nfl-scores/scrapeScores.js
+      - name: Run scrapeScores.js script
+        working-directory: nfl-scores  # Set working directory to nfl-scores
+        run: node scrapeScores.js
 
-      - name: Run the calculateScores.js script
-        run: node calculateScores.js
+      - name: Run calculateScores.js script
+        run: node nfl-scores/calculateScores.js  # Make sure to provide the correct path if needed
+
+      - name: Move JSON files to root
+        run: |
+          mv nfl-scores/winners.json .
+          mv nfl-scores/leaderboard.json .
+
+      - name: List files in the root directory
+        run: ls -la
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
@@ -33,6 +43,6 @@ jobs:
           author_name: 'github-actions'
           author_email: 'github-actions@github.com'
           message: 'Update scores'
-          add: 'winners.json leaderboard.json' # Include both JSON files
+          add: 'winners.json leaderboard.json'  # Include both JSON files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
