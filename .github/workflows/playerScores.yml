@@ -32,7 +32,6 @@ jobs:
       - name: Move JSON files to root
         run: |
           mv nfl-scores/winners.json .
-          mv nfl-scores/leaderboard.json .
 
       - name: List files in the root directory
         run: ls -la
