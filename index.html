@@ -17,24 +17,23 @@
             margin-top: 20px;
         }
         #players-tables {
-            width: 85%;
+            width: 75%;
             padding: 20px;
             box-sizing: border-box;
-            overflow-x: auto; /* Allows horizontal scrolling */
         }
         #players-tables-content {
             display: flex;
-            flex-wrap: wrap; /* Allow tables to wrap onto the next line */
-            gap: 20px; /* Space between tables */
+            flex-wrap: wrap;
+            gap: 20px;
         }
         #winners-table-container {
-            width: 15%;
+            width: 25%;
             padding: 20px;
             box-sizing: border-box;
             border-left: 1px solid #ddd;
         }
         table {
-            width: auto; /* Adjust width to fit content */
+            width: 100%;
             border-collapse: collapse;
             margin-bottom: 20px;
         }
@@ -61,22 +60,58 @@
             padding: 10px;
             font-size: 16px;
         }
-        .day-section {
-            margin-bottom: 20px;
+        .winner {
+            color: green;
+            font-weight: bold;
         }
-        .day-section h3 {
-            margin: 0;
+        .loser {
+            color: red;
+        }
+        .day-header {
+            font-weight: bold;
             background-color: #f4f4f4;
-            padding: 10px;
+        }
+        .player-table {
+            flex: 1 1 auto; /* Allow tables to grow and wrap */
+            min-width: 250px; /* Adjust as necessary */
+            max-width: 250px; /* Ensure it fits within the 75% width with gaps */
+            box-sizing: border-box;
+            width: 250px;
+        }
+        .expanded-table {
+            flex: 1 1 auto; /* Allow tables to grow and wrap */
+            box-sizing: border-box;
+            width: 100%;
+        }
+        .leaderboard-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .leaderboard-button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
+    <a href="leaderboard.html" class="leaderboard-button">Leaderboard</a>
+
     <h1>Pick 5 Pool</h1>
 
     <div id="controls">
         <label for="week-select">Select Week:</label>
         <select id="week-select">
+        </select>
+        <label for="player-select">Select Player:</label>
+        <select id="player-select">
         </select>
     </div>
 
@@ -89,15 +124,17 @@
 
         <div id="winners-table-container">
             <h2 class="table-header">This Week's Matchups</h2>
-            <div id="winners-table">
+            <div id="winners-table-content">
+                <!-- Weekday-based tables will be inserted here -->
             </div>
         </div>
     </div>
 
     <script>
         const weekSelect = document.getElementById('week-select');
+        const playerSelect = document.getElementById('player-select');
         const playersTablesContent = document.getElementById('players-tables-content');
-        const winnersTableContainer = document.getElementById('winners-table');
+        const winnersTableContent = document.getElementById('winners-table-content');
         let currentWinners = [];
 
         function populateWeekOptions() {
@@ -109,189 +146,231 @@
             }
         }
 
-        async function fetchWinners(week) {
+        async function populatePlayerOptions() {
             try {
-                const response = await fetch('weekly_scores.json');
+                const response = await fetch('players.json');
                 const data = await response.json();
-                const weekData = data.find(w => w.week === parseInt(week));
 
-                if (!weekData) {
-                    console.error(`No data found for week ${week}`);
-                    return;
+                const allOption = document.createElement('option');
+                allOption.value = 'All';
+                allOption.textContent = '[ALL]';
+                playerSelect.appendChild(allOption);
+                
+                for (const [person] of Object.entries(data)) {
+                    const option = document.createElement('option');
+                    option.value = person;
+                    option.textContent = person;
+                    playerSelect.appendChild(option);
                 }
-
-                const games = weekData.games;
-                winnersTableContainer.innerHTML = '';
-                currentWinners = []; // Clear previous winners
-
-                let allCompleted = true; // Assume all games are completed initially
-
-                // Function to create a row in the table
-                function createRow(homeTeam, homeScore, awayTeam, awayScore, status) {
-                    const row = document.createElement('tr');
-
-                    const winnerCell = document.createElement('td');
-                    const loserCell = document.createElement('td');
-
-                    if (status === "Completed") {
-                        if (homeScore > awayScore) {
-                            winnerCell.style.color = 'green';
-                            winnerCell.style.fontWeight = 'bold';
-                            winnerCell.textContent = `${homeTeam} ${homeScore}`;
-
-                            loserCell.style.color = 'red';
-                            loserCell.textContent = `${awayTeam} ${awayScore}`;
-
-                            // Add to currentWinners array
-                            currentWinners.push({ team: homeTeam, score: homeScore });
-                        } else {
-                            winnerCell.style.color = 'green';
-                            winnerCell.style.fontWeight = 'bold';
-                            winnerCell.textContent = `${awayTeam} ${awayScore}`;
-
-                            loserCell.style.color = 'red';
-                            loserCell.textContent = `${homeTeam} ${homeScore}`;
-
-                            // Add to currentWinners array
-                            currentWinners.push({ team: awayTeam, score: awayScore });
-                        }
-                    } else {
-                        winnerCell.style.color = 'black';
-                        winnerCell.textContent = `${homeTeam} ${homeScore}`;
-
-                        loserCell.style.color = 'black';
-                        loserCell.textContent = `${awayTeam} ${awayScore}`;
-                    }
-
-                    row.appendChild(winnerCell);
-                    row.appendChild(loserCell);
-                    return row;
-                }
-
-                // Group games by day
-                const days = Object.keys(games);
-                days.forEach(day => {
-                    const daySection = document.createElement('div');
-                    daySection.className = 'day-section';
-
-                    // Add a header for the day
-                    const dayHeader = document.createElement('h3');
-                    dayHeader.textContent = day.charAt(0).toUpperCase() + day.slice(1);
-                    daySection.appendChild(dayHeader);
-
-                    // Create a table for the day's games
-                    const table = document.createElement('table');
-                    const tableHead = document.createElement('thead');
-                    const tableBody = document.createElement('tbody');
-
-                    // Create header row for the table
-                    const headerRow = document.createElement('tr');
-                    const winHeader = document.createElement('th');
-                    winHeader.textContent = 'Win';
-                    const lossHeader = document.createElement('th');
-                    lossHeader.textContent = 'Loss';
-                    headerRow.appendChild(winHeader);
-                    headerRow.appendChild(lossHeader);
-                    tableHead.appendChild(headerRow);
-                    table.appendChild(tableHead);
-
-                    // Add table body rows
-                    games[day].forEach(game => {
-                        const homeTeam = game.homeTeam;
-                        const awayTeam = game.awayTeam;
-                        const homeScore = game.homeScore !== null ? game.homeScore : 0;
-                        const awayScore = game.awayScore !== null ? game.awayScore : 0;
-                        const status = game.status;
-
-                        const row = createRow(homeTeam, homeScore, awayTeam, awayScore, status);
-                        tableBody.appendChild(row);
-                    });
-
-                    table.appendChild(tableBody);
-                    daySection.appendChild(table);
-                    winnersTableContainer.appendChild(daySection);
-
-                    if (games[day].some(game => game.status !== "Completed")) {
-                        allCompleted = false; // Mark as not all completed
-                    }
-                });
-
-                // Show or hide headers based on completion status
-                winnersTableContainer.querySelectorAll('thead').forEach(thead => {
-                    const headers = thead.querySelectorAll('th');
-                    headers.forEach(header => {
-                        header.style.display = allCompleted ? 'table-cell' : 'none';
-                    });
-                });
-
             } catch (error) {
-                console.error('Error fetching weekly scores:', error);
+                console.error('Error fetching players:', error);
             }
         }
 
-        async function fetchPlayersPicks(week) {
+        async function fetchWinners(week) {
+            try {
+                const response = await fetch('winners.json');
+                const allWeeksData = await response.json();
+                const weekData = allWeeksData.find(w => w.week === parseInt(week));
+
+                if (weekData && weekData.games) {
+                    winnersTableContent.innerHTML = ''; // Clear previous data
+                    currentWinners = []; // Reset winners array
+
+                    // Group games by weekday
+                    const gamesByWeekday = weekData.games.reduce((acc, game) => {
+                        const weekday = game.weekday; // Use the weekday directly from the JSON data
+                        if (!acc[weekday]) {
+                            acc[weekday] = [];
+                        }
+                        acc[weekday].push(game);
+                        return acc;
+                    }, {});
+
+                    // Create a table for each weekday
+                    for (const [weekday, games] of Object.entries(gamesByWeekday)) {
+                        const weekdayTable = document.createElement('table');
+                        const weekdayHeader = document.createElement('thead');
+                        const weekdayHeaderRow = document.createElement('tr');
+                        const weekdayHeaderCell = document.createElement('th');
+                        weekdayHeaderCell.colSpan = 4;
+                        weekdayHeaderCell.textContent = weekday;
+                        weekdayHeaderCell.classList.add('day-header');
+                        weekdayHeaderRow.appendChild(weekdayHeaderCell);
+                        weekdayHeader.appendChild(weekdayHeaderRow);
+                        weekdayTable.appendChild(weekdayHeader);
+
+                        const weekdayBody = document.createElement('tbody');
+
+                        games.forEach(game => {
+                            const row = document.createElement('tr');
+
+                            const homeTeamCell = document.createElement('td');
+                            homeTeamCell.textContent = game.homeTeam;
+
+                            const homeScoreCell = document.createElement('td');
+                            homeScoreCell.textContent = game.homeScore !== null ? game.homeScore : 0;
+
+                            const awayTeamCell = document.createElement('td');
+                            awayTeamCell.textContent = game.awayTeam;
+
+                            const awayScoreCell = document.createElement('td');
+                            awayScoreCell.textContent = game.awayScore !== null ? game.awayScore : 0;
+
+                            if (game.status === 'completed') {
+                                if (parseInt(game.homeScore) > parseInt(game.awayScore)) {
+                                    homeTeamCell.classList.add('winner');
+                                    homeScoreCell.classList.add('winner');
+                                    awayTeamCell.classList.add('loser');
+                                    awayScoreCell.classList.add('loser');
+                                    currentWinners.push({ team: game.homeTeam, score: game.homeScore });
+                                } else {
+                                    awayTeamCell.classList.add('winner');
+                                    awayScoreCell.classList.add('winner');
+                                    homeTeamCell.classList.add('loser');
+                                    homeScoreCell.classList.add('loser');
+                                    currentWinners.push({ team: game.awayTeam, score: game.awayScore });
+                                }
+                            }
+
+                            row.appendChild(homeTeamCell);
+                            row.appendChild(homeScoreCell);
+                            row.appendChild(awayTeamCell);
+                            row.appendChild(awayScoreCell);
+
+                            weekdayBody.appendChild(row);
+                        });
+
+                        weekdayTable.appendChild(weekdayBody);
+                        winnersTableContent.appendChild(weekdayTable);
+                    }
+                }
+            } catch (error) {
+                console.error('Error fetching winners:', error);
+            }
+        }
+
+        async function fetchPlayersPicks(week, player) {
             try {
                 const response = await fetch('players.json');
                 const data = await response.json();
                 playersTablesContent.innerHTML = '';
 
-                for (const [person, weeks] of Object.entries(data)) {
-                    if (weeks[`week${week}`]) {
-                        const table = document.createElement('table');
-                        table.classList.add('player-table');
-                        table.id = `player-${person.replace(/\s+/g, '-').toLowerCase()}`; // ID for anchor links
-                        const header = document.createElement('thead');
-                        const body = document.createElement('tbody');
+                if (player === 'All') {
+                    // Show all players' tables with player-table class
+                    for (const [person, weeks] of Object.entries(data)) {
+                        if (weeks[`week${week}`]) {
+                            const table = document.createElement('table');
+                            table.classList.add('player-table');
+                            table.id = `player-${person.replace(/\s+/g, '-').toLowerCase()}`; // ID for anchor links
+                            const header = document.createElement('thead');
+                            const body = document.createElement('tbody');
 
-                        // Add header row with person's name
-                        const headerRow = document.createElement('tr');
-                        const headerCell = document.createElement('th');
-                        headerCell.colSpan = 2;
-                        headerCell.textContent = person;
-                        headerRow.appendChild(headerCell);
-                        header.appendChild(headerRow);
+                            // Add header row with person's name
+                            const headerRow = document.createElement('tr');
+                            const headerCell = document.createElement('th');
+                            headerCell.colSpan = 2;
+                            headerCell.textContent = person;
+                            headerRow.appendChild(headerCell);
+                            header.appendChild(headerRow);
 
-                        // Add picks and points in two columns
-                        let totalPoints = 0;
-                        weeks[`week${week}`].forEach((pick, index) => {
-                            const row = document.createElement('tr');
-                            const pickCell = document.createElement('td');
-                            pickCell.textContent = pick;
-                            const pointsCell = document.createElement('td');
+                            // Add picks and points in two columns
+                            let totalPoints = 0;
+                            weeks[`week${week}`].forEach((pick, index) => {
+                                const row = document.createElement('tr');
+                                const pickCell = document.createElement('td');
+                                pickCell.textContent = pick;
+                                const pointsCell = document.createElement('td');
 
-                            let points = 0;
-                            const winningTeam = currentWinners.find(winner => winner.team === pick);
+                                let points = 0;
+                                const winningTeam = currentWinners.find(winner => winner.team === pick);
 
-                            if (winningTeam) {
-                                // Add 10 points if the pick is in the weekly winners
-                                points = 10;
-
-                                // If it's the first pick, add the winning team's score as well
-                                if (index === 0) {
-                                    points += winningTeam.score;
+                                if (winningTeam) {
+                                    points = 10; // Add 10 points if the pick is in the weekly winners
+                                    if (index === 0) {
+                                        points += winningTeam.score; // Add the winning team's score if it's the first pick
+                                    }
                                 }
-                            }
 
-                            pointsCell.textContent = points;
-                            row.appendChild(pickCell);
-                            row.appendChild(pointsCell);
-                            body.appendChild(row);
-                            totalPoints += points;
-                        });
+                                pointsCell.textContent = points;
+                                row.appendChild(pickCell);
+                                row.appendChild(pointsCell);
+                                body.appendChild(row);
+                                totalPoints += points;
+                            });
 
-                        // Add total row
-                        const totalRow = document.createElement('tr');
-                        const totalLabelCell = document.createElement('td');
-                        totalLabelCell.textContent = 'Total';
-                        const totalPointsCell = document.createElement('td');
-                        totalPointsCell.textContent = totalPoints;
-                        totalRow.appendChild(totalLabelCell);
-                        totalRow.appendChild(totalPointsCell);
-                        body.appendChild(totalRow);
+                            // Add total row
+                            const totalRow = document.createElement('tr');
+                            const totalLabelCell = document.createElement('td');
+                            totalLabelCell.textContent = 'Total';
+                            const totalPointsCell = document.createElement('td');
+                            totalPointsCell.textContent = totalPoints;
+                            totalRow.appendChild(totalLabelCell);
+                            totalRow.appendChild(totalPointsCell);
+                            body.appendChild(totalRow);
 
-                        table.appendChild(header);
-                        table.appendChild(body);
-                        playersTablesContent.appendChild(table);
+                            table.appendChild(header);
+                            table.appendChild(body);
+                            playersTablesContent.appendChild(table);
+                        }
+                    }
+                } else {
+                    // Show only the selected player's table with expanded-table class
+                    for (const [person, weeks] of Object.entries(data)) {
+                        if (person === player && weeks[`week${week}`]) {
+                            const table = document.createElement('table');
+                            table.classList.add('expanded-table');
+                            table.id = `player-${person.replace(/\s+/g, '-').toLowerCase()}`; // ID for anchor links
+                            const header = document.createElement('thead');
+                            const body = document.createElement('tbody');
+
+                            // Add header row with person's name
+                            const headerRow = document.createElement('tr');
+                            const headerCell = document.createElement('th');
+                            headerCell.colSpan = 2;
+                            headerCell.textContent = person;
+                            headerRow.appendChild(headerCell);
+                            header.appendChild(headerRow);
+
+                            // Add picks and points in two columns
+                            let totalPoints = 0;
+                            weeks[`week${week}`].forEach((pick, index) => {
+                                const row = document.createElement('tr');
+                                const pickCell = document.createElement('td');
+                                pickCell.textContent = pick;
+                                const pointsCell = document.createElement('td');
+
+                                let points = 0;
+                                const winningTeam = currentWinners.find(winner => winner.team === pick);
+
+                                if (winningTeam) {
+                                    points = 10; // Add 10 points if the pick is in the weekly winners
+                                    if (index === 0) {
+                                        points += winningTeam.score; // Add the winning team's score if it's the first pick
+                                    }
+                                }
+
+                                pointsCell.textContent = points;
+                                row.appendChild(pickCell);
+                                row.appendChild(pointsCell);
+                                body.appendChild(row);
+                                totalPoints += points;
+                            });
+
+                            // Add total row
+                            const totalRow = document.createElement('tr');
+                            const totalLabelCell = document.createElement('td');
+                            totalLabelCell.textContent = 'Total';
+                            const totalPointsCell = document.createElement('td');
+                            totalPointsCell.textContent = totalPoints;
+                            totalRow.appendChild(totalLabelCell);
+                            totalRow.appendChild(totalPointsCell);
+                            body.appendChild(totalRow);
+
+                            table.appendChild(header);
+                            table.appendChild(body);
+                            playersTablesContent.appendChild(table);
+                        }
                     }
                 }
             } catch (error) {
@@ -301,18 +380,33 @@
 
         function handleWeekChange() {
             const selectedWeek = weekSelect.value;
+            const selectedPlayer = playerSelect.value;
             if (selectedWeek) {
                 fetchWinners(selectedWeek).then(() => {
-                    fetchPlayersPicks(selectedWeek);
+                    fetchPlayersPicks(selectedWeek, selectedPlayer);
                 });
             }
         }
 
-        weekSelect.addEventListener('change', handleWeekChange);
+        function initializePage() {
+            populateWeekOptions();
+            populatePlayerOptions();
+            weekSelect.addEventListener('change', handleWeekChange);
+            playerSelect.addEventListener('change', handleWeekChange);
 
-        // Initial population of week options and data fetching
-        populateWeekOptions();
-        handleWeekChange();
+            // Set default values and load data
+            if (weekSelect.options.length > 0) {
+                weekSelect.value = 1; // Default to Week 1
+                playerSelect.value = 'All'; // Default to All Players
+                handleWeekChange();
+                fetchWinners(1).then(() => {
+                    fetchPlayersPicks(1, 'All');
+                });
+            }
+        }
+
+        window.onload = initializePage;
     </script>
 </body>
 </html>
+                            

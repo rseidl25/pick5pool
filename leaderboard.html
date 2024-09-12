@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #666; /* Darker gray for table lines */
+            text-align: center;
+        }
+        th {
+            background-color: #333; /* Darker background for the header row */
+            color: #fff; /* White text color for better contrast */
+        }
+        .gold {
+            background-color: rgba(255, 215, 0, 0.3); /* Transparent gold */
+        }
+        .silver {
+            background-color: rgba(192, 192, 192, 0.3); /* Transparent silver */
+        }
+        .bronze {
+            background-color: rgba(205, 127, 50, 0.3); /* Transparent bronze */
+        }
+        h1 {
+            text-align: center;
+        }
+        .main-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .main-button:hover {
+            background-color: #0056b3;
+        }
+        th.position-col, td.position-col {
+            width: 10%; /* Make the position column skinnier */
+        }
+        .dropdown {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="main-button">Back</a>
+
+    <h1>Leaderboard</h1>
+
+    <div class="dropdown">
+        <label for="week-select">Select Week:</label>
+        <select id="week-select">
+        </select>
+    </div>
+    
+    <table id="leaderboard-table">
+        <thead>
+            <tr>
+                <th class="position-col">Position</th>
+                <th>Player</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Leaderboard data will be inserted here -->
+        </tbody>
+    </table>
+
+    <script>
+        const weekSelect = document.getElementById('week-select');
+
+        function populateWeekOptions() {
+            const overallOption = document.createElement('option');
+            overallOption.value = "overall";
+            overallOption.textContent = "Overall";
+            weekSelect.appendChild(overallOption);
+            
+            for (let i = 1; i <= 18; i++) {
+                const weekOption = document.createElement('option');
+                weekOption.value = `week${i}`;
+                weekOption.textContent = `Week ${i}`;
+                weekSelect.appendChild(weekOption);
+            }
+        }
+
+        async function loadLeaderboard(week) {
+            try {
+                const response = await fetch('leaderboard.json');
+                const data = await response.json();
+
+                // Debugging: log the fetched data
+                console.log('Fetched data:', data);
+
+                // Clear existing content
+                const tableBody = document.querySelector('#leaderboard-table tbody');
+                tableBody.innerHTML = ''; 
+
+                let lastScore = null;
+                let rank = 0;
+                let currentRank = 1;
+
+                if (week === 'overall') {
+                    // Display overall scores
+                    const overallData = data.totalScores;
+
+                    overallData.forEach(([player, totalPoints], index) => {
+                        if (totalPoints !== lastScore) {
+                            rank = currentRank;
+                            lastScore = totalPoints;
+                        }
+
+                        const row = document.createElement('tr');
+
+                        const positionCell = document.createElement('td');
+                        positionCell.textContent = getOrdinal(rank);
+
+                        // Add background color for top 3 positions
+                        if (rank === 1) {
+                            row.classList.add('gold');
+                        } else if (rank === 2) {
+                            row.classList.add('silver');
+                        } else if (rank === 3) {
+                            row.classList.add('bronze');
+                        }
+
+                        positionCell.classList.add('position-col');
+                        row.appendChild(positionCell);
+
+                        const playerCell = document.createElement('td');
+                        playerCell.textContent = player;
+                        row.appendChild(playerCell);
+
+                        const pointsCell = document.createElement('td');
+                        pointsCell.textContent = totalPoints;
+                        row.appendChild(pointsCell);
+
+                        tableBody.appendChild(row);
+                        
+                        currentRank++;
+                    });
+                } else {
+                    // Display scores for selected week
+                    const weekData = data.weeklyScores[week];
+
+                    const weekEntries = Object.entries(weekData).sort((a, b) => b[1] - a[1]);
+
+                    weekEntries.forEach(([player, points], index) => {
+                        if (points !== lastScore) {
+                            rank = currentRank;
+                            lastScore = points;
+                        }
+
+                        const row = document.createElement('tr');
+
+                        const positionCell = document.createElement('td');
+                        positionCell.textContent = getOrdinal(rank);
+
+                        // Add background color for top 3 positions
+                        if (rank === 1) {
+                            row.classList.add('gold');
+                        } else if (rank === 2) {
+                            row.classList.add('silver');
+                        } else if (rank === 3) {
+                            row.classList.add('bronze');
+                        }
+
+                        positionCell.classList.add('position-col');
+                        row.appendChild(positionCell);
+
+                        const playerCell = document.createElement('td');
+                        playerCell.textContent = player;
+                        row.appendChild(playerCell);
+
+                        const pointsCell = document.createElement('td');
+                        pointsCell.textContent = points;
+                        row.appendChild(pointsCell);
+
+                        tableBody.appendChild(row);
+
+                        currentRank++;
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading leaderboard:', error);
+            }
+        }
+
+        function getOrdinal(number) {
+            const j = number % 10;
+            const k = Math.floor(number % 100 / 10);
+            if (k === 1) {
+                return number + 'th';
+            }
+            if (j === 1) {
+                return number + 'st';
+            }
+            if (j === 2) {
+                return number + 'nd';
+            }
+            if (j === 3) {
+                return number + 'rd';
+            }
+            return number + 'th';
+        }
+
+        document.querySelector('#week-select').addEventListener('change', (event) => {
+            loadLeaderboard(event.target.value);
+        });
+
+        window.onload = () => {
+            populateWeekOptions();
+            document.querySelector('#week-select').value = 'overall';
+            loadLeaderboard('overall');
+        };
+    </script>
+</body>
+</html>
