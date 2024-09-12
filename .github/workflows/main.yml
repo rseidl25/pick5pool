@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run the script
-        run: node fetchScores.js
+        run: node nfl-scores/scrapeScores.js
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
