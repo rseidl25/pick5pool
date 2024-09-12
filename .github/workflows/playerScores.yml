@@ -27,10 +27,14 @@ jobs:
         run: node scrapeScores.js
 
       - name: Run calculateScores.js script
-        run: node calculateScores.js
+        run: node nfl-scores/calculateScores.js  # Make sure to provide the correct path if needed
 
-      - name: List files in nfl-scores directory
-        working-directory: nfl-scores
+      - name: Move JSON files to root
+        run: |
+          mv nfl-scores/winners.json .
+          mv nfl-scores/leaderboard.json .
+
+      - name: List files in the root directory
         run: ls -la
 
       - name: Commit and push changes
@@ -39,6 +43,6 @@ jobs:
           author_name: 'github-actions'
           author_email: 'github-actions@github.com'
           message: 'Update scores'
-          add: 'winners.json leaderboard.json'  # Include both JSON files with the correct paths
+          add: 'winners.json leaderboard.json'  # Include both JSON files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
