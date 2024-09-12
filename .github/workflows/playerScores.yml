@@ -1,0 +1,35 @@
+name: Calculate Scores
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # Runs daily at 1 AM (adjust as needed)
+  workflow_dispatch:  # Allows manual triggers
+
+jobs:
+  calculate-scores:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # Use Node.js 18 or higher
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run calculateScores.js script
+        run: node calculateScores.js
+
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'github-actions'
+          author_email: 'github-actions@github.com'
+          message: 'Update leaderboard scores'
+          add: 'leaderboard.json'  # Include the leaderboard file in the commit
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
