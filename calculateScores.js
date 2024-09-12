@@ -23,6 +23,7 @@ async function calculateScores() {
         // Process each week
         for (const weekData of winnersData) {
             const weekNumber = weekData.week;
+            const weekKey = `Week ${weekNumber}`; // Use the format "Week X"
             const weeklyWinners = weekData.games.reduce((acc, game) => {
                 if (game.status === 'completed') {
                     // Determine the winning team
@@ -59,10 +60,10 @@ async function calculateScores() {
                 totalScores[player] += playerScore;
 
                 // Initialize leaderboard week entry if not already
-                if (!leaderboard[weekNumber]) {
-                    leaderboard[weekNumber] = {};
+                if (!leaderboard[weekKey]) {
+                    leaderboard[weekKey] = {};
                 }
-                leaderboard[weekNumber][player] = playerScore;
+                leaderboard[weekKey][player] = playerScore;
             }
         }
 

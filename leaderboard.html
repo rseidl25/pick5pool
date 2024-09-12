@@ -11,7 +11,8 @@
             padding: 20px;
         }
         table {
-            width: 100%;
+            width: 25%; /* Adjust the width as needed */
+            margin: 0 auto; /* Center the table */
             border-collapse: collapse;
             margin-bottom: 20px;
         }
@@ -52,18 +53,14 @@
         .main-button:hover {
             background-color: #0056b3;
         }
-        th.position-col, td.position-col {
-            width: 10%; /* Make the position column skinnier */
-        }
         .dropdown {
-            margin-bottom: 20px;
             display: flex;
-            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
         }
         select {
             padding: 10px;
             font-size: 16px;
-            margin-left: 10px;
         }
     </style>
 </head>
@@ -102,7 +99,7 @@
             
             for (let i = 1; i <= 18; i++) {
                 const weekOption = document.createElement('option');
-                weekOption.value = `week${i}`;
+                weekOption.value = `Week ${i}`;
                 weekOption.textContent = `Week ${i}`;
                 weekSelect.appendChild(weekOption);
             }
@@ -165,7 +162,12 @@
                     });
                 } else {
                     // Display scores for selected week
-                    const weekData = data.weeklyScores[week];
+                    const weekData = data[week];
+
+                    if (!weekData) {
+                        console.error(`No data found for ${week}`);
+                        return;
+                    }
 
                     const weekEntries = Object.entries(weekData).sort((a, b) => b[1] - a[1]);
 
