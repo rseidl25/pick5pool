@@ -99,6 +99,7 @@ async function fetchAllWeeks() {
     // Write all weeks to winners.json
     fs.writeFileSync('winners.json', JSON.stringify(allWeeks, null, 2));
     console.log('All weeks fetched and stored in winners.json');
+    console.log(allWeeks);
 }
 
 fetchAllWeeks();
