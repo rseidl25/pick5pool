@@ -31,3 +31,5 @@ jobs:
           author_email: 'github-actions@github.com'
           message: 'Update scores'
           add: 'weekly_scores.json' # Specify the files to add (e.g., only include the JSON file you want to commit)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
