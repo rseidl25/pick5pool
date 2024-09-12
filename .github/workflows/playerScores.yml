@@ -1,12 +1,12 @@
-name: Calculate Scores
+name: Update NFL Scores
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # Runs daily at 1 AM (adjust as needed)
+    - cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:  # Allows manual triggers
 
 jobs:
-  calculate-scores:
+  update-scores:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,9 +19,15 @@ jobs:
           node-version: '18'  # Use Node.js 18 or higher
 
       - name: Install dependencies
+        working-directory: nfl-scores  # Set working directory to nfl-scores
         run: npm install
 
+      - name: Run scrapeScores.js script
+        working-directory: nfl-scores  # Set working directory to nfl-scores
+        run: node scrapeScores.js
+
       - name: Run calculateScores.js script
+        working-directory: nfl-scores  # Set working directory to nfl-scores
         run: node calculateScores.js
 
       - name: Commit and push changes
@@ -29,7 +35,7 @@ jobs:
         with:
           author_name: 'github-actions'
           author_email: 'github-actions@github.com'
-          message: 'Update leaderboard scores'
-          add: 'leaderboard.json'  # Include the leaderboard file in the commit
+          message: 'Update scores'
+          add: 'nfl-scores/winners.json nfl-scores/leaderboard.json'  # Include both JSON files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
