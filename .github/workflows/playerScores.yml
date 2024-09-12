@@ -27,7 +27,6 @@ jobs:
         run: node scrapeScores.js
 
       - name: Run calculateScores.js script
-        working-directory: nfl-scores  # Set working directory to nfl-scores
         run: node calculateScores.js
 
       - name: Commit and push changes
