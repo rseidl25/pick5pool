@@ -16,13 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Specify the Node.js version
-
-      - name: Clear npm cache
-        run: npm cache clean --force
-
-      - name: Install npm (latest version)
-        run: npm install -g npm@latest
+          node-version: '18'  # Upgrade to Node.js 18 or higher
 
       - name: Install dependencies
         run: npm install --verbose
