@@ -1,0 +1,2380 @@
+[
+  {
+    "week": 1,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20240905_BAL@KC",
+          "homeTeam": "KC",
+          "awayTeam": "BAL",
+          "homeScore": 27,
+          "awayScore": 20,
+          "status": "Completed"
+        }
+      ],
+      "friday": [
+        {
+          "gameId": "20240906_GB@PHI",
+          "homeTeam": "PHI",
+          "awayTeam": "GB",
+          "homeScore": 34,
+          "awayScore": 29,
+          "status": "Completed"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20240908_ARI@BUF",
+          "homeTeam": "BUF",
+          "awayTeam": "ARI",
+          "homeScore": 34,
+          "awayScore": 28,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_NE@CIN",
+          "homeTeam": "CIN",
+          "awayTeam": "NE",
+          "homeScore": 10,
+          "awayScore": 16,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_DEN@SEA",
+          "homeTeam": "SEA",
+          "awayTeam": "DEN",
+          "homeScore": 26,
+          "awayScore": 20,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_DAL@CLE",
+          "homeTeam": "CLE",
+          "awayTeam": "DAL",
+          "homeScore": 17,
+          "awayScore": 33,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_HOU@IND",
+          "homeTeam": "IND",
+          "awayTeam": "HOU",
+          "homeScore": 27,
+          "awayScore": 29,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_LV@LAC",
+          "homeTeam": "LAC",
+          "awayTeam": "LV",
+          "homeScore": 22,
+          "awayScore": 10,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_MIN@NYG",
+          "homeTeam": "NYG",
+          "awayTeam": "MIN",
+          "homeScore": 6,
+          "awayScore": 28,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_CAR@NO",
+          "homeTeam": "NO",
+          "awayTeam": "CAR",
+          "homeScore": 47,
+          "awayScore": 10,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_TEN@CHI",
+          "homeTeam": "CHI",
+          "awayTeam": "TEN",
+          "homeScore": 24,
+          "awayScore": 17,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_WSH@TB",
+          "homeTeam": "TB",
+          "awayTeam": "WSH",
+          "homeScore": 37,
+          "awayScore": 20,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_LAR@DET",
+          "homeTeam": "DET",
+          "awayTeam": "LAR",
+          "homeScore": 26,
+          "awayScore": 20,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_JAX@MIA",
+          "homeTeam": "MIA",
+          "awayTeam": "JAX",
+          "homeScore": 20,
+          "awayScore": 17,
+          "status": "Completed"
+        },
+        {
+          "gameId": "20240908_PIT@ATL",
+          "homeTeam": "ATL",
+          "awayTeam": "PIT",
+          "homeScore": 10,
+          "awayScore": 18,
+          "status": "Completed"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20240909_NYJ@SF",
+          "homeTeam": "SF",
+          "awayTeam": "NYJ",
+          "homeScore": 32,
+          "awayScore": 19,
+          "status": "Completed"
+        }
+      ]
+    }
+  },
+  {
+    "week": 2,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20240912_BUF@MIA",
+          "homeTeam": "MIA",
+          "awayTeam": "BUF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20240915_PIT@DEN",
+          "homeTeam": "DEN",
+          "awayTeam": "PIT",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_NYJ@TEN",
+          "homeTeam": "TEN",
+          "awayTeam": "NYJ",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_LV@BAL",
+          "homeTeam": "BAL",
+          "awayTeam": "LV",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_TB@DET",
+          "homeTeam": "DET",
+          "awayTeam": "TB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_SF@MIN",
+          "homeTeam": "MIN",
+          "awayTeam": "SF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_NO@DAL",
+          "homeTeam": "DAL",
+          "awayTeam": "NO",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_IND@GB",
+          "homeTeam": "GB",
+          "awayTeam": "IND",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_CHI@HOU",
+          "homeTeam": "HOU",
+          "awayTeam": "CHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_LAC@CAR",
+          "homeTeam": "CAR",
+          "awayTeam": "LAC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_NYG@WSH",
+          "homeTeam": "WSH",
+          "awayTeam": "NYG",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_SEA@NE",
+          "homeTeam": "NE",
+          "awayTeam": "SEA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_LAR@ARI",
+          "homeTeam": "ARI",
+          "awayTeam": "LAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_CLE@JAX",
+          "homeTeam": "JAX",
+          "awayTeam": "CLE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240915_CIN@KC",
+          "homeTeam": "KC",
+          "awayTeam": "CIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20240916_ATL@PHI",
+          "homeTeam": "PHI",
+          "awayTeam": "ATL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 3,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20240919_NE@NYJ",
+          "homeTeam": "NYJ",
+          "awayTeam": "NE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20240922_DET@ARI",
+          "homeTeam": "ARI",
+          "awayTeam": "DET",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_HOU@MIN",
+          "homeTeam": "MIN",
+          "awayTeam": "HOU",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_GB@TEN",
+          "homeTeam": "TEN",
+          "awayTeam": "GB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_BAL@DAL",
+          "homeTeam": "DAL",
+          "awayTeam": "BAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_MIA@SEA",
+          "homeTeam": "SEA",
+          "awayTeam": "MIA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_KC@ATL",
+          "homeTeam": "ATL",
+          "awayTeam": "KC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_DEN@TB",
+          "homeTeam": "TB",
+          "awayTeam": "DEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_LAC@PIT",
+          "homeTeam": "PIT",
+          "awayTeam": "LAC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_PHI@NO",
+          "homeTeam": "NO",
+          "awayTeam": "PHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_SF@LAR",
+          "homeTeam": "LAR",
+          "awayTeam": "SF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_CAR@LV",
+          "homeTeam": "LV",
+          "awayTeam": "CAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_CHI@IND",
+          "homeTeam": "IND",
+          "awayTeam": "CHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240922_NYG@CLE",
+          "homeTeam": "CLE",
+          "awayTeam": "NYG",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20240923_JAX@BUF",
+          "homeTeam": "BUF",
+          "awayTeam": "JAX",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240923_WSH@CIN",
+          "homeTeam": "CIN",
+          "awayTeam": "WSH",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 4,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20240926_DAL@NYG",
+          "homeTeam": "NYG",
+          "awayTeam": "DAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20240929_MIN@GB",
+          "homeTeam": "GB",
+          "awayTeam": "MIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_DEN@NYJ",
+          "homeTeam": "NYJ",
+          "awayTeam": "DEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_CIN@CAR",
+          "homeTeam": "CAR",
+          "awayTeam": "CIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_KC@LAC",
+          "homeTeam": "LAC",
+          "awayTeam": "KC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_LAR@CHI",
+          "homeTeam": "CHI",
+          "awayTeam": "LAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_PHI@TB",
+          "homeTeam": "TB",
+          "awayTeam": "PHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_CLE@LV",
+          "homeTeam": "LV",
+          "awayTeam": "CLE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_WSH@ARI",
+          "homeTeam": "ARI",
+          "awayTeam": "WSH",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_NO@ATL",
+          "homeTeam": "ATL",
+          "awayTeam": "NO",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_PIT@IND",
+          "homeTeam": "IND",
+          "awayTeam": "PIT",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_JAX@HOU",
+          "homeTeam": "HOU",
+          "awayTeam": "JAX",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_NE@SF",
+          "homeTeam": "SF",
+          "awayTeam": "NE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240929_BUF@BAL",
+          "homeTeam": "BAL",
+          "awayTeam": "BUF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20240930_TEN@MIA",
+          "homeTeam": "MIA",
+          "awayTeam": "TEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20240930_SEA@DET",
+          "homeTeam": "DET",
+          "awayTeam": "SEA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 5,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241003_TB@ATL",
+          "homeTeam": "ATL",
+          "awayTeam": "TB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241006_BUF@HOU",
+          "homeTeam": "HOU",
+          "awayTeam": "BUF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241006_BAL@CIN",
+          "homeTeam": "CIN",
+          "awayTeam": "BAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241006_NYG@SEA",
+          "homeTeam": "SEA",
+          "awayTeam": "NYG",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241006_IND@JAX",
+          "homeTeam": "JAX",
+          "awayTeam": "IND",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241006_DAL@PIT",
+          "homeTeam": "PIT",
+          "awayTeam": "DAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241006_LV@DEN",
+          "homeTeam": "DEN",
+          "awayTeam": "LV",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241006_GB@LAR",
+          "homeTeam": "LAR",
+          "awayTeam": "GB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241006_ARI@SF",
+          "homeTeam": "SF",
+          "awayTeam": "ARI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241006_MIA@NE",
+          "homeTeam": "NE",
+          "awayTeam": "MIA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241006_CAR@CHI",
+          "homeTeam": "CHI",
+          "awayTeam": "CAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241006_NYJ@MIN",
+          "homeTeam": "MIN",
+          "awayTeam": "NYJ",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241006_CLE@WSH",
+          "homeTeam": "WSH",
+          "awayTeam": "CLE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241007_NO@KC",
+          "homeTeam": "KC",
+          "awayTeam": "NO",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 6,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241010_SF@SEA",
+          "homeTeam": "SEA",
+          "awayTeam": "SF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241013_PIT@LV",
+          "homeTeam": "LV",
+          "awayTeam": "PIT",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241013_CLE@PHI",
+          "homeTeam": "PHI",
+          "awayTeam": "CLE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241013_DET@DAL",
+          "homeTeam": "DAL",
+          "awayTeam": "DET",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241013_ATL@CAR",
+          "homeTeam": "CAR",
+          "awayTeam": "ATL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241013_JAX@CHI",
+          "homeTeam": "CHI",
+          "awayTeam": "JAX",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241013_LAC@DEN",
+          "homeTeam": "DEN",
+          "awayTeam": "LAC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241013_CIN@NYG",
+          "homeTeam": "NYG",
+          "awayTeam": "CIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241013_TB@NO",
+          "homeTeam": "NO",
+          "awayTeam": "TB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241013_WSH@BAL",
+          "homeTeam": "BAL",
+          "awayTeam": "WSH",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241013_HOU@NE",
+          "homeTeam": "NE",
+          "awayTeam": "HOU",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241013_IND@TEN",
+          "homeTeam": "TEN",
+          "awayTeam": "IND",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241013_ARI@GB",
+          "homeTeam": "GB",
+          "awayTeam": "ARI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241014_BUF@NYJ",
+          "homeTeam": "NYJ",
+          "awayTeam": "BUF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 7,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241017_DEN@NO",
+          "homeTeam": "NO",
+          "awayTeam": "DEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241020_MIA@IND",
+          "homeTeam": "IND",
+          "awayTeam": "MIA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241020_LV@LAR",
+          "homeTeam": "LAR",
+          "awayTeam": "LV",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241020_DET@MIN",
+          "homeTeam": "MIN",
+          "awayTeam": "DET",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241020_SEA@ATL",
+          "homeTeam": "ATL",
+          "awayTeam": "SEA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241020_CAR@WSH",
+          "homeTeam": "WSH",
+          "awayTeam": "CAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241020_HOU@GB",
+          "homeTeam": "GB",
+          "awayTeam": "HOU",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241020_KC@SF",
+          "homeTeam": "SF",
+          "awayTeam": "KC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241020_CIN@CLE",
+          "homeTeam": "CLE",
+          "awayTeam": "CIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241020_NE@JAX",
+          "homeTeam": "JAX",
+          "awayTeam": "NE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241020_PHI@NYG",
+          "homeTeam": "NYG",
+          "awayTeam": "PHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241020_NYJ@PIT",
+          "homeTeam": "PIT",
+          "awayTeam": "NYJ",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241020_TEN@BUF",
+          "homeTeam": "BUF",
+          "awayTeam": "TEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241021_LAC@ARI",
+          "homeTeam": "ARI",
+          "awayTeam": "LAC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241021_BAL@TB",
+          "homeTeam": "TB",
+          "awayTeam": "BAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 8,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241024_MIN@LAR",
+          "homeTeam": "LAR",
+          "awayTeam": "MIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241027_PHI@CIN",
+          "homeTeam": "CIN",
+          "awayTeam": "PHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_NO@LAC",
+          "homeTeam": "LAC",
+          "awayTeam": "NO",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_DAL@SF",
+          "homeTeam": "SF",
+          "awayTeam": "DAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_GB@JAX",
+          "homeTeam": "JAX",
+          "awayTeam": "GB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_BUF@SEA",
+          "homeTeam": "SEA",
+          "awayTeam": "BUF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_NYJ@NE",
+          "homeTeam": "NE",
+          "awayTeam": "NYJ",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_KC@LV",
+          "homeTeam": "LV",
+          "awayTeam": "KC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_BAL@CLE",
+          "homeTeam": "CLE",
+          "awayTeam": "BAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_ARI@MIA",
+          "homeTeam": "MIA",
+          "awayTeam": "ARI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_ATL@TB",
+          "homeTeam": "TB",
+          "awayTeam": "ATL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_TEN@DET",
+          "homeTeam": "DET",
+          "awayTeam": "TEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_IND@HOU",
+          "homeTeam": "HOU",
+          "awayTeam": "IND",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_CHI@WSH",
+          "homeTeam": "WSH",
+          "awayTeam": "CHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241027_CAR@DEN",
+          "homeTeam": "DEN",
+          "awayTeam": "CAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241028_NYG@PIT",
+          "homeTeam": "PIT",
+          "awayTeam": "NYG",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 9,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241031_HOU@NYJ",
+          "homeTeam": "NYJ",
+          "awayTeam": "HOU",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241103_DAL@ATL",
+          "homeTeam": "ATL",
+          "awayTeam": "DAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_DEN@BAL",
+          "homeTeam": "BAL",
+          "awayTeam": "DEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_LAR@SEA",
+          "homeTeam": "SEA",
+          "awayTeam": "LAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_NE@TEN",
+          "homeTeam": "TEN",
+          "awayTeam": "NE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_JAX@PHI",
+          "homeTeam": "PHI",
+          "awayTeam": "JAX",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_MIA@BUF",
+          "homeTeam": "BUF",
+          "awayTeam": "MIA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_LAC@CLE",
+          "homeTeam": "CLE",
+          "awayTeam": "LAC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_CHI@ARI",
+          "homeTeam": "ARI",
+          "awayTeam": "CHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_WSH@NYG",
+          "homeTeam": "NYG",
+          "awayTeam": "WSH",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_LV@CIN",
+          "homeTeam": "CIN",
+          "awayTeam": "LV",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_DET@GB",
+          "homeTeam": "GB",
+          "awayTeam": "DET",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_NO@CAR",
+          "homeTeam": "CAR",
+          "awayTeam": "NO",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241103_IND@MIN",
+          "homeTeam": "MIN",
+          "awayTeam": "IND",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241104_TB@KC",
+          "homeTeam": "KC",
+          "awayTeam": "TB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 10,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241107_CIN@BAL",
+          "homeTeam": "BAL",
+          "awayTeam": "CIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241110_NE@CHI",
+          "homeTeam": "CHI",
+          "awayTeam": "NE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241110_NYG@CAR",
+          "homeTeam": "CAR",
+          "awayTeam": "NYG",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241110_DEN@KC",
+          "homeTeam": "KC",
+          "awayTeam": "DEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241110_TEN@LAC",
+          "homeTeam": "LAC",
+          "awayTeam": "TEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241110_NYJ@ARI",
+          "homeTeam": "ARI",
+          "awayTeam": "NYJ",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241110_MIN@JAX",
+          "homeTeam": "JAX",
+          "awayTeam": "MIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241110_ATL@NO",
+          "homeTeam": "NO",
+          "awayTeam": "ATL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241110_BUF@IND",
+          "homeTeam": "IND",
+          "awayTeam": "BUF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241110_PIT@WSH",
+          "homeTeam": "WSH",
+          "awayTeam": "PIT",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241110_PHI@DAL",
+          "homeTeam": "DAL",
+          "awayTeam": "PHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241110_DET@HOU",
+          "homeTeam": "HOU",
+          "awayTeam": "DET",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241110_SF@TB",
+          "homeTeam": "TB",
+          "awayTeam": "SF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241111_MIA@LAR",
+          "homeTeam": "LAR",
+          "awayTeam": "MIA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 11,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241114_WSH@PHI",
+          "homeTeam": "PHI",
+          "awayTeam": "WSH",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241117_KC@BUF",
+          "homeTeam": "BUF",
+          "awayTeam": "KC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241117_MIN@TEN",
+          "homeTeam": "TEN",
+          "awayTeam": "MIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241117_BAL@PIT",
+          "homeTeam": "PIT",
+          "awayTeam": "BAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241117_IND@NYJ",
+          "homeTeam": "NYJ",
+          "awayTeam": "IND",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241117_SEA@SF",
+          "homeTeam": "SF",
+          "awayTeam": "SEA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241117_LAR@NE",
+          "homeTeam": "NE",
+          "awayTeam": "LAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241117_CIN@LAC",
+          "homeTeam": "LAC",
+          "awayTeam": "CIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241117_GB@CHI",
+          "homeTeam": "CHI",
+          "awayTeam": "GB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241117_JAX@DET",
+          "homeTeam": "DET",
+          "awayTeam": "JAX",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241117_CLE@NO",
+          "homeTeam": "NO",
+          "awayTeam": "CLE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241117_LV@MIA",
+          "homeTeam": "MIA",
+          "awayTeam": "LV",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241117_ATL@DEN",
+          "homeTeam": "DEN",
+          "awayTeam": "ATL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241118_HOU@DAL",
+          "homeTeam": "DAL",
+          "awayTeam": "HOU",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 12,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241121_PIT@CLE",
+          "homeTeam": "CLE",
+          "awayTeam": "PIT",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241124_ARI@SEA",
+          "homeTeam": "SEA",
+          "awayTeam": "ARI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241124_TB@NYG",
+          "homeTeam": "NYG",
+          "awayTeam": "TB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241124_SF@GB",
+          "homeTeam": "GB",
+          "awayTeam": "SF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241124_MIN@CHI",
+          "homeTeam": "CHI",
+          "awayTeam": "MIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241124_TEN@HOU",
+          "homeTeam": "HOU",
+          "awayTeam": "TEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241124_PHI@LAR",
+          "homeTeam": "LAR",
+          "awayTeam": "PHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241124_NE@MIA",
+          "homeTeam": "MIA",
+          "awayTeam": "NE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241124_DAL@WSH",
+          "homeTeam": "WSH",
+          "awayTeam": "DAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241124_DET@IND",
+          "homeTeam": "IND",
+          "awayTeam": "DET",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241124_DEN@LV",
+          "homeTeam": "LV",
+          "awayTeam": "DEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241124_KC@CAR",
+          "homeTeam": "CAR",
+          "awayTeam": "KC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241125_BAL@LAC",
+          "homeTeam": "LAC",
+          "awayTeam": "BAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 13,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241128_NYG@DAL",
+          "homeTeam": "DAL",
+          "awayTeam": "NYG",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241128_MIA@GB",
+          "homeTeam": "GB",
+          "awayTeam": "MIA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241128_CHI@DET",
+          "homeTeam": "DET",
+          "awayTeam": "CHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "friday": [
+        {
+          "gameId": "20241129_LV@KC",
+          "homeTeam": "KC",
+          "awayTeam": "LV",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241201_TEN@WSH",
+          "homeTeam": "WSH",
+          "awayTeam": "TEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241201_ARI@MIN",
+          "homeTeam": "MIN",
+          "awayTeam": "ARI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241201_IND@NE",
+          "homeTeam": "NE",
+          "awayTeam": "IND",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241201_LAR@NO",
+          "homeTeam": "NO",
+          "awayTeam": "LAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241201_LAC@ATL",
+          "homeTeam": "ATL",
+          "awayTeam": "LAC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241201_SF@BUF",
+          "homeTeam": "BUF",
+          "awayTeam": "SF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241201_HOU@JAX",
+          "homeTeam": "JAX",
+          "awayTeam": "HOU",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241201_PHI@BAL",
+          "homeTeam": "BAL",
+          "awayTeam": "PHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241201_PIT@CIN",
+          "homeTeam": "CIN",
+          "awayTeam": "PIT",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241201_TB@CAR",
+          "homeTeam": "CAR",
+          "awayTeam": "TB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241201_SEA@NYJ",
+          "homeTeam": "NYJ",
+          "awayTeam": "SEA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241202_CLE@DEN",
+          "homeTeam": "DEN",
+          "awayTeam": "CLE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 14,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241205_GB@DET",
+          "homeTeam": "DET",
+          "awayTeam": "GB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241208_LV@TB",
+          "homeTeam": "TB",
+          "awayTeam": "LV",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241208_NO@NYG",
+          "homeTeam": "NYG",
+          "awayTeam": "NO",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241208_NYJ@MIA",
+          "homeTeam": "MIA",
+          "awayTeam": "NYJ",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241208_BUF@LAR",
+          "homeTeam": "LAR",
+          "awayTeam": "BUF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241208_CLE@PIT",
+          "homeTeam": "PIT",
+          "awayTeam": "CLE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241208_LAC@KC",
+          "homeTeam": "KC",
+          "awayTeam": "LAC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241208_ATL@MIN",
+          "homeTeam": "MIN",
+          "awayTeam": "ATL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241208_CAR@PHI",
+          "homeTeam": "PHI",
+          "awayTeam": "CAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241208_CHI@SF",
+          "homeTeam": "SF",
+          "awayTeam": "CHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241208_SEA@ARI",
+          "homeTeam": "ARI",
+          "awayTeam": "SEA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241208_JAX@TEN",
+          "homeTeam": "TEN",
+          "awayTeam": "JAX",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241209_CIN@DAL",
+          "homeTeam": "DAL",
+          "awayTeam": "CIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 15,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241212_LAR@SF",
+          "homeTeam": "SF",
+          "awayTeam": "LAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241215_KC@CLE",
+          "homeTeam": "CLE",
+          "awayTeam": "KC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_WSH@NO",
+          "homeTeam": "NO",
+          "awayTeam": "WSH",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_BUF@DET",
+          "homeTeam": "DET",
+          "awayTeam": "BUF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_CIN@TEN",
+          "homeTeam": "TEN",
+          "awayTeam": "CIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_TB@LAC",
+          "homeTeam": "LAC",
+          "awayTeam": "TB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_DAL@CAR",
+          "homeTeam": "CAR",
+          "awayTeam": "DAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_NE@ARI",
+          "homeTeam": "ARI",
+          "awayTeam": "NE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_GB@SEA",
+          "homeTeam": "SEA",
+          "awayTeam": "GB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_IND@DEN",
+          "homeTeam": "DEN",
+          "awayTeam": "IND",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_MIA@HOU",
+          "homeTeam": "HOU",
+          "awayTeam": "MIA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_PIT@PHI",
+          "homeTeam": "PHI",
+          "awayTeam": "PIT",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_BAL@NYG",
+          "homeTeam": "NYG",
+          "awayTeam": "BAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241215_NYJ@JAX",
+          "homeTeam": "JAX",
+          "awayTeam": "NYJ",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241216_ATL@LV",
+          "homeTeam": "LV",
+          "awayTeam": "ATL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241216_CHI@MIN",
+          "homeTeam": "MIN",
+          "awayTeam": "CHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 16,
+    "games": {
+      "thursday": [
+        {
+          "gameId": "20241219_CLE@CIN",
+          "homeTeam": "CIN",
+          "awayTeam": "CLE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "saturday": [
+        {
+          "gameId": "20241221_HOU@KC",
+          "homeTeam": "KC",
+          "awayTeam": "HOU",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241221_PIT@BAL",
+          "homeTeam": "BAL",
+          "awayTeam": "PIT",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241222_NE@BUF",
+          "homeTeam": "BUF",
+          "awayTeam": "NE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241222_TB@DAL",
+          "homeTeam": "DAL",
+          "awayTeam": "TB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241222_JAX@LV",
+          "homeTeam": "LV",
+          "awayTeam": "JAX",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241222_ARI@CAR",
+          "homeTeam": "CAR",
+          "awayTeam": "ARI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241222_LAR@NYJ",
+          "homeTeam": "NYJ",
+          "awayTeam": "LAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241222_SF@MIA",
+          "homeTeam": "MIA",
+          "awayTeam": "SF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241222_TEN@IND",
+          "homeTeam": "IND",
+          "awayTeam": "TEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241222_NYG@ATL",
+          "homeTeam": "ATL",
+          "awayTeam": "NYG",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241222_PHI@WSH",
+          "homeTeam": "WSH",
+          "awayTeam": "PHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241222_DET@CHI",
+          "homeTeam": "CHI",
+          "awayTeam": "DET",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241222_DEN@LAC",
+          "homeTeam": "LAC",
+          "awayTeam": "DEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241222_MIN@SEA",
+          "homeTeam": "SEA",
+          "awayTeam": "MIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241223_NO@GB",
+          "homeTeam": "GB",
+          "awayTeam": "NO",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 17,
+    "games": {
+      "wednesday": [
+        {
+          "gameId": "20241225_BAL@HOU",
+          "homeTeam": "HOU",
+          "awayTeam": "BAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241225_KC@PIT",
+          "homeTeam": "PIT",
+          "awayTeam": "KC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "thursday": [
+        {
+          "gameId": "20241226_SEA@CHI",
+          "homeTeam": "CHI",
+          "awayTeam": "SEA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "sunday": [
+        {
+          "gameId": "20241229_GB@MIN",
+          "homeTeam": "MIN",
+          "awayTeam": "GB",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241229_LAC@NE",
+          "homeTeam": "NE",
+          "awayTeam": "LAC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241229_DEN@CIN",
+          "homeTeam": "CIN",
+          "awayTeam": "DEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241229_TEN@JAX",
+          "homeTeam": "JAX",
+          "awayTeam": "TEN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241229_LV@NO",
+          "homeTeam": "NO",
+          "awayTeam": "LV",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241229_ATL@WSH",
+          "homeTeam": "WSH",
+          "awayTeam": "ATL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241229_MIA@CLE",
+          "homeTeam": "CLE",
+          "awayTeam": "MIA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241229_DAL@PHI",
+          "homeTeam": "PHI",
+          "awayTeam": "DAL",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241229_IND@NYG",
+          "homeTeam": "NYG",
+          "awayTeam": "IND",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241229_CAR@TB",
+          "homeTeam": "TB",
+          "awayTeam": "CAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241229_ARI@LAR",
+          "homeTeam": "LAR",
+          "awayTeam": "ARI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20241229_NYJ@BUF",
+          "homeTeam": "BUF",
+          "awayTeam": "NYJ",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ],
+      "monday": [
+        {
+          "gameId": "20241230_DET@SF",
+          "homeTeam": "SF",
+          "awayTeam": "DET",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  },
+  {
+    "week": 18,
+    "games": {
+      "sunday": [
+        {
+          "gameId": "20250105_CHI@GB",
+          "homeTeam": "GB",
+          "awayTeam": "CHI",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_NYG@PHI",
+          "homeTeam": "PHI",
+          "awayTeam": "NYG",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_CAR@ATL",
+          "homeTeam": "ATL",
+          "awayTeam": "CAR",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_MIA@NYJ",
+          "homeTeam": "NYJ",
+          "awayTeam": "MIA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_SEA@LAR",
+          "homeTeam": "LAR",
+          "awayTeam": "SEA",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_BUF@NE",
+          "homeTeam": "NE",
+          "awayTeam": "BUF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_NO@TB",
+          "homeTeam": "TB",
+          "awayTeam": "NO",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_CIN@PIT",
+          "homeTeam": "PIT",
+          "awayTeam": "CIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_MIN@DET",
+          "homeTeam": "DET",
+          "awayTeam": "MIN",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_HOU@TEN",
+          "homeTeam": "TEN",
+          "awayTeam": "HOU",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_KC@DEN",
+          "homeTeam": "DEN",
+          "awayTeam": "KC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_LAC@LV",
+          "homeTeam": "LV",
+          "awayTeam": "LAC",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_CLE@BAL",
+          "homeTeam": "BAL",
+          "awayTeam": "CLE",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_SF@ARI",
+          "homeTeam": "ARI",
+          "awayTeam": "SF",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_WSH@DAL",
+          "homeTeam": "DAL",
+          "awayTeam": "WSH",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        },
+        {
+          "gameId": "20250105_JAX@IND",
+          "homeTeam": "IND",
+          "awayTeam": "JAX",
+          "homeScore": 0,
+          "awayScore": 0,
+          "status": "Not Started Yet"
+        }
+      ]
+    }
+  }
+]

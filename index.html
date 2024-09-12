@@ -17,18 +17,24 @@
             margin-top: 20px;
         }
         #players-tables {
-            width: 75%;
+            width: 85%;
             padding: 20px;
             box-sizing: border-box;
+            overflow-x: auto; /* Allows horizontal scrolling */
+        }
+        #players-tables-content {
+            display: flex;
+            flex-wrap: wrap; /* Allow tables to wrap onto the next line */
+            gap: 20px; /* Space between tables */
         }
         #winners-table-container {
-            width: 25%;
+            width: 15%;
             padding: 20px;
             box-sizing: border-box;
             border-left: 1px solid #ddd;
         }
         table {
-            width: 100%;
+            width: auto; /* Adjust width to fit content */
             border-collapse: collapse;
             margin-bottom: 20px;
         }
@@ -55,6 +61,14 @@
             padding: 10px;
             font-size: 16px;
         }
+        .day-section {
+            margin-bottom: 20px;
+        }
+        .day-section h3 {
+            margin: 0;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
@@ -69,28 +83,21 @@
     <div id="main-container">
         <div id="players-tables">
             <div id="players-tables-content">
+                <!-- Player tables will be inserted here -->
             </div>
         </div>
 
         <div id="winners-table-container">
-            <h2 class="table-header">Weekly Winners</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Team</th>
-                        <th>Score</th>
-                    </tr>
-                </thead>
-                <tbody id="winners-table">
-                </tbody>
-            </table>
+            <h2 class="table-header">This Week's Matchups</h2>
+            <div id="winners-table">
+            </div>
         </div>
     </div>
 
     <script>
         const weekSelect = document.getElementById('week-select');
         const playersTablesContent = document.getElementById('players-tables-content');
-        const winnersTableBody = document.getElementById('winners-table');
+        const winnersTableContainer = document.getElementById('winners-table');
         let currentWinners = [];
 
         function populateWeekOptions() {
@@ -104,26 +111,121 @@
 
         async function fetchWinners(week) {
             try {
-                const response = await fetch(`winners.json`);
-                const winners = await response.json();
-                winnersTableBody.innerHTML = '';
-                currentWinners = winners.map(winner => ({
-                    team: winner.team,
-                    score: winner.score
-                })); // Store winners with team and score
+                const response = await fetch('weekly_scores.json');
+                const data = await response.json();
+                const weekData = data.find(w => w.week === parseInt(week));
 
-                winners.forEach(winner => {
+                if (!weekData) {
+                    console.error(`No data found for week ${week}`);
+                    return;
+                }
+
+                const games = weekData.games;
+                winnersTableContainer.innerHTML = '';
+                currentWinners = []; // Clear previous winners
+
+                let allCompleted = true; // Assume all games are completed initially
+
+                // Function to create a row in the table
+                function createRow(homeTeam, homeScore, awayTeam, awayScore, status) {
                     const row = document.createElement('tr');
-                    const teamCell = document.createElement('td');
-                    teamCell.textContent = winner.team;
-                    const scoreCell = document.createElement('td');
-                    scoreCell.textContent = winner.score;
-                    row.appendChild(teamCell);
-                    row.appendChild(scoreCell);
-                    winnersTableBody.appendChild(row);
+
+                    const winnerCell = document.createElement('td');
+                    const loserCell = document.createElement('td');
+
+                    if (status === "Completed") {
+                        if (homeScore > awayScore) {
+                            winnerCell.style.color = 'green';
+                            winnerCell.style.fontWeight = 'bold';
+                            winnerCell.textContent = `${homeTeam} ${homeScore}`;
+
+                            loserCell.style.color = 'red';
+                            loserCell.textContent = `${awayTeam} ${awayScore}`;
+
+                            // Add to currentWinners array
+                            currentWinners.push({ team: homeTeam, score: homeScore });
+                        } else {
+                            winnerCell.style.color = 'green';
+                            winnerCell.style.fontWeight = 'bold';
+                            winnerCell.textContent = `${awayTeam} ${awayScore}`;
+
+                            loserCell.style.color = 'red';
+                            loserCell.textContent = `${homeTeam} ${homeScore}`;
+
+                            // Add to currentWinners array
+                            currentWinners.push({ team: awayTeam, score: awayScore });
+                        }
+                    } else {
+                        winnerCell.style.color = 'black';
+                        winnerCell.textContent = `${homeTeam} ${homeScore}`;
+
+                        loserCell.style.color = 'black';
+                        loserCell.textContent = `${awayTeam} ${awayScore}`;
+                    }
+
+                    row.appendChild(winnerCell);
+                    row.appendChild(loserCell);
+                    return row;
+                }
+
+                // Group games by day
+                const days = Object.keys(games);
+                days.forEach(day => {
+                    const daySection = document.createElement('div');
+                    daySection.className = 'day-section';
+
+                    // Add a header for the day
+                    const dayHeader = document.createElement('h3');
+                    dayHeader.textContent = day.charAt(0).toUpperCase() + day.slice(1);
+                    daySection.appendChild(dayHeader);
+
+                    // Create a table for the day's games
+                    const table = document.createElement('table');
+                    const tableHead = document.createElement('thead');
+                    const tableBody = document.createElement('tbody');
+
+                    // Create header row for the table
+                    const headerRow = document.createElement('tr');
+                    const winHeader = document.createElement('th');
+                    winHeader.textContent = 'Win';
+                    const lossHeader = document.createElement('th');
+                    lossHeader.textContent = 'Loss';
+                    headerRow.appendChild(winHeader);
+                    headerRow.appendChild(lossHeader);
+                    tableHead.appendChild(headerRow);
+                    table.appendChild(tableHead);
+
+                    // Add table body rows
+                    games[day].forEach(game => {
+                        const homeTeam = game.homeTeam;
+                        const awayTeam = game.awayTeam;
+                        const homeScore = game.homeScore !== null ? game.homeScore : 0;
+                        const awayScore = game.awayScore !== null ? game.awayScore : 0;
+                        const status = game.status;
+
+                        const row = createRow(homeTeam, homeScore, awayTeam, awayScore, status);
+                        tableBody.appendChild(row);
+                    });
+
+                    table.appendChild(tableBody);
+                    daySection.appendChild(table);
+                    winnersTableContainer.appendChild(daySection);
+
+                    if (games[day].some(game => game.status !== "Completed")) {
+                        allCompleted = false; // Mark as not all completed
+                    }
                 });
+
+                // Show or hide headers based on completion status
+                winnersTableContainer.querySelectorAll('thead').forEach(thead => {
+                    const headers = thead.querySelectorAll('th');
+                    headers.forEach(header => {
+                        header.style.display = allCompleted ? 'table-cell' : 'none';
+                    });
+                });
+
             } catch (error) {
-                console.error('Error fetching winners:', error);
+                console.error('Error fetching weekly scores:', error);
             }
         }
 
@@ -136,6 +238,8 @@
                 for (const [person, weeks] of Object.entries(data)) {
                     if (weeks[`week${week}`]) {
                         const table = document.createElement('table');
+                        table.classList.add('player-table');
+                        table.id = `player-${person.replace(/\s+/g, '-').toLowerCase()}`; // ID for anchor links
                         const header = document.createElement('thead');
                         const body = document.createElement('tbody');
 
@@ -204,17 +308,11 @@
             }
         }
 
-        function initializePage() {
-            populateWeekOptions();
-            weekSelect.addEventListener('change', handleWeekChange);
+        weekSelect.addEventListener('change', handleWeekChange);
 
-            if (weekSelect.options.length > 0) {
-                weekSelect.value = 1;
-                handleWeekChange();
-            }
-        }
-
-        window.onload = initializePage;
+        // Initial population of week options and data fetching
+        populateWeekOptions();
+        handleWeekChange();
     </script>
 </body>
 </html>
