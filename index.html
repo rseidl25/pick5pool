@@ -257,7 +257,7 @@
                 playersTablesContent.innerHTML = '';
 
                 for (const [person, weeks] of Object.entries(data)) {
-                    if (weeks[`week${week}`] && (person.hasOwnProperty(player) || (player === `All`))) {
+                    if (weeks[`week${week}`] && (person === player || player === `All`)) {
                         const table = document.createElement('table');
                         table.classList.add('player-table');
                         table.id = `player-${person.replace(/\s+/g, '-').toLowerCase()}`; // ID for anchor links
