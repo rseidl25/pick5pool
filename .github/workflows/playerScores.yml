@@ -27,7 +27,7 @@ jobs:
         run: node scrapeScores.js
 
       - name: Run calculateScores.js script
-        run: node nfl-scores/calculateScores.js  # Make sure to provide the correct path if needed
+        run: node calculateScores.js  # Make sure to provide the correct path if needed
 
       - name: Move JSON files to root
         run: |
