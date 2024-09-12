@@ -1,35 +1,38 @@
-name: Run Scripts
+name: Update NFL Scores
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Runs every 15 minutes
-  workflow_dispatch:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:  # Allows manual triggers
 
 jobs:
-  run-scripts:
+  update-scores:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '16'  # Use Node.js 16.x or higher
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14' # Specify the Node.js version
 
-    - name: Install dependencies
-      run: npm install
-      working-directory: nfl-scores
+      - name: Install dependencies
+        run: npm install
 
-    - name: Run scrapeScores.js
-      run: node scrapeScores.js
-      working-directory: nfl-scores
+      - name: Run the script
+        run: node nfl-scores/scrapeScores.js
 
-    - name: Install dependencies for calculateScores.js
-      run: npm install
-      working-directory: nfl-scores
+      - name: Run the calculateScores.js
+        run: node calculateScores.js
 
-    - name: Run calculateScores.js
-      run: node calculateScores.js
-      working-directory: nfl-scores
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'github-actions'
+          author_email: 'github-actions@github.com'
+          message: 'Update scores'
+          add: 'winners.json leaderboard.json' # Specify the files to add (e.g., only include the JSON file you want to commit)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
