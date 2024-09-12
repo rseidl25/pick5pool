@@ -35,6 +35,6 @@ jobs:
           author_name: 'github-actions'
           author_email: 'github-actions@github.com'
           message: 'Update scores'
-          add: 'nfl-scores/winners.json nfl-scores/leaderboard.json'  # Include both JSON files
+          add: 'winners.json leaderboard.json'  # Include both JSON files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
