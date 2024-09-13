@@ -7,144 +7,128 @@
         "homeScore": 27,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 20,
-        "status": "completed",
-        "date": "2024-09-05",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 34,
         "awayTeam": "Green Bay Packers",
         "awayScore": 29,
-        "status": "completed",
-        "date": "2024-09-06",
-        "weekday": "Friday"
+        "weekday": "Friday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 10,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 18,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Buffalo Bills",
         "homeScore": 34,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 28,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Chicago Bears",
         "homeScore": 24,
         "awayTeam": "Tennessee Titans",
         "awayScore": 17,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 10,
         "awayTeam": "New England Patriots",
         "awayScore": 16,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Indianapolis Colts",
         "homeScore": 27,
         "awayTeam": "Houston Texans",
         "awayScore": 29,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Miami Dolphins",
         "homeScore": 20,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 17,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "New Orleans Saints",
         "homeScore": 47,
         "awayTeam": "Carolina Panthers",
         "awayScore": 10,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "New York Giants",
         "homeScore": 6,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 28,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 22,
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 10,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Seattle Seahawks",
         "homeScore": 26,
         "awayTeam": "Denver Broncos",
         "awayScore": 20,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Cleveland Browns",
         "homeScore": 17,
         "awayTeam": "Dallas Cowboys",
         "awayScore": 33,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 37,
         "awayTeam": "Washington Commanders",
         "awayScore": 20,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Detroit Lions",
         "homeScore": 26,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 20,
-        "status": "completed",
-        "date": "2024-09-08",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "San Francisco 49ers",
         "homeScore": 32,
         "awayTeam": "New York Jets",
         "awayScore": 19,
-        "status": "completed",
-        "date": "2024-09-09",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Completed"
       }
     ]
   },
@@ -153,147 +137,131 @@
     "games": [
       {
         "homeTeam": "Miami Dolphins",
-        "homeScore": 0,
+        "homeScore": 10,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 0,
-        "awayTeam": "Los Angeles Chargers",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "awayScore": 31,
+        "weekday": "Thursday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "New Orleans Saints",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Detroit Lions",
         "homeScore": 0,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Green Bay Packers",
         "homeScore": 0,
         "awayTeam": "Indianapolis Colts",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 0,
-        "awayTeam": "Cleveland Browns",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Minnesota Vikings",
-        "homeScore": 0,
-        "awayTeam": "San Francisco 49ers",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New England Patriots",
-        "homeScore": 0,
-        "awayTeam": "Seattle Seahawks",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tennessee Titans",
         "homeScore": 0,
         "awayTeam": "New York Jets",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
-        "homeTeam": "Baltimore Ravens",
+        "homeTeam": "Minnesota Vikings",
         "homeScore": 0,
-        "awayTeam": "Las Vegas Raiders",
+        "awayTeam": "San Francisco 49ers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New England Patriots",
+        "homeScore": 0,
+        "awayTeam": "Seattle Seahawks",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Washington Commanders",
         "homeScore": 0,
         "awayTeam": "New York Giants",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 0,
+        "awayTeam": "Los Angeles Chargers",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Jacksonville Jaguars",
+        "homeScore": 0,
+        "awayTeam": "Cleveland Browns",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Baltimore Ravens",
+        "homeScore": 0,
+        "awayTeam": "Las Vegas Raiders",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Arizona Cardinals",
         "homeScore": 0,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 0,
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Houston Texans",
         "homeScore": 0,
         "awayTeam": "Chicago Bears",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 0,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -305,144 +273,128 @@
         "homeScore": 0,
         "awayTeam": "New England Patriots",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cleveland Browns",
         "homeScore": 0,
         "awayTeam": "New York Giants",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Indianapolis Colts",
-        "homeScore": 0,
-        "awayTeam": "Chicago Bears",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Minnesota Vikings",
-        "homeScore": 0,
-        "awayTeam": "Houston Texans",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New Orleans Saints",
-        "homeScore": 0,
-        "awayTeam": "Philadelphia Eagles",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tennessee Titans",
         "homeScore": 0,
         "awayTeam": "Green Bay Packers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Indianapolis Colts",
+        "homeScore": 0,
+        "awayTeam": "Chicago Bears",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Minnesota Vikings",
+        "homeScore": 0,
+        "awayTeam": "Houston Texans",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New Orleans Saints",
+        "homeScore": 0,
+        "awayTeam": "Philadelphia Eagles",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 0,
         "awayTeam": "Carolina Panthers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Seattle Seahawks",
         "homeScore": 0,
         "awayTeam": "Miami Dolphins",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Arizona Cardinals",
-        "homeScore": 0,
-        "awayTeam": "Detroit Lions",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 0,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Arizona Cardinals",
+        "homeScore": 0,
+        "awayTeam": "Detroit Lions",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 0,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Buffalo Bills",
         "homeScore": 0,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 0,
         "awayTeam": "Washington Commanders",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -454,144 +406,128 @@
         "homeScore": 0,
         "awayTeam": "Dallas Cowboys",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 0,
         "awayTeam": "New Orleans Saints",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 0,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Indianapolis Colts",
-        "homeScore": 0,
-        "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Green Bay Packers",
         "homeScore": 0,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
-        "homeTeam": "Houston Texans",
+        "homeTeam": "Indianapolis Colts",
         "homeScore": 0,
-        "awayTeam": "Jacksonville Jaguars",
+        "awayTeam": "Pittsburgh Steelers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New York Jets",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 0,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 0,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Houston Texans",
+        "homeScore": 0,
+        "awayTeam": "Jacksonville Jaguars",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Arizona Cardinals",
         "homeScore": 0,
         "awayTeam": "Washington Commanders",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "San Francisco 49ers",
         "homeScore": 0,
         "awayTeam": "New England Patriots",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 0,
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 0,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Baltimore Ravens",
         "homeScore": 0,
         "awayTeam": "Buffalo Bills",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Miami Dolphins",
         "homeScore": 0,
         "awayTeam": "Tennessee Titans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Detroit Lions",
         "homeScore": 0,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -603,126 +539,112 @@
         "homeScore": 0,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Minnesota Vikings",
         "homeScore": 0,
         "awayTeam": "New York Jets",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Carolina Panthers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 0,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Houston Texans",
-        "homeScore": 0,
-        "awayTeam": "Buffalo Bills",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 0,
-        "awayTeam": "Indianapolis Colts",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New England Patriots",
         "homeScore": 0,
         "awayTeam": "Miami Dolphins",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Washington Commanders",
         "homeScore": 0,
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Jacksonville Jaguars",
+        "homeScore": 0,
+        "awayTeam": "Indianapolis Colts",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Houston Texans",
+        "homeScore": 0,
+        "awayTeam": "Buffalo Bills",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "San Francisco 49ers",
         "homeScore": 0,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 0,
         "awayTeam": "Green Bay Packers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Seattle Seahawks",
         "homeScore": 0,
         "awayTeam": "New York Giants",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 0,
         "awayTeam": "Dallas Cowboys",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 0,
         "awayTeam": "New Orleans Saints",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -734,126 +656,112 @@
         "homeScore": 0,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Green Bay Packers",
         "homeScore": 0,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New Orleans Saints",
-        "homeScore": 0,
-        "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New England Patriots",
-        "homeScore": 0,
-        "awayTeam": "Houston Texans",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tennessee Titans",
         "homeScore": 0,
         "awayTeam": "Indianapolis Colts",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New England Patriots",
+        "homeScore": 0,
+        "awayTeam": "Houston Texans",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New Orleans Saints",
+        "homeScore": 0,
+        "awayTeam": "Tampa Bay Buccaneers",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 0,
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Baltimore Ravens",
         "homeScore": 0,
         "awayTeam": "Washington Commanders",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 0,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 0,
-        "awayTeam": "Atlanta Falcons",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "Detroit Lions",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 0,
+        "awayTeam": "Atlanta Falcons",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New York Giants",
         "homeScore": 0,
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New York Jets",
         "homeScore": 0,
         "awayTeam": "Buffalo Bills",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -865,135 +773,120 @@
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Jacksonville Jaguars",
         "homeScore": 0,
         "awayTeam": "New England Patriots",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 0,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Buffalo Bills",
         "homeScore": 0,
         "awayTeam": "Tennessee Titans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cleveland Browns",
         "homeScore": 0,
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Indianapolis Colts",
-        "homeScore": 0,
-        "awayTeam": "Miami Dolphins",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Green Bay Packers",
         "homeScore": 0,
         "awayTeam": "Houston Texans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Indianapolis Colts",
+        "homeScore": 0,
+        "awayTeam": "Miami Dolphins",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Minnesota Vikings",
         "homeScore": 0,
         "awayTeam": "Detroit Lions",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New York Giants",
         "homeScore": 0,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 0,
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Washington Commanders",
         "homeScore": 0,
         "awayTeam": "Carolina Panthers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "San Francisco 49ers",
         "homeScore": 0,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 0,
         "awayTeam": "New York Jets",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 0,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Arizona Cardinals",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -1005,144 +898,128 @@
         "homeScore": 0,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cleveland Browns",
         "homeScore": 0,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Detroit Lions",
         "homeScore": 0,
         "awayTeam": "Tennessee Titans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Houston Texans",
-        "homeScore": 0,
-        "awayTeam": "Indianapolis Colts",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 0,
-        "awayTeam": "Green Bay Packers",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Miami Dolphins",
         "homeScore": 0,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New England Patriots",
         "homeScore": 0,
         "awayTeam": "New York Jets",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 0,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Washington Commanders",
         "homeScore": 0,
         "awayTeam": "Chicago Bears",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Jacksonville Jaguars",
+        "homeScore": 0,
+        "awayTeam": "Green Bay Packers",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Houston Texans",
+        "homeScore": 0,
+        "awayTeam": "Indianapolis Colts",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 0,
         "awayTeam": "New Orleans Saints",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Seattle Seahawks",
         "homeScore": 0,
         "awayTeam": "Buffalo Bills",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 0,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Carolina Panthers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 0,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "San Francisco 49ers",
         "homeScore": 0,
         "awayTeam": "Dallas Cowboys",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 0,
         "awayTeam": "New York Giants",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -1154,135 +1031,120 @@
         "homeScore": 0,
         "awayTeam": "Houston Texans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 0,
         "awayTeam": "Dallas Cowboys",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Buffalo Bills",
         "homeScore": 0,
         "awayTeam": "Miami Dolphins",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 0,
-        "awayTeam": "New Orleans Saints",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 0,
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cleveland Browns",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Minnesota Vikings",
-        "homeScore": 0,
-        "awayTeam": "Indianapolis Colts",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New York Giants",
-        "homeScore": 0,
-        "awayTeam": "Washington Commanders",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tennessee Titans",
         "homeScore": 0,
         "awayTeam": "New England Patriots",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Minnesota Vikings",
+        "homeScore": 0,
+        "awayTeam": "Indianapolis Colts",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New York Giants",
+        "homeScore": 0,
+        "awayTeam": "Washington Commanders",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 0,
+        "awayTeam": "New Orleans Saints",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Baltimore Ravens",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Arizona Cardinals",
         "homeScore": 0,
         "awayTeam": "Chicago Bears",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Green Bay Packers",
         "homeScore": 0,
         "awayTeam": "Detroit Lions",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Seattle Seahawks",
         "homeScore": 0,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 0,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 0,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -1294,126 +1156,112 @@
         "homeScore": 0,
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Carolina Panthers",
         "homeScore": 0,
         "awayTeam": "New York Giants",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "New England Patriots",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Indianapolis Colts",
         "homeScore": 0,
         "awayTeam": "Buffalo Bills",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 0,
-        "awayTeam": "Minnesota Vikings",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New Orleans Saints",
         "homeScore": 0,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 0,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Washington Commanders",
         "homeScore": 0,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Jacksonville Jaguars",
+        "homeScore": 0,
+        "awayTeam": "Minnesota Vikings",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 0,
         "awayTeam": "Tennessee Titans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Arizona Cardinals",
-        "homeScore": 0,
-        "awayTeam": "New York Jets",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Arizona Cardinals",
+        "homeScore": 0,
+        "awayTeam": "New York Jets",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Houston Texans",
         "homeScore": 0,
         "awayTeam": "Detroit Lions",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 0,
         "awayTeam": "Miami Dolphins",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -1425,126 +1273,112 @@
         "homeScore": 0,
         "awayTeam": "Washington Commanders",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Green Bay Packers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Detroit Lions",
         "homeScore": 0,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Miami Dolphins",
-        "homeScore": 0,
-        "awayTeam": "Las Vegas Raiders",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New Orleans Saints",
-        "homeScore": 0,
-        "awayTeam": "Cleveland Browns",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New England Patriots",
-        "homeScore": 0,
-        "awayTeam": "Los Angeles Rams",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tennessee Titans",
         "homeScore": 0,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Miami Dolphins",
+        "homeScore": 0,
+        "awayTeam": "Las Vegas Raiders",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New England Patriots",
+        "homeScore": 0,
+        "awayTeam": "Los Angeles Rams",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New Orleans Saints",
+        "homeScore": 0,
+        "awayTeam": "Cleveland Browns",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 0,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "San Francisco 49ers",
         "homeScore": 0,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Buffalo Bills",
         "homeScore": 0,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 0,
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New York Jets",
         "homeScore": 0,
         "awayTeam": "Indianapolis Colts",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "Houston Texans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -1556,117 +1390,104 @@
         "homeScore": 0,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 0,
-        "awayTeam": "Kansas City Chiefs",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Indianapolis Colts",
         "homeScore": 0,
         "awayTeam": "Detroit Lions",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Houston Texans",
-        "homeScore": 0,
-        "awayTeam": "Tennessee Titans",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Miami Dolphins",
         "homeScore": 0,
         "awayTeam": "New England Patriots",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New York Giants",
         "homeScore": 0,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Washington Commanders",
         "homeScore": 0,
         "awayTeam": "Dallas Cowboys",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 0,
+        "awayTeam": "Kansas City Chiefs",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Houston Texans",
+        "homeScore": 0,
+        "awayTeam": "Tennessee Titans",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Green Bay Packers",
         "homeScore": 0,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Seattle Seahawks",
         "homeScore": 0,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 0,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 0,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -1678,144 +1499,128 @@
         "homeScore": 0,
         "awayTeam": "Chicago Bears",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "New York Giants",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Green Bay Packers",
         "homeScore": 0,
         "awayTeam": "Miami Dolphins",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 0,
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Friday"
+        "weekday": "Friday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 0,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 0,
-        "awayTeam": "Houston Texans",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Minnesota Vikings",
         "homeScore": 0,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New England Patriots",
         "homeScore": 0,
         "awayTeam": "Indianapolis Colts",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New York Jets",
         "homeScore": 0,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Washington Commanders",
         "homeScore": 0,
         "awayTeam": "Tennessee Titans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
-        "homeTeam": "Carolina Panthers",
+        "homeTeam": "Jacksonville Jaguars",
         "homeScore": 0,
-        "awayTeam": "Tampa Bay Buccaneers",
+        "awayTeam": "Houston Texans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New Orleans Saints",
         "homeScore": 0,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 0,
+        "awayTeam": "Tampa Bay Buccaneers",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Baltimore Ravens",
         "homeScore": 0,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Buffalo Bills",
         "homeScore": 0,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -1827,117 +1632,104 @@
         "homeScore": 0,
         "awayTeam": "Green Bay Packers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
-      },
-      {
-        "homeTeam": "Miami Dolphins",
-        "homeScore": 0,
-        "awayTeam": "New York Jets",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Minnesota Vikings",
-        "homeScore": 0,
-        "awayTeam": "Atlanta Falcons",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New York Giants",
-        "homeScore": 0,
-        "awayTeam": "New Orleans Saints",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tennessee Titans",
         "homeScore": 0,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Miami Dolphins",
+        "homeScore": 0,
+        "awayTeam": "New York Jets",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Minnesota Vikings",
+        "homeScore": 0,
+        "awayTeam": "Atlanta Falcons",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New York Giants",
+        "homeScore": 0,
+        "awayTeam": "New Orleans Saints",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 0,
         "awayTeam": "Carolina Panthers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 0,
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 0,
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Arizona Cardinals",
         "homeScore": 0,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 0,
         "awayTeam": "Buffalo Bills",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "San Francisco 49ers",
         "homeScore": 0,
         "awayTeam": "Chicago Bears",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -1949,144 +1741,128 @@
         "homeScore": 0,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 0,
-        "awayTeam": "Dallas Cowboys",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cleveland Browns",
         "homeScore": 0,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Houston Texans",
-        "homeScore": 0,
-        "awayTeam": "Miami Dolphins",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 0,
-        "awayTeam": "New York Jets",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New Orleans Saints",
-        "homeScore": 0,
-        "awayTeam": "Washington Commanders",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New York Giants",
-        "homeScore": 0,
-        "awayTeam": "Baltimore Ravens",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tennessee Titans",
         "homeScore": 0,
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
-        "homeTeam": "Arizona Cardinals",
+        "homeTeam": "New Orleans Saints",
         "homeScore": 0,
-        "awayTeam": "New England Patriots",
+        "awayTeam": "Washington Commanders",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New York Giants",
+        "homeScore": 0,
+        "awayTeam": "Baltimore Ravens",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 0,
+        "awayTeam": "Dallas Cowboys",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Jacksonville Jaguars",
+        "homeScore": 0,
+        "awayTeam": "New York Jets",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Houston Texans",
+        "homeScore": 0,
+        "awayTeam": "Miami Dolphins",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Indianapolis Colts",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Detroit Lions",
         "homeScore": 0,
         "awayTeam": "Buffalo Bills",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 0,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Arizona Cardinals",
+        "homeScore": 0,
+        "awayTeam": "New England Patriots",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 0,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Seattle Seahawks",
         "homeScore": 0,
         "awayTeam": "Green Bay Packers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Minnesota Vikings",
         "homeScore": 0,
         "awayTeam": "Chicago Bears",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 0,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -2098,144 +1874,128 @@
         "homeScore": 0,
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 0,
         "awayTeam": "Houston Texans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Saturday"
+        "weekday": "Saturday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Baltimore Ravens",
         "homeScore": 0,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Saturday"
+        "weekday": "Saturday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 0,
         "awayTeam": "New York Giants",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Buffalo Bills",
         "homeScore": 0,
         "awayTeam": "New England Patriots",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 0,
-        "awayTeam": "Arizona Cardinals",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Detroit Lions",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Indianapolis Colts",
         "homeScore": 0,
         "awayTeam": "Tennessee Titans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "New York Jets",
         "homeScore": 0,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Washington Commanders",
         "homeScore": 0,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 0,
+        "awayTeam": "Arizona Cardinals",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Seattle Seahawks",
         "homeScore": 0,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Miami Dolphins",
-        "homeScore": 0,
-        "awayTeam": "San Francisco 49ers",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 0,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Miami Dolphins",
+        "homeScore": 0,
+        "awayTeam": "San Francisco 49ers",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Green Bay Packers",
         "homeScore": 0,
         "awayTeam": "New Orleans Saints",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -2247,144 +2007,128 @@
         "homeScore": 0,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Wednesday"
+        "weekday": "Wednesday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Houston Texans",
         "homeScore": 0,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Wednesday"
+        "weekday": "Wednesday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Thursday"
-      },
-      {
-        "homeTeam": "Buffalo Bills",
-        "homeScore": 0,
-        "awayTeam": "New York Jets",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Thursday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 0,
-        "awayTeam": "Tennessee Titans",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Minnesota Vikings",
-        "homeScore": 0,
-        "awayTeam": "Green Bay Packers",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New Orleans Saints",
-        "homeScore": 0,
-        "awayTeam": "Las Vegas Raiders",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New England Patriots",
-        "homeScore": 0,
-        "awayTeam": "Los Angeles Chargers",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New York Giants",
-        "homeScore": 0,
-        "awayTeam": "Indianapolis Colts",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 0,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
-        "homeTeam": "Tampa Bay Buccaneers",
+        "homeTeam": "New England Patriots",
         "homeScore": 0,
-        "awayTeam": "Carolina Panthers",
+        "awayTeam": "Los Angeles Chargers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New York Giants",
+        "homeScore": 0,
+        "awayTeam": "Indianapolis Colts",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Washington Commanders",
         "homeScore": 0,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Buffalo Bills",
+        "homeScore": 0,
+        "awayTeam": "New York Jets",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Minnesota Vikings",
+        "homeScore": 0,
+        "awayTeam": "Green Bay Packers",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New Orleans Saints",
+        "homeScore": 0,
+        "awayTeam": "Las Vegas Raiders",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Tampa Bay Buccaneers",
+        "homeScore": 0,
+        "awayTeam": "Carolina Panthers",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Jacksonville Jaguars",
+        "homeScore": 0,
+        "awayTeam": "Tennessee Titans",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 0,
         "awayTeam": "Dallas Cowboys",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Cleveland Browns",
         "homeScore": 0,
         "awayTeam": "Miami Dolphins",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "San Francisco 49ers",
         "homeScore": 0,
         "awayTeam": "Detroit Lions",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Monday"
+        "weekday": "Monday",
+        "status": "Scheduled"
       }
     ]
   },
@@ -2396,144 +2140,128 @@
         "homeScore": 0,
         "awayTeam": "Carolina Panthers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Indianapolis Colts",
-        "homeScore": 0,
-        "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Arizona Cardinals",
-        "homeScore": 0,
-        "awayTeam": "San Francisco 49ers",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "Washington Commanders",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Detroit Lions",
         "homeScore": 0,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Green Bay Packers",
         "homeScore": 0,
         "awayTeam": "Chicago Bears",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New England Patriots",
-        "homeScore": 0,
-        "awayTeam": "Buffalo Bills",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "New York Jets",
-        "homeScore": 0,
-        "awayTeam": "Miami Dolphins",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tennessee Titans",
         "homeScore": 0,
         "awayTeam": "Houston Texans",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
-        "homeTeam": "Philadelphia Eagles",
+        "homeTeam": "Indianapolis Colts",
         "homeScore": 0,
-        "awayTeam": "New York Giants",
+        "awayTeam": "Jacksonville Jaguars",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
-      },
-      {
-        "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 0,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 0,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
-        "homeTeam": "Baltimore Ravens",
+        "homeTeam": "New England Patriots",
         "homeScore": 0,
-        "awayTeam": "Cleveland Browns",
+        "awayTeam": "Buffalo Bills",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New York Jets",
+        "homeScore": 0,
+        "awayTeam": "Miami Dolphins",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Philadelphia Eagles",
+        "homeScore": 0,
+        "awayTeam": "New York Giants",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Arizona Cardinals",
+        "homeScore": 0,
+        "awayTeam": "San Francisco 49ers",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Pittsburgh Steelers",
+        "homeScore": 0,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 0,
         "awayTeam": "New Orleans Saints",
         "awayScore": 0,
-        "status": "preview",
-        "date": "2024-09-12",
-        "weekday": "Sunday"
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Baltimore Ravens",
+        "homeScore": 0,
+        "awayTeam": "Cleveland Browns",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
       }
     ]
   }

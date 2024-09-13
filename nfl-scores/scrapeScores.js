@@ -2,87 +2,90 @@ const fs = require('fs');
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const baseUrl = 'https://www.pro-football-reference.com/years/2024/';
+// Mapping of team names to cities
+const teamCities = {
+    'Cardinals': 'Arizona',
+    'Falcons': 'Atlanta',
+    'Ravens': 'Baltimore',
+    'Bills': 'Buffalo',
+    'Panthers': 'Carolina',
+    'Bears': 'Chicago',
+    'Bengals': 'Cincinnati',
+    'Browns': 'Cleveland',
+    'Cowboys': 'Dallas',
+    'Broncos': 'Denver',
+    'Lions': 'Detroit',
+    'Texans': 'Houston',
+    'Colts': 'Indianapolis',
+    'Packers': 'Green Bay',
+    'Jaguars': 'Jacksonville',
+    'Chiefs': 'Kansas City',
+    'Raiders': 'Las Vegas',
+    'Chargers': 'Los Angeles',
+    'Rams': 'Los Angeles',
+    'Dolphins': 'Miami',
+    'Vikings': 'Minnesota',
+    'Patriots': 'New England',
+    'Saints': 'New Orleans',
+    'Giants': 'New York',
+    'Jets': 'New York',
+    'Eagles': 'Philadelphia',
+    'Steelers': 'Pittsburgh',
+    '49ers': 'San Francisco',
+    'Seahawks': 'Seattle',
+    'Buccaneers': 'Tampa Bay',
+    'Titans': 'Tennessee',
+    'Commanders': 'Washington'
+};
+
+const baseUrl = 'https://www.espn.com/nfl/scoreboard/';
 
 async function fetchAllWeeks() {
     const allWeeks = [];
 
-    // Loop through all 18 weeks
     for (let week = 1; week <= 18; week++) {
         try {
             console.log(`Fetching Week ${week}...`);
-            const response = await axios.get(`${baseUrl}week_${week}.htm`);
+            const response = await axios.get(`${baseUrl}_/week/${week}/year/2024/seasontype/2`);
             const $ = cheerio.load(response.data);
 
             const games = [];
 
-            $('div.game_summary').each((index, element) => {
-                const teamsTable = $(element).find('table.teams');
-                
-                // Extract team names; the first team is away, and the second is home
-                const awayTeam = teamsTable.find('tr').eq(1).find('td').eq(0).text().trim();
-                const homeTeam = teamsTable.find('tr').eq(2).find('td').eq(0).text().trim();
+            $('.Card.gameModules').each((index, element) => {
+                const headerText = $(element).find('.Card__Header__Title.Card__Header__Title--no-theme').text().trim();
+                const weekday = headerText.split(',')[0].trim(); // Extracting only the weekday part
 
-                // Extract date and determine weekday
-                const dateText = $(element).find('tr.date td').text().trim();
-                let date, weekday;
+                // Loop through each game under the header
+                $(element).find('.Scoreboard').each((i, gameElement) => {
+                    const homeTeam = $(gameElement).find('.ScoreCell__TeamName').eq(1).text().trim();
+                    const awayTeam = $(gameElement).find('.ScoreCell__TeamName').eq(0).text().trim();
 
-                // Check if dateText is a weekday or a full date
-                if (['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'].includes(dateText)) {
-                    // If it's a weekday, use the weekday directly
-                    weekday = dateText;
-                    date = new Date(); // Default date
-                } else {
-                    // If it's a full date, parse it
-                    date = new Date(dateText);
-                    weekday = date.toLocaleDateString('en-US', { weekday: 'long' });
-                }
+                    const homeScore = parseInt($(gameElement).find('.ScoreCell__Score').eq(1).text().trim()) || 0;
+                    const awayScore = parseInt($(gameElement).find('.ScoreCell__Score').eq(0).text().trim()) || 0;
 
-                // Check if the game is completed, in progress, or in preview
-                const gameStatusText = teamsTable.find('td.gamelink a').text().trim();
-                let homeScore = 0;
-                let awayScore = 0;
-                let status = 'pending';
+                    // Determine the game status
+                    let status = 'Preview'; // Default to Preview if not otherwise specified
 
-                if (gameStatusText === 'Final') {
-                    status = 'completed';
-
-                    // Check which team is the winner and assign scores accordingly
-                    const winnerTeam = teamsTable.find('tr.winner td').eq(0).text().trim();
-                    const winnerScore = parseInt(teamsTable.find('tr.winner td').eq(1).text().trim()) || 0;
-
-                    const loserTeam = teamsTable.find('tr.loser td').eq(0).text().trim();
-                    const loserScore = parseInt(teamsTable.find('tr.loser td').eq(1).text().trim()) || 0;
-
-                    // Assign the scores to the correct teams
-                    if (homeTeam === winnerTeam) {
-                        homeScore = winnerScore;
-                        awayScore = loserScore;
-                    } else {
-                        homeScore = loserScore;
-                        awayScore = winnerScore;
+                    if ($(gameElement).find('.Scoreboard__Callouts a').length > 1) {
+                        status = 'Completed';
+                    } else if ($(gameElement).find('.ScoreCell__Score').length) {
+                        status = homeScore > 0 || awayScore > 0 ? 'Final' : 'In Progress';
+                    } else if ($(gameElement).find('.ScoreCell__Time').length) {
+                        status = 'Scheduled';
                     }
-                } else if (gameStatusText === 'Preview') {
-                    status = 'preview';
-                } else {
-                    status = 'in progress';
 
-                    // Extract the current score for each team
-                    const homeScoreText = teamsTable.find('tr').eq(2).find('td.right').text().trim();
-                    const awayScoreText = teamsTable.find('tr').eq(1).find('td.right').text().trim();
+                    // Prepend city name to team names
+                    const homeTeamWithCity = `${teamCities[homeTeam] || ''} ${homeTeam}`;
+                    const awayTeamWithCity = `${teamCities[awayTeam] || ''} ${awayTeam}`;
 
-                    homeScore = parseInt(homeScoreText) || 0;
-                    awayScore = parseInt(awayScoreText) || 0;
-                }
-
-                games.push({
-                    homeTeam: homeTeam,
-                    homeScore: homeScore,
-                    awayTeam: awayTeam,
-                    awayScore: awayScore,
-                    status: status,
-                    date: date.toISOString().split('T')[0], // Store date in YYYY-MM-DD format
-                    weekday: weekday
+                    games.push({
+                        homeTeam: homeTeamWithCity,
+                        homeScore: homeScore,
+                        awayTeam: awayTeamWithCity,
+                        awayScore: awayScore,
+                        weekday: weekday,
+                        status: status
+                    });
                 });
             });
 
@@ -99,7 +102,6 @@ async function fetchAllWeeks() {
     // Write all weeks to winners.json
     fs.writeFileSync('winners.json', JSON.stringify(allWeeks, null, 2));
     console.log('All weeks fetched and stored in winners.json');
-    console.log(JSON.stringify(allWeeks, null, 2));
 }
 
 fetchAllWeeks();

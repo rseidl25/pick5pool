@@ -25,7 +25,7 @@ async function calculateScores() {
             const weekNumber = weekData.week;
             const weekKey = `Week ${weekNumber}`; // Use the format "Week X"
             const weeklyWinners = weekData.games.reduce((acc, game) => {
-                if (game.status === 'completed') {
+                if (game.status === 'Completed') {
                     // Determine the winning team
                     const winningTeam = parseInt(game.homeScore) > parseInt(game.awayScore) ? game.homeTeam : game.awayTeam;
                     acc[winningTeam] = parseInt(game.homeScore) > parseInt(game.awayScore) ? parseInt(game.homeScore) : parseInt(game.awayScore);

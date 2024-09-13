@@ -217,7 +217,7 @@
                             const awayScoreCell = document.createElement('td');
                             awayScoreCell.textContent = game.awayScore !== null ? game.awayScore : 0;
 
-                            if (game.status === 'completed') {
+                            if (game.status === 'Completed') {
                                 if (parseInt(game.homeScore) > parseInt(game.awayScore)) {
                                     homeTeamCell.classList.add('winner');
                                     homeScoreCell.classList.add('winner');

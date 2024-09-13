@@ -21,16 +21,16 @@
       74
     ],
     [
+      "Brayden",
+      72
+    ],
+    [
       "Steve",
       66
     ],
     [
       "Paul",
       66
-    ],
-    [
-      "Brayden",
-      62
     ],
     [
       "Bryan",
@@ -66,7 +66,7 @@
     ],
     [
       "Kalysta",
-      20
+      30
     ]
   ],
   "Week 1": {
@@ -103,9 +103,9 @@
     "Bryan": 0,
     "Paul": 0,
     "Angie": 0,
-    "Kalysta": 0,
+    "Kalysta": 10,
     "Brett": 0,
-    "Brayden": 0
+    "Brayden": 10
   },
   "Week 3": {
     "Fred": 0,
