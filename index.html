@@ -353,6 +353,7 @@
                 const response = await fetch('players.json');
                 const data = await response.json();
                 playersTablesContent.innerHTML = '';
+                let playerPicks = [];
 
                 if (player === 'All') {
                     // Show all players' tables with player-table class
@@ -446,6 +447,7 @@
 
                             // Add picks and points in two columns
                             let totalPoints = 0;
+                            playerPicks = weeks[`week${week}`]; // Store the picks for highlighting
                             weeks[`week${week}`].forEach((pick, index) => {
                                 const row = document.createElement('tr');
                                 
@@ -499,10 +501,23 @@
                         }
                     }
                 }
+                // Apply highlighting after the table has been created
+                highlightPlayerPicks(playerPicks);
             } catch (error) {
                 console.error('Error fetching players picks:', error);
             }
         }
+
+        function highlightPlayerPicks(playerPicks) {
+        // Get all table cells in the winners table
+        const cells = document.querySelectorAll('#winners-table-content td');
+        
+        cells.forEach(cell => {
+            if (playerPicks.includes(cell.textContent.trim())) {
+                cell.style.backgroundColor = '#a8d5e2'; // Light gold background color
+            }
+        });
+}
 
         function handleWeekChange() {
             const selectedWeek = weekSelect.value;
