@@ -66,9 +66,9 @@ async function fetchAllWeeks() {
                     // Determine the game status
                     let status = 'Preview'; // Default to Preview if not otherwise specified
 
-                    if ($(gameElement).find('.Scoreboard__Callouts a').length > 1) {
+                    if ($(gameElement).find('.Scoreboard__Callouts a').length === 3) {
                         status = 'Completed';
-                    } else if ($(gameElement).find('.ScoreCell__Score').length) {
+                    } else if ($(gameElement).find('.ScoreCell__Score').length == 2) {
                         status = homeScore > 0 || awayScore > 0 ? 'Final' : 'In Progress';
                     } else if ($(gameElement).find('.ScoreCell__Time').length) {
                         status = 'Scheduled';
