@@ -63,13 +63,12 @@ async function fetchAllWeeks() {
                     const homeScore = parseInt($(gameElement).find('.ScoreCell__Score').eq(1).text().trim()) || 0;
                     const awayScore = parseInt($(gameElement).find('.ScoreCell__Score').eq(0).text().trim()) || 0;
 
-                    // Determine the game status
+                    // Determine the game status based on the presence of "Last Play"
                     let status = 'Preview'; // Default to Preview if not otherwise specified
-
-                    if ($(gameElement).find('.Scoreboard__Callouts a').length === 3) {
+                    if ($(gameElement).find('.DriveChart2D__PlayTextContainer').length) {
+                        status = 'In Progress'; // Check for "Last Play" container
+                    } else if ($(gameElement).find('.Scoreboard__Callouts a').length === 3) {
                         status = 'Completed';
-                    } else if ($(gameElement).find('.ScoreCell__Score').length == 2) {
-                        status = homeScore > 0 || awayScore > 0 ? 'Final' : 'In Progress';
                     } else if ($(gameElement).find('.ScoreCell__Time').length) {
                         status = 'Scheduled';
                     }
