@@ -10,21 +10,51 @@
             margin: 0;
             display: flex;
             flex-direction: column;
+            background-color: #e0e1dd;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1d2d44;
+            color: white;
+            padding: 20px 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+        .leaderboard-button {
+            padding: 10px 20px;
+            background-color: #94b953;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .leaderboard-button:hover {
+            background-color: #0056b3;
         }
         #main-container {
             display: flex;
             width: 100%;
             margin-top: 20px;
+            flex-wrap: wrap; /* Ensure containers wrap on smaller screens */
         }
         #players-tables {
             width: 75%;
-            padding: 20px;
+            padding-left: 25px;
+            padding-right: 25px;
             box-sizing: border-box;
         }
         #players-tables-content {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
+            justify-content: center; /* Center the tables */
         }
         #winners-table-container {
             width: 25%;
@@ -36,14 +66,19 @@
             width: 100%;
             border-collapse: collapse;
             margin-bottom: 20px;
+            box-shadow: 3px 3px;
         }
         th, td {
             padding: 10px;
-            border: 1px solid #ddd;
+            border: 1px solid black;
             text-align: center;
+            background-color: white;
         }
         th {
-            background-color: #f4f4f4;
+            background-color: #1d2d44;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
         }
         h1, h2 {
             text-align: center;
@@ -53,64 +88,113 @@
             margin-top: 0;
         }
         #controls {
-            text-align: center;
-            margin: 20px;
+            text-align: left;
+            margin: 10px;
+            padding-left: 35px;
+            padding-top: 10px;
+            width: 50%;
+        }
+        label {
+            padding-right: 10px;
         }
         select {
             padding: 10px;
             font-size: 16px;
         }
+        #player-select {
+            position: relative;
+            left: 20px;
+        }
+        #select-label {
+            position: relative;
+            left: 20px;
+        }
         .winner {
-            color: green;
+            color: #4f772d;
             font-weight: bold;
         }
         .loser {
-            color: red;
+            color: #ba181b;
         }
         .day-header {
             font-weight: bold;
-            background-color: #f4f4f4;
+            background-color: #3e5c76;
         }
         .player-table {
-            flex: 1 1 auto; /* Allow tables to grow and wrap */
-            min-width: 250px; /* Adjust as necessary */
-            max-width: 250px; /* Ensure it fits within the 75% width with gaps */
-            box-sizing: border-box;
-            width: 250px;
-        }
-        .expanded-table {
-            flex: 1 1 auto; /* Allow tables to grow and wrap */
+            flex: 1 1 20%; /* Adjusted to fit 3 tables per row */
+            max-width: 15%; /* Ensure it doesn't exceed 30% of container width */
             box-sizing: border-box;
             width: 100%;
+            border: 1px solid black; /* Add a blue border to player tables */
+            box-shadow: 3px 3px;
         }
-        .leaderboard-button {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            font-size: 16px;
+        .bonus-pick {
+            background-color: #FAEAA2; /* Light gold color */
         }
-        .leaderboard-button:hover {
-            background-color: #0056b3;
+        .bold-text {
+            font-weight: bold;
+        }
+        .expanded-table {
+            flex: 1 1 30%; /* Adjusted to fit 3 tables per row */
+            max-width: 80%; /* Ensure it doesn't exceed 30% of container width */
+            width: 100%;
+            border: 2px solid black; /* Add a green border to expanded table */
+        }
+
+        /* Media Queries for Mobile Devices */
+        @media (max-width: 768px) {
+            #winners-table-container {
+                display: none; /* Hide the winners table on mobile devices */
+            }
+            #players-tables {
+                width: 100%; /* Take full width on mobile devices */
+                padding-left: 0;
+                padding-right: 0;
+            }
+            #players-tables-content {
+                justify-content: center; /* Center player tables */
+            }
+            .player-table {
+                flex: 1 1 40%; /* Adjust to fit 3 tables per row */
+                max-width: 30%; /* Ensure it doesn't exceed 30% of container width */
+                box-sizing: border-box; /* Prevent overflow */
+            }
+            .expanded-table {
+                flex: 1 1 30%; /* Adjust to fit 3 tables per row */
+                max-width: 80%; /* Ensure it doesn't exceed 30% of container width */
+                box-sizing: border-box; /* Prevent overflow */
+            }
+            #controls {
+                text-align: left;
+                margin: 10px;
+                padding-left: 25px;
+                padding-top: 10px;
+                width: 40%;
+            }
+            #player-select {
+                position: relative;
+                top: 10px;
+                left: 0%;
+            }
+            #select-label {
+                position: relative;
+                top: 10px;
+                left: 0px;
+            }
         }
     </style>
 </head>
 <body>
-    <a href="leaderboard.html" class="leaderboard-button">Leaderboard</a>
-
-    <h1>Pick 5 Pool</h1>
+    <header>
+        <h1>Pick 5 Pool</h1>
+        <a href="leaderboard.html" class="leaderboard-button">Leaderboard</a>
+    </header>
 
     <div id="controls">
         <label for="week-select">Select Week:</label>
         <select id="week-select">
         </select>
-        <label for="player-select">Select Player:</label>
+        <label for="player-select" id="select-label">Select Player:</label>
         <select id="player-select">
         </select>
     </div>
@@ -278,10 +362,16 @@
                             let totalPoints = 0;
                             weeks[`week${week}`].forEach((pick, index) => {
                                 const row = document.createElement('tr');
+                                
+                                // Create and style the pick cell
                                 const pickCell = document.createElement('td');
                                 pickCell.textContent = pick;
+                                if (index === 0) {
+                                    pickCell.classList.add('bonus-pick'); // Add bonus-pick class for the first pick
+                                }
+                                
+                                // Create and style the points cell
                                 const pointsCell = document.createElement('td');
-
                                 let points = 0;
                                 const winningTeam = currentWinners.find(winner => winner.team === pick);
 
@@ -293,20 +383,28 @@
                                 }
 
                                 pointsCell.textContent = points;
+                                if (index === 0) {
+                                    pointsCell.classList.add('bonus-pick'); // Add bonus-pick class for the points cell as well
+                                }
+
                                 row.appendChild(pickCell);
                                 row.appendChild(pointsCell);
                                 body.appendChild(row);
                                 totalPoints += points;
                             });
 
-                            // Add total row
+                            // Add total row with bold text
                             const totalRow = document.createElement('tr');
                             const totalLabelCell = document.createElement('td');
                             totalLabelCell.textContent = 'Total';
+                            totalLabelCell.classList.add('bold-text'); // Add bold-text class
+                            totalRow.appendChild(totalLabelCell);
+
                             const totalPointsCell = document.createElement('td');
                             totalPointsCell.textContent = totalPoints;
-                            totalRow.appendChild(totalLabelCell);
+                            totalPointsCell.classList.add('bold-text'); // Add bold-text class
                             totalRow.appendChild(totalPointsCell);
+
                             body.appendChild(totalRow);
 
                             table.appendChild(header);
@@ -336,10 +434,16 @@
                             let totalPoints = 0;
                             weeks[`week${week}`].forEach((pick, index) => {
                                 const row = document.createElement('tr');
+                                
+                                // Create and style the pick cell
                                 const pickCell = document.createElement('td');
                                 pickCell.textContent = pick;
+                                if (index === 0) {
+                                    pickCell.classList.add('bonus-pick'); // Add bonus-pick class for the first pick
+                                }
+                                
+                                // Create and style the points cell
                                 const pointsCell = document.createElement('td');
-
                                 let points = 0;
                                 const winningTeam = currentWinners.find(winner => winner.team === pick);
 
@@ -351,20 +455,28 @@
                                 }
 
                                 pointsCell.textContent = points;
+                                if (index === 0) {
+                                    pointsCell.classList.add('bonus-pick'); // Add bonus-pick class for the points cell as well
+                                }
+
                                 row.appendChild(pickCell);
                                 row.appendChild(pointsCell);
                                 body.appendChild(row);
                                 totalPoints += points;
                             });
 
-                            // Add total row
+                            // Add total row with bold text
                             const totalRow = document.createElement('tr');
                             const totalLabelCell = document.createElement('td');
                             totalLabelCell.textContent = 'Total';
+                            totalLabelCell.classList.add('bold-text'); // Add bold-text class
+                            totalRow.appendChild(totalLabelCell);
+
                             const totalPointsCell = document.createElement('td');
                             totalPointsCell.textContent = totalPoints;
-                            totalRow.appendChild(totalLabelCell);
+                            totalPointsCell.classList.add('bold-text'); // Add bold-text class
                             totalRow.appendChild(totalPointsCell);
+
                             body.appendChild(totalRow);
 
                             table.appendChild(header);
