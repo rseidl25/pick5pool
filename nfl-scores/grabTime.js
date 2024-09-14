@@ -23,7 +23,7 @@ function formatDate(centralTime) {
 
 // Function to write date and time data to time.json
 function writeTimeToFile(date, time) {
-    const filePath = path.join(__dirname, '../time.json');
+    const filePath = path.join(__dirname, 'time.json');
     const timeData = {
         date: date,
         time: time
