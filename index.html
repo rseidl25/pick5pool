@@ -92,7 +92,7 @@
             margin: 10px;
             padding-left: 35px;
             padding-top: 10px;
-            width: 50%;
+            width: 90%;
         }
         label {
             padding-right: 10px;
@@ -108,6 +108,19 @@
         #select-label {
             position: relative;
             left: 20px;
+        }
+        #team-select {
+            position: relative;
+            left: 40px;
+        }
+        #team-select-label {
+            position: relative;
+            left: 40px;
+        }
+        #team-info {
+            position: relative;
+            left: 60px;
+            font-weight: bold;
         }
         .winner {
             color: #4f772d;
@@ -140,6 +153,15 @@
             width: 100%;
             border: 2px solid black; /* Add a green border to expanded table */
         }
+        #last-updated-footer {
+            background-color: #1d2d44; /* Use the same background color as your header */
+            color: white; /* Text color to match */
+            font-style: bold;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px; /* Adds some space between content and footer */
+        }
+
 
         /* Media Queries for Mobile Devices */
         @media (max-width: 768px) {
@@ -169,16 +191,32 @@
                 margin: 10px;
                 padding-left: 25px;
                 padding-top: 10px;
-                width: 40%;
+                padding-bottom: 20px;
+                width: 30%;
             }
             #player-select {
                 position: relative;
-                top: 10px;
+                top: 20px;
                 left: 0%;
             }
             #select-label {
                 position: relative;
-                top: 10px;
+                top: 15px;
+                left: 0px;
+            }
+            #team-select {
+                position: relative;
+                top: 30px;
+                left: 0%;
+            }
+            #team-select-label {
+                position: relative;
+                top: 30px;
+                left: 0px;
+            }
+            #team-info {
+                position: relative;
+                top: 40px;
                 left: 0px;
             }
             header h1 {
@@ -211,6 +249,12 @@
         <label for="player-select" id="select-label">Select Player:</label>
         <select id="player-select">
         </select>
+        <label for="team-select" id="team-select-label">Select Team:</label>
+        <select id="team-select">
+            <option value=""></option>
+            <!-- Team options will be added here by JavaScript -->
+        </select>
+        <label id="team-info"></label> <!-- To display the text about team picks -->
     </div>
 
     <div id="main-container">
@@ -231,9 +275,92 @@
     <script>
         const weekSelect = document.getElementById('week-select');
         const playerSelect = document.getElementById('player-select');
+        const teamSelect = document.getElementById('team-select');
+        const teamInfo = document.getElementById('team-info');
         const playersTablesContent = document.getElementById('players-tables-content');
         const winnersTableContent = document.getElementById('winners-table-content');
         let currentWinners = [];
+
+            const teams = [
+            'Arizona Cardinals',
+            'Atlanta Falcons',
+            'Baltimore Ravens',
+            'Buffalo Bills',
+            'Carolina Panthers',
+            'Chicago Bears',
+            'Cincinnati Bengals',
+            'Cleveland Browns',
+            'Dallas Cowboys',
+            'Denver Broncos',
+            'Detroit Lions',
+            'Houston Texans',
+            'Indianapolis Colts',
+            'Green Bay Packers',
+            'Jacksonville Jaguars',
+            'Kansas City Chiefs',
+            'Las Vegas Raiders',
+            'Los Angeles Chargers',
+            'Los Angeles Rams',
+            'Miami Dolphins',
+            'Minnesota Vikings',
+            'New England Patriots',
+            'New Orleans Saints',
+            'New York Giants',
+            'New York Jets',
+            'Philadelphia Eagles',
+            'Pittsburgh Steelers',
+            'San Francisco 49ers',
+            'Seattle Seahawks',
+            'Tampa Bay Buccaneers',
+            'Tennessee Titans',
+            'Washington Commanders'
+        ];
+
+        function populateTeamOptions() {
+            teams.forEach(team => {
+                const option = document.createElement('option');
+                option.value = team;
+                option.textContent = team;
+                teamSelect.appendChild(option);
+            });
+        }
+
+        function highlightTeam(team) {
+
+            if(team === ''){
+                return;
+            }
+
+            const playerTables = document.querySelectorAll('.player-table, .expanded-table');
+            let amountPicked = 0;
+
+            playerTables.forEach(table => {
+                const rows = table.querySelectorAll('tr');
+                rows.forEach(row => {
+                    const cells = row.querySelectorAll('td');
+                    cells.forEach(cell => {
+                        if (cell.textContent.includes(team)) {
+                            cell.style.backgroundColor = '#a8d5e2'; // Highlighting color
+                            amountPicked++;
+                        } else {
+                            cell.style.backgroundColor = ''; // Reset highlighting color
+                        }
+                    });
+                });
+            });
+
+            // Display the number of players who picked the selected team
+            const teamInfo = document.getElementById('team-info');
+            teamInfo.textContent = `${amountPicked}/17 player(s)`;
+        }
+
+        // Event listener for team selection
+        document.getElementById('team-select').addEventListener('change', function () {
+            const selectedTeam = this.value;
+            if (selectedTeam) {
+                highlightTeam(selectedTeam);
+            }
+        });
 
         function populateWeekOptions() {
             for (let i = 1; i <= 18; i++) {
@@ -303,17 +430,17 @@
                         games.forEach(game => {
                             const row = document.createElement('tr');
 
-                            const homeTeamCell = document.createElement('td');
-                            homeTeamCell.textContent = game.homeTeam;
-
-                            const homeScoreCell = document.createElement('td');
-                            homeScoreCell.textContent = game.homeScore !== null ? game.homeScore : 0;
-
                             const awayTeamCell = document.createElement('td');
                             awayTeamCell.textContent = game.awayTeam;
 
                             const awayScoreCell = document.createElement('td');
                             awayScoreCell.textContent = game.awayScore !== null ? game.awayScore : 0;
+
+                            const homeTeamCell = document.createElement('td');
+                            homeTeamCell.textContent = game.homeTeam;
+
+                            const homeScoreCell = document.createElement('td');
+                            homeScoreCell.textContent = game.homeScore !== null ? game.homeScore : 0;
 
                             if (game.status === 'Completed') {
                                 if (parseInt(game.homeScore) > parseInt(game.awayScore)) {
@@ -331,10 +458,10 @@
                                 }
                             }
 
-                            row.appendChild(homeTeamCell);
-                            row.appendChild(homeScoreCell);
                             row.appendChild(awayTeamCell);
                             row.appendChild(awayScoreCell);
+                            row.appendChild(homeTeamCell);
+                            row.appendChild(homeScoreCell);
 
                             weekdayBody.appendChild(row);
                         });
@@ -519,12 +646,37 @@
         });
 }
 
+        async function updateLastUpdatedTime() {
+            try {
+                const response = await fetch('time.json');
+                const data = await response.json();
+                const lastUpdatedTime = `${data.date}, ${data.time}`;
+                document.getElementById('last-updated-time').textContent = lastUpdatedTime;
+            } catch (error) {
+                console.error('Error fetching last updated time:', error);
+            }
+        }
+
+        function resetTeamSelection() {
+            teamSelect.value = ''; // Reset the team dropdown
+            teamInfo.textContent = ''; // Clear the team info text
+            highlightTeam(''); // Clear any highlights
+        }
+
+        teamSelect.addEventListener('change', function () {
+            const selectedTeam = this.value;
+            if (selectedTeam) {
+                highlightTeam(selectedTeam);
+            }
+        });
+
         function handleWeekChange() {
             const selectedWeek = weekSelect.value;
             const selectedPlayer = playerSelect.value;
             if (selectedWeek) {
                 fetchWinners(selectedWeek).then(() => {
                     fetchPlayersPicks(selectedWeek, selectedPlayer);
+                    resetTeamSelection();
                 });
             }
         }
@@ -532,6 +684,7 @@
         function initializePage() {
             populateWeekOptions();
             populatePlayerOptions();
+            populateTeamOptions();
             weekSelect.addEventListener('change', handleWeekChange);
             playerSelect.addEventListener('change', handleWeekChange);
 
@@ -546,8 +699,15 @@
             }
         }
 
-        window.onload = initializePage;
+        window.onload = function () {
+            initializePage(); // existing initialization
+            updateLastUpdatedTime(); // fetch last updated time on page load
+        };
+
     </script>
+    <footer id="last-updated-footer">
+        Last Updated: <span id="last-updated-time"></span>
+    </footer>
 </body>
 </html>
                             

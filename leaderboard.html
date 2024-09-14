@@ -11,6 +11,7 @@
             display: flex;
             flex-direction: column;
             background-color: #e0e1dd;
+            min-height: 100vh;
         }
         header {
             display: flex;
@@ -98,6 +99,16 @@
                 font-size: 40px;
             }
         }
+
+        /* Footer Styling */
+        #last-updated-footer {
+            background-color: #1d2d44; /* Use the same background color as your header */
+            color: white; /* Text color to match */
+            font-style: bold;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px; /* Adds some space between content and footer */
+        }
     </style>
 </head>
 <body>
@@ -147,10 +158,6 @@
                 const response = await fetch('leaderboard.json');
                 const data = await response.json();
     
-                // Debugging: log the fetched data
-                console.log('Fetched data:', data);
-    
-                // Clear existing content
                 const tableBody = document.querySelector('#leaderboard-table tbody');
                 tableBody.innerHTML = ''; 
     
@@ -159,10 +166,9 @@
                 let currentRank = 1;
     
                 if (week === 'overall') {
-                    // Display overall scores
                     const overallData = data.totalScores;
     
-                    overallData.forEach(([player, totalPoints], index) => {
+                    overallData.forEach(([player, totalPoints]) => {
                         if (totalPoints !== lastScore) {
                             rank = currentRank;
                             lastScore = totalPoints;
@@ -173,7 +179,6 @@
                         const positionCell = document.createElement('td');
                         positionCell.textContent = getOrdinal(rank);
     
-                        // Add background color for top 3 positions
                         if (rank === 1) {
                             row.classList.add('gold');
                         } else if (rank === 2) {
@@ -206,7 +211,6 @@
                         currentRank++;
                     });
                 } else {
-                    // Display scores for selected week
                     const weekData = data[week];
     
                     if (!weekData) {
@@ -216,7 +220,7 @@
     
                     const weekEntries = Object.entries(weekData).sort((a, b) => b[1] - a[1]);
     
-                    weekEntries.forEach(([player, points], index) => {
+                    weekEntries.forEach(([player, points]) => {
                         if (points !== lastScore) {
                             rank = currentRank;
                             lastScore = points;
@@ -227,7 +231,6 @@
                         const positionCell = document.createElement('td');
                         positionCell.textContent = getOrdinal(rank);
     
-                        // Add background color for top 3 positions
                         if (rank === 1) {
                             row.classList.add('gold');
                         } else if (rank === 2) {
@@ -286,12 +289,28 @@
         document.querySelector('#week-select').addEventListener('change', (event) => {
             loadLeaderboard(event.target.value);
         });
+
+        async function updateLastUpdatedTime() {
+            try {
+                const response = await fetch('time.json');
+                const data = await response.json();
+                const lastUpdatedTime = `${data.date}, ${data.time}`;
+                document.getElementById('last-updated-time').textContent = lastUpdatedTime;
+            } catch (error) {
+                console.error('Error fetching last updated time:', error);
+            }
+        }
     
         window.onload = () => {
             populateWeekOptions();
             document.querySelector('#week-select').value = 'overall';
             loadLeaderboard('overall');
+            updateLastUpdatedTime();
         };
     </script>
+    <!-- Footer -->
+    <footer id="last-updated-footer">
+        Last Updated: <span id="last-updated-time"></span>
+    </footer>
 </body>
 </html>
