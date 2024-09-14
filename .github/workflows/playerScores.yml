@@ -2,7 +2,7 @@ name: Update NFL Scores
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Runs every 5 minutes
+    - cron: '*/10 * * * *'  # Runs every 5 minutes
   workflow_dispatch:  # Allows manual triggers
 
 jobs:
@@ -29,6 +29,9 @@ jobs:
       - name: Run calculateScores.js script
         run: node calculateScores.js  # Make sure to provide the correct path if needed
 
+      - name: Run grabTime.js script
+        run: node grabTime.js  # Make sure to provide the correct path if needed
+
       - name: Move JSON files to root
         run: |
           mv nfl-scores/winners.json .
@@ -42,6 +45,6 @@ jobs:
           author_name: 'github-actions'
           author_email: 'github-actions@github.com'
           message: 'Update scores'
-          add: 'winners.json leaderboard.json'  # Include both JSON files
+          add: 'winners.json leaderboard.json time.json'  # Include both JSON files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
