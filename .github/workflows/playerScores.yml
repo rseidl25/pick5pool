@@ -30,6 +30,7 @@ jobs:
         run: node calculateScores.js  # Make sure to provide the correct path if needed
 
       - name: Run grabTime.js script
+        working-directory: nfl-scores  # Set working directory to nfl-scores
         run: node grabTime.js  # Make sure to provide the correct path if needed
 
       - name: Move JSON files to root
