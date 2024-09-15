@@ -137,7 +137,7 @@
     "games": [
       {
         "homeTeam": "Dallas Cowboys",
-        "homeScore": 13,
+        "homeScore": 16,
         "awayTeam": "New Orleans Saints",
         "awayScore": 35,
         "weekday": "Sunday",
@@ -153,7 +153,7 @@
       },
       {
         "homeTeam": "Green Bay Packers",
-        "homeScore": 10,
+        "homeScore": 13,
         "awayTeam": "Indianapolis Colts",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -193,7 +193,7 @@
       },
       {
         "homeTeam": "Carolina Panthers",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 20,
         "weekday": "Sunday",
@@ -209,7 +209,7 @@
       },
       {
         "homeTeam": "Baltimore Ravens",
-        "homeScore": 6,
+        "homeScore": 9,
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 6,
         "weekday": "Sunday",
