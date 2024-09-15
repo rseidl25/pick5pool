@@ -139,7 +139,7 @@
         "homeTeam": "Dallas Cowboys",
         "homeScore": 13,
         "awayTeam": "New Orleans Saints",
-        "awayScore": 28,
+        "awayScore": 35,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -161,17 +161,17 @@
       },
       {
         "homeTeam": "Tennessee Titans",
-        "homeScore": 7,
+        "homeScore": 10,
         "awayTeam": "New York Jets",
-        "awayScore": 6,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Minnesota Vikings",
-        "homeScore": 10,
+        "homeScore": 13,
         "awayTeam": "San Francisco 49ers",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -179,15 +179,15 @@
         "homeTeam": "New England Patriots",
         "homeScore": 13,
         "awayTeam": "Seattle Seahawks",
-        "awayScore": 14,
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 6,
+        "homeScore": 9,
         "awayTeam": "New York Giants",
-        "awayScore": 6,
+        "awayScore": 12,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -195,7 +195,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 13,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -203,7 +203,7 @@
         "homeTeam": "Jacksonville Jaguars",
         "homeScore": 3,
         "awayTeam": "Cleveland Browns",
-        "awayScore": 10,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -211,7 +211,7 @@
         "homeTeam": "Baltimore Ravens",
         "homeScore": 6,
         "awayTeam": "Las Vegas Raiders",
-        "awayScore": 3,
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "In Progress"
       },
