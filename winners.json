@@ -137,7 +137,7 @@
     "games": [
       {
         "homeTeam": "Dallas Cowboys",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "New Orleans Saints",
         "awayScore": 14,
         "weekday": "Sunday",
@@ -145,7 +145,7 @@
       },
       {
         "homeTeam": "Detroit Lions",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 6,
         "weekday": "Sunday",
@@ -177,7 +177,7 @@
       },
       {
         "homeTeam": "New England Patriots",
-        "homeScore": 7,
+        "homeScore": 10,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 7,
         "weekday": "Sunday",
