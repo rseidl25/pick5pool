@@ -137,9 +137,9 @@
     "games": [
       {
         "homeTeam": "Dallas Cowboys",
-        "homeScore": 6,
+        "homeScore": 13,
         "awayTeam": "New Orleans Saints",
-        "awayScore": 14,
+        "awayScore": 28,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -147,7 +147,7 @@
         "homeTeam": "Detroit Lions",
         "homeScore": 6,
         "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 6,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -163,13 +163,13 @@
         "homeTeam": "Tennessee Titans",
         "homeScore": 7,
         "awayTeam": "New York Jets",
-        "awayScore": 0,
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Minnesota Vikings",
-        "homeScore": 3,
+        "homeScore": 10,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -177,15 +177,15 @@
       },
       {
         "homeTeam": "New England Patriots",
-        "homeScore": 10,
+        "homeScore": 13,
         "awayTeam": "Seattle Seahawks",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "New York Giants",
         "awayScore": 6,
         "weekday": "Sunday",
@@ -195,23 +195,23 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 6,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Cleveland Browns",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Baltimore Ravens",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "Las Vegas Raiders",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
