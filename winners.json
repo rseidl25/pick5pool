@@ -141,7 +141,7 @@
         "awayTeam": "New Orleans Saints",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Detroit Lions",
@@ -149,7 +149,7 @@
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Green Bay Packers",
@@ -157,7 +157,7 @@
         "awayTeam": "Indianapolis Colts",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Tennessee Titans",
@@ -165,7 +165,7 @@
         "awayTeam": "New York Jets",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Minnesota Vikings",
@@ -173,7 +173,7 @@
         "awayTeam": "San Francisco 49ers",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "New England Patriots",
@@ -181,7 +181,7 @@
         "awayTeam": "Seattle Seahawks",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Washington Commanders",
@@ -189,7 +189,7 @@
         "awayTeam": "New York Giants",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Carolina Panthers",
@@ -197,7 +197,7 @@
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Jacksonville Jaguars",
@@ -205,7 +205,7 @@
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Baltimore Ravens",
@@ -213,7 +213,7 @@
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Arizona Cardinals",
