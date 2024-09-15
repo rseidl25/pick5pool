@@ -136,22 +136,6 @@
     "week": 2,
     "games": [
       {
-        "homeTeam": "Denver Broncos",
-        "homeScore": 6,
-        "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 13,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Kansas City Chiefs",
-        "homeScore": 23,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 25,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Houston Texans",
         "homeScore": 0,
         "awayTeam": "Chicago Bears",
@@ -244,6 +228,22 @@
         "homeScore": 41,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 10,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Denver Broncos",
+        "homeScore": 6,
+        "awayTeam": "Pittsburgh Steelers",
+        "awayScore": 13,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Kansas City Chiefs",
+        "homeScore": 26,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 25,
         "weekday": "Sunday",
         "status": "Completed"
       },
