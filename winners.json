@@ -137,7 +137,7 @@
     "games": [
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 24,
+        "homeScore": 31,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 3,
         "weekday": "Sunday",
@@ -147,7 +147,7 @@
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -155,7 +155,7 @@
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 10,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 13,
+        "awayScore": 16,
         "weekday": "Sunday",
         "status": "In Progress"
       },
