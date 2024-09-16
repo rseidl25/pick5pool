@@ -136,11 +136,19 @@
     "week": 2,
     "games": [
       {
-        "homeTeam": "Houston Texans",
-        "homeScore": 19,
-        "awayTeam": "Chicago Bears",
-        "awayScore": 13,
-        "weekday": "Sunday",
+        "homeTeam": "Philadelphia Eagles",
+        "homeScore": 0,
+        "awayTeam": "Atlanta Falcons",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Miami Dolphins",
+        "homeScore": 10,
+        "awayTeam": "Buffalo Bills",
+        "awayScore": 31,
+        "weekday": "Thursday",
         "status": "Completed"
       },
       {
@@ -248,20 +256,12 @@
         "status": "Completed"
       },
       {
-        "homeTeam": "Miami Dolphins",
-        "homeScore": 10,
-        "awayTeam": "Buffalo Bills",
-        "awayScore": 31,
-        "weekday": "Thursday",
+        "homeTeam": "Houston Texans",
+        "homeScore": 19,
+        "awayTeam": "Chicago Bears",
+        "awayScore": 13,
+        "weekday": "Sunday",
         "status": "Completed"
-      },
-      {
-        "homeTeam": "Philadelphia Eagles",
-        "homeScore": 0,
-        "awayTeam": "Atlanta Falcons",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
       }
     ]
   },
