@@ -137,9 +137,9 @@
     "games": [
       {
         "homeTeam": "Houston Texans",
-        "homeScore": 3,
+        "homeScore": 16,
         "awayTeam": "Chicago Bears",
-        "awayScore": 3,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
