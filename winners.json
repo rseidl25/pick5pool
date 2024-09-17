@@ -137,9 +137,9 @@
     "games": [
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 18,
+        "homeScore": 21,
         "awayTeam": "Atlanta Falcons",
-        "awayScore": 15,
+        "awayScore": 21,
         "weekday": "Monday",
         "status": "In Progress"
       },
