@@ -139,9 +139,9 @@
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 21,
         "awayTeam": "Atlanta Falcons",
-        "awayScore": 21,
+        "awayScore": 22,
         "weekday": "Monday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Miami Dolphins",
