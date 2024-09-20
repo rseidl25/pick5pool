@@ -270,11 +270,11 @@
     "games": [
       {
         "homeTeam": "New York Jets",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "New England Patriots",
         "awayScore": 0,
         "weekday": "Thursday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Cleveland Browns",
