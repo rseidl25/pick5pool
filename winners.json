@@ -277,22 +277,6 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 25,
-        "awayTeam": "Baltimore Ravens",
-        "awayScore": 28,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Los Angeles Rams",
-        "homeScore": 27,
-        "awayTeam": "San Francisco 49ers",
-        "awayScore": 24,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Cleveland Browns",
         "homeScore": 15,
         "awayTeam": "New York Giants",
@@ -361,6 +345,22 @@
         "homeScore": 24,
         "awayTeam": "Miami Dolphins",
         "awayScore": 3,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 25,
+        "awayTeam": "Baltimore Ravens",
+        "awayScore": 28,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Los Angeles Rams",
+        "homeScore": 27,
+        "awayTeam": "San Francisco 49ers",
+        "awayScore": 24,
         "weekday": "Sunday",
         "status": "Completed"
       },
