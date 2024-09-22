@@ -272,7 +272,7 @@
         "homeTeam": "Cleveland Browns",
         "homeScore": 7,
         "awayTeam": "New York Giants",
-        "awayScore": 7,
+        "awayScore": 21,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -280,7 +280,7 @@
         "homeTeam": "Tennessee Titans",
         "homeScore": 7,
         "awayTeam": "Green Bay Packers",
-        "awayScore": 17,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -318,9 +318,9 @@
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Denver Broncos",
-        "awayScore": 17,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
