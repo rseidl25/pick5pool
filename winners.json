@@ -280,7 +280,7 @@
         "homeTeam": "Tennessee Titans",
         "homeScore": 7,
         "awayTeam": "Green Bay Packers",
-        "awayScore": 10,
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -294,7 +294,7 @@
       },
       {
         "homeTeam": "Minnesota Vikings",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Houston Texans",
         "awayScore": 0,
         "weekday": "Sunday",
