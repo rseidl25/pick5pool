@@ -269,40 +269,16 @@
     "week": 3,
     "games": [
       {
-        "homeTeam": "Cleveland Browns",
-        "homeScore": 15,
-        "awayTeam": "New York Giants",
-        "awayScore": 21,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Indianapolis Colts",
-        "homeScore": 21,
-        "awayTeam": "Chicago Bears",
-        "awayScore": 9,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Minnesota Vikings",
-        "homeScore": 34,
-        "awayTeam": "Houston Texans",
+        "homeTeam": "Las Vegas Raiders",
+        "homeScore": 0,
+        "awayTeam": "Carolina Panthers",
         "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
-        "homeTeam": "Las Vegas Raiders",
-        "homeScore": 0,
-        "awayTeam": "Carolina Panthers",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Seattle Seahawks",
-        "homeScore": 0,
+        "homeScore": 10,
         "awayTeam": "Miami Dolphins",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -341,10 +317,18 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "New Orleans Saints",
-        "homeScore": 12,
-        "awayTeam": "Philadelphia Eagles",
-        "awayScore": 15,
+        "homeTeam": "Indianapolis Colts",
+        "homeScore": 21,
+        "awayTeam": "Chicago Bears",
+        "awayScore": 16,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Cleveland Browns",
+        "homeScore": 15,
+        "awayTeam": "New York Giants",
+        "awayScore": 21,
         "weekday": "Sunday",
         "status": "Completed"
       },
@@ -353,6 +337,22 @@
         "homeScore": 14,
         "awayTeam": "Green Bay Packers",
         "awayScore": 30,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Minnesota Vikings",
+        "homeScore": 34,
+        "awayTeam": "Houston Texans",
+        "awayScore": 7,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "New Orleans Saints",
+        "homeScore": 12,
+        "awayTeam": "Philadelphia Eagles",
+        "awayScore": 15,
         "weekday": "Sunday",
         "status": "Completed"
       },
