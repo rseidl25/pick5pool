@@ -286,7 +286,7 @@
       },
       {
         "homeTeam": "Indianapolis Colts",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Chicago Bears",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -312,7 +312,7 @@
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 7,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -320,7 +320,7 @@
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
-        "awayScore": 14,
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "In Progress"
       },
