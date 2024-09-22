@@ -288,7 +288,7 @@
         "homeTeam": "Dallas Cowboys",
         "homeScore": 3,
         "awayTeam": "Baltimore Ravens",
-        "awayScore": 14,
+        "awayScore": 21,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -302,7 +302,7 @@
       },
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 7,
+        "homeScore": 10,
         "awayTeam": "Detroit Lions",
         "awayScore": 20,
         "weekday": "Sunday",
