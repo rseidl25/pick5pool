@@ -270,7 +270,7 @@
     "games": [
       {
         "homeTeam": "Dallas Cowboys",
-        "homeScore": 18,
+        "homeScore": 25,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 28,
         "weekday": "Sunday",
@@ -278,17 +278,9 @@
       },
       {
         "homeTeam": "Los Angeles Rams",
-        "homeScore": 24,
+        "homeScore": 27,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 24,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Arizona Cardinals",
-        "homeScore": 13,
-        "awayTeam": "Detroit Lions",
-        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -299,14 +291,6 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Las Vegas Raiders",
-        "homeScore": 22,
-        "awayTeam": "Carolina Panthers",
-        "awayScore": 36,
-        "weekday": "Sunday",
-        "status": "Completed"
       },
       {
         "homeTeam": "Cleveland Browns",
@@ -365,10 +349,26 @@
         "status": "Completed"
       },
       {
+        "homeTeam": "Las Vegas Raiders",
+        "homeScore": 22,
+        "awayTeam": "Carolina Panthers",
+        "awayScore": 36,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Seattle Seahawks",
         "homeScore": 24,
         "awayTeam": "Miami Dolphins",
         "awayScore": 3,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Arizona Cardinals",
+        "homeScore": 13,
+        "awayTeam": "Detroit Lions",
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "Completed"
       },
