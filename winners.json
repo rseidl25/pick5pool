@@ -270,7 +270,7 @@
     "games": [
       {
         "homeTeam": "Cleveland Browns",
-        "homeScore": 7,
+        "homeScore": 15,
         "awayTeam": "New York Giants",
         "awayScore": 21,
         "weekday": "Sunday",
@@ -288,7 +288,7 @@
         "homeTeam": "Indianapolis Colts",
         "homeScore": 14,
         "awayTeam": "Chicago Bears",
-        "awayScore": 3,
+        "awayScore": 9,
         "weekday": "Sunday",
         "status": "In Progress"
       },
