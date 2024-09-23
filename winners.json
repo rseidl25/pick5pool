@@ -270,9 +270,9 @@
     "games": [
       {
         "homeTeam": "Atlanta Falcons",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Kansas City Chiefs",
-        "awayScore": 0,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
