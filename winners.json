@@ -269,14 +269,6 @@
     "week": 3,
     "games": [
       {
-        "homeTeam": "Atlanta Falcons",
-        "homeScore": 17,
-        "awayTeam": "Kansas City Chiefs",
-        "awayScore": 22,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Cleveland Browns",
         "homeScore": 15,
         "awayTeam": "New York Giants",
@@ -369,6 +361,14 @@
         "homeScore": 13,
         "awayTeam": "Detroit Lions",
         "awayScore": 20,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Atlanta Falcons",
+        "homeScore": 17,
+        "awayTeam": "Kansas City Chiefs",
+        "awayScore": 22,
         "weekday": "Sunday",
         "status": "Completed"
       },
