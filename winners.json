@@ -269,6 +269,30 @@
     "week": 3,
     "games": [
       {
+        "homeTeam": "Buffalo Bills",
+        "homeScore": 0,
+        "awayTeam": "Jacksonville Jaguars",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Cincinnati Bengals",
+        "homeScore": 0,
+        "awayTeam": "Washington Commanders",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New York Jets",
+        "homeScore": 24,
+        "awayTeam": "New England Patriots",
+        "awayScore": 3,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Cleveland Browns",
         "homeScore": 15,
         "awayTeam": "New York Giants",
@@ -371,30 +395,6 @@
         "awayScore": 22,
         "weekday": "Sunday",
         "status": "Completed"
-      },
-      {
-        "homeTeam": "New York Jets",
-        "homeScore": 24,
-        "awayTeam": "New England Patriots",
-        "awayScore": 3,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Buffalo Bills",
-        "homeScore": 0,
-        "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Cincinnati Bengals",
-        "homeScore": 0,
-        "awayTeam": "Washington Commanders",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
       }
     ]
   },
