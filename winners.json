@@ -269,20 +269,20 @@
     "week": 3,
     "games": [
       {
-        "homeTeam": "Buffalo Bills",
-        "homeScore": 37,
-        "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 10,
+        "homeTeam": "Cincinnati Bengals",
+        "homeScore": 26,
+        "awayTeam": "Washington Commanders",
+        "awayScore": 38,
         "weekday": "Monday",
         "status": "In Progress"
       },
       {
-        "homeTeam": "Cincinnati Bengals",
-        "homeScore": 13,
-        "awayTeam": "Washington Commanders",
-        "awayScore": 28,
+        "homeTeam": "Buffalo Bills",
+        "homeScore": 47,
+        "awayTeam": "Jacksonville Jaguars",
+        "awayScore": 10,
         "weekday": "Monday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "New York Jets",
