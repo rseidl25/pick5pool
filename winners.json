@@ -270,17 +270,17 @@
     "games": [
       {
         "homeTeam": "Buffalo Bills",
-        "homeScore": 20,
+        "homeScore": 37,
         "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 3,
+        "awayScore": 10,
         "weekday": "Monday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Cincinnati Bengals",
-        "homeScore": 7,
+        "homeScore": 13,
         "awayTeam": "Washington Commanders",
-        "awayScore": 7,
+        "awayScore": 28,
         "weekday": "Monday",
         "status": "In Progress"
       },
