@@ -403,9 +403,9 @@
     "games": [
       {
         "homeTeam": "New York Giants",
-        "homeScore": 9,
+        "homeScore": 15,
         "awayTeam": "Dallas Cowboys",
-        "awayScore": 14,
+        "awayScore": 17,
         "weekday": "Thursday",
         "status": "In Progress"
       },
