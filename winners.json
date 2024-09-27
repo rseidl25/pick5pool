@@ -403,11 +403,11 @@
     "games": [
       {
         "homeTeam": "New York Giants",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Dallas Cowboys",
         "awayScore": 0,
         "weekday": "Thursday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Atlanta Falcons",
