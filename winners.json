@@ -410,34 +410,10 @@
         "status": "In Progress"
       },
       {
-        "homeTeam": "New York Jets",
-        "homeScore": 9,
-        "awayTeam": "Denver Broncos",
-        "awayScore": 10,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 24,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 31,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Houston Texans",
-        "homeScore": 17,
-        "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 20,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Washington Commanders",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -472,6 +448,30 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New York Jets",
+        "homeScore": 9,
+        "awayTeam": "Denver Broncos",
+        "awayScore": 10,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 24,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 34,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Houston Texans",
+        "homeScore": 24,
+        "awayTeam": "Jacksonville Jaguars",
+        "awayScore": 20,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Atlanta Falcons",
