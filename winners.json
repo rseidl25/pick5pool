@@ -402,14 +402,6 @@
     "week": 4,
     "games": [
       {
-        "homeTeam": "Green Bay Packers",
-        "homeScore": 22,
-        "awayTeam": "Minnesota Vikings",
-        "awayScore": 31,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Arizona Cardinals",
         "homeScore": 7,
         "awayTeam": "Washington Commanders",
@@ -419,8 +411,16 @@
       },
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "New England Patriots",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "In Progress"
+      },
+      {
+        "homeTeam": "Los Angeles Chargers",
+        "homeScore": 0,
+        "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "In Progress"
@@ -431,15 +431,7 @@
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Los Angeles Chargers",
-        "homeScore": 0,
-        "awayTeam": "Kansas City Chiefs",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Baltimore Ravens",
@@ -450,26 +442,10 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "New York Jets",
-        "homeScore": 9,
-        "awayTeam": "Denver Broncos",
-        "awayScore": 10,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 24,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 34,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Houston Texans",
-        "homeScore": 24,
-        "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 20,
+        "homeTeam": "Green Bay Packers",
+        "homeScore": 29,
+        "awayTeam": "Minnesota Vikings",
+        "awayScore": 31,
         "weekday": "Sunday",
         "status": "Completed"
       },
@@ -498,10 +474,34 @@
         "status": "Completed"
       },
       {
+        "homeTeam": "New York Jets",
+        "homeScore": 9,
+        "awayTeam": "Denver Broncos",
+        "awayScore": 10,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 33,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 16,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 24,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 34,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Houston Texans",
+        "homeScore": 24,
+        "awayTeam": "Jacksonville Jaguars",
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "Completed"
       },
