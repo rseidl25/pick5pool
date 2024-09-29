@@ -405,22 +405,14 @@
         "homeTeam": "Arizona Cardinals",
         "homeScore": 7,
         "awayTeam": "Washington Commanders",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 6,
+        "homeScore": 13,
         "awayTeam": "New England Patriots",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Los Angeles Chargers",
-        "homeScore": 7,
-        "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "In Progress"
@@ -434,20 +426,20 @@
         "status": "In Progress"
       },
       {
+        "homeTeam": "Los Angeles Chargers",
+        "homeScore": 10,
+        "awayTeam": "Kansas City Chiefs",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "In Progress"
+      },
+      {
         "homeTeam": "Baltimore Ravens",
         "homeScore": 0,
         "awayTeam": "Buffalo Bills",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Green Bay Packers",
-        "homeScore": 29,
-        "awayTeam": "Minnesota Vikings",
-        "awayScore": 31,
-        "weekday": "Sunday",
-        "status": "Completed"
       },
       {
         "homeTeam": "Atlanta Falcons",
@@ -462,6 +454,14 @@
         "homeScore": 24,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 18,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Green Bay Packers",
+        "homeScore": 29,
+        "awayTeam": "Minnesota Vikings",
+        "awayScore": 31,
         "weekday": "Sunday",
         "status": "Completed"
       },
