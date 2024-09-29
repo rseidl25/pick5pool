@@ -410,30 +410,6 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "San Francisco 49ers",
-        "homeScore": 30,
-        "awayTeam": "New England Patriots",
-        "awayScore": 13,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Las Vegas Raiders",
-        "homeScore": 20,
-        "awayTeam": "Cleveland Browns",
-        "awayScore": 16,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Los Angeles Chargers",
-        "homeScore": 10,
-        "awayTeam": "Kansas City Chiefs",
-        "awayScore": 17,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 26,
         "awayTeam": "New Orleans Saints",
@@ -502,6 +478,30 @@
         "homeScore": 14,
         "awayTeam": "Washington Commanders",
         "awayScore": 42,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "San Francisco 49ers",
+        "homeScore": 30,
+        "awayTeam": "New England Patriots",
+        "awayScore": 13,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Las Vegas Raiders",
+        "homeScore": 20,
+        "awayTeam": "Cleveland Browns",
+        "awayScore": 16,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Los Angeles Chargers",
+        "homeScore": 10,
+        "awayTeam": "Kansas City Chiefs",
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "Completed"
       },
