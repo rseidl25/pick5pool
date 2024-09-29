@@ -411,7 +411,7 @@
       },
       {
         "homeTeam": "Chicago Bears",
-        "homeScore": 17,
+        "homeScore": 24,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 15,
         "weekday": "Sunday",
@@ -427,7 +427,7 @@
       },
       {
         "homeTeam": "Indianapolis Colts",
-        "homeScore": 17,
+        "homeScore": 24,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 10,
         "weekday": "Sunday",
@@ -451,7 +451,7 @@
       },
       {
         "homeTeam": "Carolina Panthers",
-        "homeScore": 14,
+        "homeScore": 21,
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 31,
         "weekday": "Sunday",
