@@ -402,12 +402,20 @@
     "week": 4,
     "games": [
       {
+        "homeTeam": "Baltimore Ravens",
+        "homeScore": 0,
+        "awayTeam": "Buffalo Bills",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
         "homeTeam": "San Francisco 49ers",
         "homeScore": 30,
         "awayTeam": "New England Patriots",
         "awayScore": 13,
         "weekday": "Sunday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Las Vegas Raiders",
@@ -415,7 +423,7 @@
         "awayTeam": "Cleveland Browns",
         "awayScore": 16,
         "weekday": "Sunday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Los Angeles Chargers",
@@ -423,15 +431,7 @@
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 17,
         "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Baltimore Ravens",
-        "homeScore": 0,
-        "awayTeam": "Buffalo Bills",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "Completed"
       },
       {
         "homeTeam": "Atlanta Falcons",
