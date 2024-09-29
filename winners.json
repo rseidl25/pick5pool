@@ -402,14 +402,6 @@
     "week": 4,
     "games": [
       {
-        "homeTeam": "New York Giants",
-        "homeScore": 15,
-        "awayTeam": "Dallas Cowboys",
-        "awayScore": 20,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 0,
         "awayTeam": "New Orleans Saints",
@@ -512,6 +504,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New York Giants",
+        "homeScore": 15,
+        "awayTeam": "Dallas Cowboys",
+        "awayScore": 20,
+        "weekday": "Thursday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Miami Dolphins",
