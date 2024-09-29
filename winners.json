@@ -405,7 +405,7 @@
         "homeTeam": "Atlanta Falcons",
         "homeScore": 7,
         "awayTeam": "New Orleans Saints",
-        "awayScore": 7,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -453,7 +453,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 0,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
