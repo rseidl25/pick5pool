@@ -403,7 +403,7 @@
     "games": [
       {
         "homeTeam": "Atlanta Falcons",
-        "homeScore": 17,
+        "homeScore": 20,
         "awayTeam": "New Orleans Saints",
         "awayScore": 14,
         "weekday": "Sunday",
@@ -411,9 +411,9 @@
       },
       {
         "homeTeam": "Chicago Bears",
-        "homeScore": 10,
+        "homeScore": 17,
         "awayTeam": "Los Angeles Rams",
-        "awayScore": 6,
+        "awayScore": 9,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -445,7 +445,7 @@
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 24,
         "awayTeam": "Philadelphia Eagles",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -453,7 +453,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 14,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 21,
+        "awayScore": 28,
         "weekday": "Sunday",
         "status": "In Progress"
       },
