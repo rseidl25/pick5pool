@@ -419,7 +419,7 @@
       },
       {
         "homeTeam": "Green Bay Packers",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 28,
         "weekday": "Sunday",
@@ -435,7 +435,7 @@
       },
       {
         "homeTeam": "New York Jets",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
         "weekday": "Sunday",
