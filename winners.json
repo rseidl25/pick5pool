@@ -403,9 +403,9 @@
     "games": [
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Washington Commanders",
-        "awayScore": 27,
+        "awayScore": 35,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -419,7 +419,7 @@
       },
       {
         "homeTeam": "Las Vegas Raiders",
-        "homeScore": 13,
+        "homeScore": 20,
         "awayTeam": "Cleveland Browns",
         "awayScore": 10,
         "weekday": "Sunday",
@@ -429,7 +429,7 @@
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 10,
         "awayTeam": "Kansas City Chiefs",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
