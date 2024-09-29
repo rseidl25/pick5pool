@@ -405,7 +405,7 @@
         "homeTeam": "Arizona Cardinals",
         "homeScore": 14,
         "awayTeam": "Washington Commanders",
-        "awayScore": 35,
+        "awayScore": 41,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -413,7 +413,7 @@
         "homeTeam": "San Francisco 49ers",
         "homeScore": 27,
         "awayTeam": "New England Patriots",
-        "awayScore": 10,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -421,7 +421,7 @@
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 20,
         "awayTeam": "Cleveland Browns",
-        "awayScore": 10,
+        "awayScore": 16,
         "weekday": "Sunday",
         "status": "In Progress"
       },
