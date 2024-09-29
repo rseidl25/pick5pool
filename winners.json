@@ -403,7 +403,7 @@
     "games": [
       {
         "homeTeam": "Atlanta Falcons",
-        "homeScore": 20,
+        "homeScore": 23,
         "awayTeam": "New Orleans Saints",
         "awayScore": 17,
         "weekday": "Sunday",
@@ -437,7 +437,7 @@
         "homeTeam": "New York Jets",
         "homeScore": 6,
         "awayTeam": "Denver Broncos",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -453,7 +453,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 14,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 28,
+        "awayScore": 31,
         "weekday": "Sunday",
         "status": "In Progress"
       },
