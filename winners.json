@@ -402,6 +402,30 @@
     "week": 4,
     "games": [
       {
+        "homeTeam": "Miami Dolphins",
+        "homeScore": 0,
+        "awayTeam": "Tennessee Titans",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Detroit Lions",
+        "homeScore": 0,
+        "awayTeam": "Seattle Seahawks",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New York Giants",
+        "homeScore": 15,
+        "awayTeam": "Dallas Cowboys",
+        "awayScore": 20,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 26,
         "awayTeam": "New Orleans Saints",
@@ -504,30 +528,6 @@
         "awayScore": 10,
         "weekday": "Sunday",
         "status": "Completed"
-      },
-      {
-        "homeTeam": "New York Giants",
-        "homeScore": 15,
-        "awayTeam": "Dallas Cowboys",
-        "awayScore": 20,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Miami Dolphins",
-        "homeScore": 0,
-        "awayTeam": "Tennessee Titans",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Detroit Lions",
-        "homeScore": 0,
-        "awayTeam": "Seattle Seahawks",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
       }
     ]
   },
