@@ -402,14 +402,6 @@
     "week": 4,
     "games": [
       {
-        "homeTeam": "Baltimore Ravens",
-        "homeScore": 35,
-        "awayTeam": "Buffalo Bills",
-        "awayScore": 10,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 26,
         "awayTeam": "New Orleans Saints",
@@ -502,6 +494,14 @@
         "homeScore": 10,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 17,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Baltimore Ravens",
+        "homeScore": 35,
+        "awayTeam": "Buffalo Bills",
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "Completed"
       },
