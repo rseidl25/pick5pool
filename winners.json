@@ -403,9 +403,9 @@
     "games": [
       {
         "homeTeam": "Baltimore Ravens",
-        "homeScore": 7,
+        "homeScore": 21,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 0,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
