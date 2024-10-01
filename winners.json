@@ -405,9 +405,9 @@
         "homeTeam": "Detroit Lions",
         "homeScore": 42,
         "awayTeam": "Seattle Seahawks",
-        "awayScore": 27,
+        "awayScore": 29,
         "weekday": "Monday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Miami Dolphins",
