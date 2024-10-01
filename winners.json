@@ -403,19 +403,19 @@
     "games": [
       {
         "homeTeam": "Miami Dolphins",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Tennessee Titans",
-        "awayScore": 0,
+        "awayScore": 6,
         "weekday": "Monday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Detroit Lions",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 0,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "New York Giants",
