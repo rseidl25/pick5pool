@@ -402,22 +402,6 @@
     "week": 4,
     "games": [
       {
-        "homeTeam": "Miami Dolphins",
-        "homeScore": 12,
-        "awayTeam": "Tennessee Titans",
-        "awayScore": 31,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Detroit Lions",
-        "homeScore": 42,
-        "awayTeam": "Seattle Seahawks",
-        "awayScore": 29,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "New York Giants",
         "homeScore": 15,
         "awayTeam": "Dallas Cowboys",
@@ -527,6 +511,22 @@
         "awayTeam": "Buffalo Bills",
         "awayScore": 10,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Miami Dolphins",
+        "homeScore": 12,
+        "awayTeam": "Tennessee Titans",
+        "awayScore": 31,
+        "weekday": "Monday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Detroit Lions",
+        "homeScore": 42,
+        "awayTeam": "Seattle Seahawks",
+        "awayScore": 29,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
