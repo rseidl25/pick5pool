@@ -536,11 +536,11 @@
     "games": [
       {
         "homeTeam": "Atlanta Falcons",
-        "homeScore": 27,
+        "homeScore": 36,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 30,
         "weekday": "Thursday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Minnesota Vikings",
