@@ -544,7 +544,7 @@
       },
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 10,
+        "homeScore": 20,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 10,
         "weekday": "Sunday",
@@ -552,7 +552,7 @@
       },
       {
         "homeTeam": "Los Angeles Rams",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Green Bay Packers",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -562,7 +562,7 @@
         "homeTeam": "Seattle Seahawks",
         "homeScore": 7,
         "awayTeam": "New York Giants",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
