@@ -536,7 +536,7 @@
     "games": [
       {
         "homeTeam": "Chicago Bears",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Carolina Panthers",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -552,7 +552,7 @@
       },
       {
         "homeTeam": "New England Patriots",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Miami Dolphins",
         "awayScore": 3,
         "weekday": "Sunday",
@@ -560,7 +560,7 @@
       },
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 0,
+        "homeScore": 6,
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -576,9 +576,9 @@
       },
       {
         "homeTeam": "Houston Texans",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
