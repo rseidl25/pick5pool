@@ -2,7 +2,7 @@
   "totalScores": [
     [
       "Emily/Aiden",
-      245
+      255
     ],
     [
       "Fred",
@@ -49,6 +49,10 @@
       154
     ],
     [
+      "Kalysta",
+      153
+    ],
+    [
       "Brett",
       136
     ],
@@ -63,10 +67,6 @@
     [
       "Steve",
       126
-    ],
-    [
-      "Kalysta",
-      120
     ]
   ],
   "Week 1": {
@@ -156,11 +156,11 @@
     "Lisa": 0,
     "Alex": 0,
     "Cal": 0,
-    "Emily/Aiden": 0,
+    "Emily/Aiden": 10,
     "Bryan": 0,
     "Paul": 0,
     "Angie": 0,
-    "Kalysta": 0,
+    "Kalysta": 33,
     "Brett": 0,
     "Brayden": 10
   },
