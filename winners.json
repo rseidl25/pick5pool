@@ -536,9 +536,9 @@
     "games": [
       {
         "homeTeam": "Minnesota Vikings",
-        "homeScore": 20,
+        "homeScore": 23,
         "awayTeam": "New York Jets",
-        "awayScore": 10,
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "In Progress"
       },
