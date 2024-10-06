@@ -544,7 +544,7 @@
       },
       {
         "homeTeam": "Cincinnati Bengals",
-        "homeScore": 31,
+        "homeScore": 38,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 28,
         "weekday": "Sunday",
@@ -554,7 +554,7 @@
         "homeTeam": "New England Patriots",
         "homeScore": 10,
         "awayTeam": "Miami Dolphins",
-        "awayScore": 9,
+        "awayScore": 15,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -568,9 +568,9 @@
       },
       {
         "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 27,
+        "homeScore": 34,
         "awayTeam": "Indianapolis Colts",
-        "awayScore": 20,
+        "awayScore": 27,
         "weekday": "Sunday",
         "status": "In Progress"
       },
