@@ -546,7 +546,7 @@
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 31,
         "awayTeam": "Baltimore Ravens",
-        "awayScore": 21,
+        "awayScore": 28,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -570,7 +570,7 @@
         "homeTeam": "Jacksonville Jaguars",
         "homeScore": 27,
         "awayTeam": "Indianapolis Colts",
-        "awayScore": 17,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
