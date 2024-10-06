@@ -536,7 +536,7 @@
     "games": [
       {
         "homeTeam": "Denver Broncos",
-        "homeScore": 10,
+        "homeScore": 13,
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 10,
         "weekday": "Sunday",
@@ -544,7 +544,7 @@
       },
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 20,
+        "homeScore": 23,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 10,
         "weekday": "Sunday",
@@ -552,7 +552,7 @@
       },
       {
         "homeTeam": "Los Angeles Rams",
-        "homeScore": 7,
+        "homeScore": 13,
         "awayTeam": "Green Bay Packers",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -560,9 +560,9 @@
       },
       {
         "homeTeam": "Seattle Seahawks",
-        "homeScore": 7,
+        "homeScore": 10,
         "awayTeam": "New York Giants",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
