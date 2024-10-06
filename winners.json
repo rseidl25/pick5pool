@@ -543,22 +543,6 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Los Angeles Rams",
-        "homeScore": 19,
-        "awayTeam": "Green Bay Packers",
-        "awayScore": 24,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Seattle Seahawks",
-        "homeScore": 20,
-        "awayTeam": "New York Giants",
-        "awayScore": 29,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Minnesota Vikings",
         "homeScore": 23,
         "awayTeam": "New York Jets",
@@ -627,6 +611,22 @@
         "homeScore": 23,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 24,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Los Angeles Rams",
+        "homeScore": 19,
+        "awayTeam": "Green Bay Packers",
+        "awayScore": 24,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Seattle Seahawks",
+        "homeScore": 20,
+        "awayTeam": "New York Giants",
+        "awayScore": 29,
         "weekday": "Sunday",
         "status": "Completed"
       },
