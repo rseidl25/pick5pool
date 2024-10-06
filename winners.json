@@ -535,20 +535,12 @@
     "week": 5,
     "games": [
       {
-        "homeTeam": "Minnesota Vikings",
-        "homeScore": 23,
-        "awayTeam": "New York Jets",
-        "awayScore": 17,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Carolina Panthers",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Cincinnati Bengals",
@@ -556,7 +548,7 @@
         "awayTeam": "Baltimore Ravens",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "New England Patriots",
@@ -564,7 +556,7 @@
         "awayTeam": "Miami Dolphins",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Washington Commanders",
@@ -572,7 +564,7 @@
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Jacksonville Jaguars",
@@ -580,7 +572,7 @@
         "awayTeam": "Indianapolis Colts",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Houston Texans",
@@ -588,7 +580,7 @@
         "awayTeam": "Buffalo Bills",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Denver Broncos",
@@ -629,6 +621,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Minnesota Vikings",
+        "homeScore": 23,
+        "awayTeam": "New York Jets",
+        "awayScore": 17,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Atlanta Falcons",
