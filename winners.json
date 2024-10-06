@@ -535,12 +535,20 @@
     "week": 5,
     "games": [
       {
+        "homeTeam": "Pittsburgh Steelers",
+        "homeScore": 0,
+        "awayTeam": "Dallas Cowboys",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 19,
         "awayTeam": "Green Bay Packers",
         "awayScore": 24,
         "weekday": "Sunday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Seattle Seahawks",
@@ -548,15 +556,7 @@
         "awayTeam": "New York Giants",
         "awayScore": 29,
         "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 0,
-        "awayTeam": "Dallas Cowboys",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "Completed"
       },
       {
         "homeTeam": "Minnesota Vikings",
