@@ -536,7 +536,7 @@
     "games": [
       {
         "homeTeam": "Chicago Bears",
-        "homeScore": 30,
+        "homeScore": 36,
         "awayTeam": "Carolina Panthers",
         "awayScore": 10,
         "weekday": "Sunday",
@@ -546,7 +546,7 @@
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 38,
         "awayTeam": "Baltimore Ravens",
-        "awayScore": 28,
+        "awayScore": 35,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -562,15 +562,7 @@
         "homeTeam": "Washington Commanders",
         "homeScore": 34,
         "awayTeam": "Cleveland Browns",
-        "awayScore": 6,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 34,
-        "awayTeam": "Indianapolis Colts",
-        "awayScore": 27,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -578,7 +570,7 @@
         "homeTeam": "Houston Texans",
         "homeScore": 20,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 17,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -588,7 +580,7 @@
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "San Francisco 49ers",
@@ -596,7 +588,7 @@
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Los Angeles Rams",
@@ -621,6 +613,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Jacksonville Jaguars",
+        "homeScore": 37,
+        "awayTeam": "Indianapolis Colts",
+        "awayScore": 34,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Minnesota Vikings",
