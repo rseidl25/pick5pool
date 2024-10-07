@@ -538,9 +538,9 @@
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 17,
         "awayTeam": "Dallas Cowboys",
-        "awayScore": 13,
+        "awayScore": 20,
         "weekday": "Sunday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Minnesota Vikings",
