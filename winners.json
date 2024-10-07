@@ -538,7 +538,7 @@
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 10,
         "awayTeam": "Dallas Cowboys",
-        "awayScore": 6,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -631,20 +631,20 @@
         "status": "Completed"
       },
       {
-        "homeTeam": "Atlanta Falcons",
-        "homeScore": 36,
-        "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 30,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 0,
         "awayTeam": "New Orleans Saints",
         "awayScore": 0,
         "weekday": "Monday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Atlanta Falcons",
+        "homeScore": 36,
+        "awayTeam": "Tampa Bay Buccaneers",
+        "awayScore": 30,
+        "weekday": "Thursday",
+        "status": "Completed"
       }
     ]
   },
