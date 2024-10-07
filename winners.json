@@ -535,11 +535,19 @@
     "week": 5,
     "games": [
       {
-        "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 17,
-        "awayTeam": "Dallas Cowboys",
-        "awayScore": 20,
-        "weekday": "Sunday",
+        "homeTeam": "Kansas City Chiefs",
+        "homeScore": 0,
+        "awayTeam": "New Orleans Saints",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Atlanta Falcons",
+        "homeScore": 36,
+        "awayTeam": "Tampa Bay Buccaneers",
+        "awayScore": 30,
+        "weekday": "Thursday",
         "status": "Completed"
       },
       {
@@ -631,19 +639,11 @@
         "status": "Completed"
       },
       {
-        "homeTeam": "Kansas City Chiefs",
-        "homeScore": 0,
-        "awayTeam": "New Orleans Saints",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Atlanta Falcons",
-        "homeScore": 36,
-        "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 30,
-        "weekday": "Thursday",
+        "homeTeam": "Pittsburgh Steelers",
+        "homeScore": 17,
+        "awayTeam": "Dallas Cowboys",
+        "awayScore": 20,
+        "weekday": "Sunday",
         "status": "Completed"
       }
     ]
