@@ -535,14 +535,6 @@
     "week": 5,
     "games": [
       {
-        "homeTeam": "Kansas City Chiefs",
-        "homeScore": 26,
-        "awayTeam": "New Orleans Saints",
-        "awayScore": 13,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 36,
         "awayTeam": "Tampa Bay Buccaneers",
@@ -644,6 +636,14 @@
         "awayTeam": "Dallas Cowboys",
         "awayScore": 20,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Kansas City Chiefs",
+        "homeScore": 26,
+        "awayTeam": "New Orleans Saints",
+        "awayScore": 13,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
