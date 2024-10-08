@@ -536,9 +536,9 @@
     "games": [
       {
         "homeTeam": "Kansas City Chiefs",
-        "homeScore": 7,
+        "homeScore": 16,
         "awayTeam": "New Orleans Saints",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Monday",
         "status": "In Progress"
       },
