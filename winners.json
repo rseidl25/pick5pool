@@ -536,11 +536,11 @@
     "games": [
       {
         "homeTeam": "Kansas City Chiefs",
-        "homeScore": 23,
+        "homeScore": 26,
         "awayTeam": "New Orleans Saints",
         "awayScore": 13,
         "weekday": "Monday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Atlanta Falcons",
