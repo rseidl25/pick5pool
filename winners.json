@@ -536,11 +536,11 @@
     "games": [
       {
         "homeTeam": "Kansas City Chiefs",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "New Orleans Saints",
         "awayScore": 0,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Atlanta Falcons",
