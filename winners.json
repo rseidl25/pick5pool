@@ -653,11 +653,11 @@
     "games": [
       {
         "homeTeam": "Seattle Seahawks",
-        "homeScore": 17,
+        "homeScore": 24,
         "awayTeam": "San Francisco 49ers",
-        "awayScore": 29,
+        "awayScore": 36,
         "weekday": "Thursday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Chicago Bears",
