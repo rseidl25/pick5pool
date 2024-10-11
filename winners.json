@@ -655,9 +655,9 @@
         "homeTeam": "Seattle Seahawks",
         "homeScore": 0,
         "awayTeam": "San Francisco 49ers",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Thursday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Chicago Bears",
