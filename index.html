@@ -450,14 +450,14 @@
                                     awayTeamCell.classList.add('loser');
                                     awayScoreCell.classList.add('loser');
                                     currentWinners.push({ team: game.homeTeam, score: game.homeScore });
-				    currentLosers.push({ team: game.awayTeam});
+				   					currentLosers.push({ team: game.awayTeam});
                                 } else {
                                     awayTeamCell.classList.add('winner');
                                     awayScoreCell.classList.add('winner');
                                     homeTeamCell.classList.add('loser');
                                     homeScoreCell.classList.add('loser');
                                     currentWinners.push({ team: game.awayTeam, score: game.awayScore });
-				    currentLosers.push({ team: game.homeTeam});
+				    				currentLosers.push({ team: game.homeTeam});
                                 }
                             }
 
@@ -476,6 +476,9 @@
             } catch (error) {
                 console.error('Error fetching winners:', error);
             }
+		currentLosers.forEach(function(entry) {
+ 			 console.log(entry.team);
+		});
         }
 
         async function fetchPlayersPicks(week, player) {
