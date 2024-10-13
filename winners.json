@@ -679,13 +679,13 @@
         "homeTeam": "New Orleans Saints",
         "homeScore": 27,
         "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 24,
+        "awayScore": 31,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 13,
+        "homeScore": 20,
         "awayTeam": "Cleveland Browns",
         "awayScore": 13,
         "weekday": "Sunday",
@@ -695,7 +695,7 @@
         "homeTeam": "Baltimore Ravens",
         "homeScore": 27,
         "awayTeam": "Washington Commanders",
-        "awayScore": 13,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
