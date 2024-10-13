@@ -280,6 +280,7 @@
         const playersTablesContent = document.getElementById('players-tables-content');
         const winnersTableContent = document.getElementById('winners-table-content');
         let currentWinners = [];
+	let currentLosers= [];
 
             const teams = [
             'Arizona Cardinals',
@@ -449,12 +450,14 @@
                                     awayTeamCell.classList.add('loser');
                                     awayScoreCell.classList.add('loser');
                                     currentWinners.push({ team: game.homeTeam, score: game.homeScore });
+				    				currentLosers.push({ team: game.awayTeam, score: game.awayScore });
                                 } else {
                                     awayTeamCell.classList.add('winner');
                                     awayScoreCell.classList.add('winner');
                                     homeTeamCell.classList.add('loser');
                                     homeScoreCell.classList.add('loser');
                                     currentWinners.push({ team: game.awayTeam, score: game.awayScore });
+				    				currentLosers.push({ team: game.homeTeam, score: game.homeScore });
                                 }
                             }
 
@@ -516,15 +519,19 @@
                                 const pointsCell = document.createElement('td');
                                 let points = 0;
                                 const winningTeam = currentWinners.find(winner => winner.team === pick);
+								const losingTeam = currentLosers.find(loser => loser.team === pick);
 
                                 if (winningTeam) {
                                     points = 10; // Add 10 points if the pick is in the weekly winners
-									pickCell.style.color = "green";
+				    				pickCell.style.color = "green";
                                     if (index === 0) {
                                         points += winningTeam.score; // Add the winning team's score if it's the first pick
                                     }
                                 }
-
+								if (losingTeam) {
+									pickCell.style.color = "red";
+								}
+									
                                 pointsCell.textContent = points;
                                 if (index === 0) {
                                     pointsCell.classList.add('bonus-pick'); // Add bonus-pick class for the points cell as well
@@ -590,6 +597,7 @@
                                 const pointsCell = document.createElement('td');
                                 let points = 0;
                                 const winningTeam = currentWinners.find(winner => winner.team === pick);
+								const losingTeam = currentLosers.find(loser => loser.team === pick);
 
                                 if (winningTeam) {
                                     points = 10; // Add 10 points if the pick is in the weekly winners
@@ -598,7 +606,10 @@
                                         points += winningTeam.score; // Add the winning team's score if it's the first pick
                                     }
                                 }
-
+								if (losingTeam) {
+									pickCell.style.color = "red";
+								}
+								
                                 pointsCell.textContent = points;
                                 if (index === 0) {
                                     pointsCell.classList.add('bonus-pick'); // Add bonus-pick class for the points cell as well
