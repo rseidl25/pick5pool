@@ -652,20 +652,20 @@
     "week": 6,
     "games": [
       {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 9,
-        "awayTeam": "Detroit Lions",
-        "awayScore": 47,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "New York Giants",
         "homeScore": 0,
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 9,
+        "awayTeam": "Detroit Lions",
+        "awayScore": 47,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Chicago Bears",
