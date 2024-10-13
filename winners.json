@@ -653,7 +653,7 @@
     "games": [
       {
         "homeTeam": "Denver Broncos",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 23,
         "weekday": "Sunday",
@@ -677,7 +677,7 @@
       },
       {
         "homeTeam": "Carolina Panthers",
-        "homeScore": 17,
+        "homeScore": 20,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 25,
         "weekday": "Sunday",
