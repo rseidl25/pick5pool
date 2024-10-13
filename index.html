@@ -402,6 +402,7 @@
                 if (weekData && weekData.games) {
                     winnersTableContent.innerHTML = ''; // Clear previous data
                     currentWinners = []; // Reset winners array
+					currentLosers = []; // Reset losers array
 
                     // Group games by weekday
                     const gamesByWeekday = weekData.games.reduce((acc, game) => {
@@ -708,11 +709,11 @@
 
             // Set default values and load data
             if (weekSelect.options.length > 0) {
-                weekSelect.value = 1; // Default to Week 1
+                weekSelect.value = 6; // Default to Week 1
                 playerSelect.value = 'All'; // Default to All Players
                 handleWeekChange();
-                fetchWinners(1).then(() => {
-                    fetchPlayersPicks(1, 'All');
+                fetchWinners(6).then(() => {
+                    fetchPlayersPicks(6, 'All');
                 });
             }
         }
