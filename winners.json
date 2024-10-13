@@ -668,14 +668,6 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 20,
-        "awayTeam": "Atlanta Falcons",
-        "awayScore": 38,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Chicago Bears",
         "homeScore": 35,
         "awayTeam": "Jacksonville Jaguars",
@@ -744,6 +736,14 @@
         "homeScore": 13,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 32,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 20,
+        "awayTeam": "Atlanta Falcons",
+        "awayScore": 38,
         "weekday": "Sunday",
         "status": "Completed"
       },
