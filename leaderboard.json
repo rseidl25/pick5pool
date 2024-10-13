@@ -29,6 +29,10 @@
       238
     ],
     [
+      "Brett",
+      236
+    ],
+    [
       "Lisa",
       235
     ],
@@ -51,10 +55,6 @@
     [
       "Steve",
       192
-    ],
-    [
-      "Brett",
-      191
     ],
     [
       "Kalysta",
@@ -180,7 +180,7 @@
     "Paul": 0,
     "Angie": 10,
     "Kalysta": 0,
-    "Brett": 0,
+    "Brett": 45,
     "Brayden": 0
   },
   "Week 7": {
