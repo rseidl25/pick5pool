@@ -663,7 +663,7 @@
         "homeTeam": "Tennessee Titans",
         "homeScore": 17,
         "awayTeam": "Indianapolis Colts",
-        "awayScore": 13,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -671,7 +671,7 @@
         "homeTeam": "New England Patriots",
         "homeScore": 14,
         "awayTeam": "Houston Texans",
-        "awayScore": 27,
+        "awayScore": 34,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -693,7 +693,7 @@
       },
       {
         "homeTeam": "Baltimore Ravens",
-        "homeScore": 27,
+        "homeScore": 30,
         "awayTeam": "Washington Commanders",
         "awayScore": 20,
         "weekday": "Sunday",
