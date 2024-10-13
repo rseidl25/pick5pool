@@ -450,14 +450,14 @@
                                     awayTeamCell.classList.add('loser');
                                     awayScoreCell.classList.add('loser');
                                     currentWinners.push({ team: game.homeTeam, score: game.homeScore });
-				    currentLosers.push({ team: game.awayTeam, score: game.awayScore });
+				    currentLosers.push({ team: game.awayTeam, score: game.awayScore, status: game.status });
                                 } else {
                                     awayTeamCell.classList.add('winner');
                                     awayScoreCell.classList.add('winner');
                                     homeTeamCell.classList.add('loser');
                                     homeScoreCell.classList.add('loser');
                                     currentWinners.push({ team: game.awayTeam, score: game.awayScore });
-				    currentLosers.push({ team: game.homeTeam, score: game.homeScore });
+				    currentLosers.push({ team: game.homeTeam, score: game.homeScore, status: game.status });
                                 }
                             }
 
@@ -529,7 +529,7 @@
                                         points += winningTeam.score; // Add the winning team's score if it's the first pick
                                     }
                                 }
-				else if (losingTeam) {
+				else if (losingTeam && currentLosers.find(loser => loser.team === pick).status == "Completed") {
 					pickCell.style.color = "red";
 				}
 									
@@ -608,7 +608,7 @@
                                         points += winningTeam.score; // Add the winning team's score if it's the first pick
                                     }
                                 }
-								else if (losingTeam) {
+								else if (losingTeam && currentLosers.find(loser => loser.team === pick).status == "Completed") {
 									pickCell.style.color = "red";
 								}
 								
