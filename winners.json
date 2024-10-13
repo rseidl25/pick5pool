@@ -652,18 +652,10 @@
     "week": 6,
     "games": [
       {
-        "homeTeam": "New England Patriots",
-        "homeScore": 21,
-        "awayTeam": "Houston Texans",
-        "awayScore": 41,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "New Orleans Saints",
         "homeScore": 27,
         "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 37,
+        "awayScore": 51,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -671,15 +663,15 @@
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Las Vegas Raiders",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -728,6 +720,14 @@
         "homeScore": 17,
         "awayTeam": "Indianapolis Colts",
         "awayScore": 20,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "New England Patriots",
+        "homeScore": 21,
+        "awayTeam": "Houston Texans",
+        "awayScore": 41,
         "weekday": "Sunday",
         "status": "Completed"
       },
