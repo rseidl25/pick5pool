@@ -450,14 +450,14 @@
                                     awayTeamCell.classList.add('loser');
                                     awayScoreCell.classList.add('loser');
                                     currentWinners.push({ team: game.homeTeam, score: game.homeScore });
-				    				currentLosers.push({ team: game.awayTeam, score: game.awayScore });
+				    currentLosers.push({ team: game.awayTeam, score: game.awayScore });
                                 } else {
                                     awayTeamCell.classList.add('winner');
                                     awayScoreCell.classList.add('winner');
                                     homeTeamCell.classList.add('loser');
                                     homeScoreCell.classList.add('loser');
                                     currentWinners.push({ team: game.awayTeam, score: game.awayScore });
-				    				currentLosers.push({ team: game.homeTeam, score: game.homeScore });
+				    currentLosers.push({ team: game.homeTeam, score: game.homeScore });
                                 }
                             }
 
@@ -511,6 +511,7 @@
                                 // Create and style the pick cell
                                 const pickCell = document.createElement('td');
                                 pickCell.textContent = pick;
+				    pickCell.style.color = "black";
                                 if (index === 0) {
                                     pickCell.classList.add('bonus-pick'); // Add bonus-pick class for the first pick
                                 }
@@ -519,11 +520,11 @@
                                 const pointsCell = document.createElement('td');
                                 let points = 0;
                                 const winningTeam = currentWinners.find(winner => winner.team === pick);
-								const losingTeam = currentLosers.find(loser => loser.team === pick);
+				const losingTeam = currentLosers.find(loser => loser.team === pick);
 
                                 if (winningTeam) {
                                     points = 10; // Add 10 points if the pick is in the weekly winners
-				    				pickCell.style.color = "green";
+				    pickCell.style.color = "green";
                                     if (index === 0) {
                                         points += winningTeam.score; // Add the winning team's score if it's the first pick
                                     }
@@ -589,6 +590,7 @@
                                 // Create and style the pick cell
                                 const pickCell = document.createElement('td');
                                 pickCell.textContent = pick;
+								pickCell.style.color = "black";
                                 if (index === 0) {
                                     pickCell.classList.add('bonus-pick'); // Add bonus-pick class for the first pick
                                 }
@@ -606,9 +608,9 @@
                                         points += winningTeam.score; // Add the winning team's score if it's the first pick
                                     }
                                 }
-				else if (losingTeam) {
-					pickCell.style.color = "red";
-				}
+								else if (losingTeam) {
+									pickCell.style.color = "red";
+								}
 								
                                 pointsCell.textContent = points;
                                 if (index === 0) {
