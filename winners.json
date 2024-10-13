@@ -653,9 +653,9 @@
     "games": [
       {
         "homeTeam": "Chicago Bears",
-        "homeScore": 34,
+        "homeScore": 35,
         "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 10,
+        "awayScore": 16,
         "weekday": "Sunday",
         "status": "In Progress"
       },
