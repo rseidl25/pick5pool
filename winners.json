@@ -653,7 +653,7 @@
     "games": [
       {
         "homeTeam": "Green Bay Packers",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -677,7 +677,7 @@
       },
       {
         "homeTeam": "New Orleans Saints",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 17,
         "weekday": "Sunday",
@@ -685,7 +685,7 @@
       },
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
         "weekday": "Sunday",
