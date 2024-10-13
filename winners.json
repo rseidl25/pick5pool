@@ -652,14 +652,6 @@
     "week": 6,
     "games": [
       {
-        "homeTeam": "Chicago Bears",
-        "homeScore": 35,
-        "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 16,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Green Bay Packers",
         "homeScore": 0,
         "awayTeam": "Arizona Cardinals",
@@ -746,6 +738,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Chicago Bears",
+        "homeScore": 35,
+        "awayTeam": "Jacksonville Jaguars",
+        "awayScore": 16,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Seattle Seahawks",
