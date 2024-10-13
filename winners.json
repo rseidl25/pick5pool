@@ -671,7 +671,7 @@
         "homeTeam": "Dallas Cowboys",
         "homeScore": 3,
         "awayTeam": "Detroit Lions",
-        "awayScore": 20,
+        "awayScore": 27,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -679,7 +679,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 10,
         "awayTeam": "Atlanta Falcons",
-        "awayScore": 15,
+        "awayScore": 22,
         "weekday": "Sunday",
         "status": "In Progress"
       },
