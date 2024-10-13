@@ -653,7 +653,7 @@
     "games": [
       {
         "homeTeam": "Green Bay Packers",
-        "homeScore": 31,
+        "homeScore": 34,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 13,
         "weekday": "Sunday",
@@ -669,7 +669,7 @@
       },
       {
         "homeTeam": "New England Patriots",
-        "homeScore": 14,
+        "homeScore": 21,
         "awayTeam": "Houston Texans",
         "awayScore": 34,
         "weekday": "Sunday",
@@ -687,7 +687,7 @@
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 20,
         "awayTeam": "Cleveland Browns",
-        "awayScore": 13,
+        "awayScore": 16,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -695,7 +695,7 @@
         "homeTeam": "Baltimore Ravens",
         "homeScore": 30,
         "awayTeam": "Washington Commanders",
-        "awayScore": 20,
+        "awayScore": 23,
         "weekday": "Sunday",
         "status": "In Progress"
       },
