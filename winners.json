@@ -655,7 +655,7 @@
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 13,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -679,7 +679,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 10,
         "awayTeam": "Atlanta Falcons",
-        "awayScore": 7,
+        "awayScore": 15,
         "weekday": "Sunday",
         "status": "In Progress"
       },
