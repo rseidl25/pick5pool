@@ -671,7 +671,7 @@
         "homeTeam": "Dallas Cowboys",
         "homeScore": 3,
         "awayTeam": "Detroit Lions",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -690,14 +690,6 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
-      },
-      {
-        "homeTeam": "New Orleans Saints",
-        "homeScore": 27,
-        "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 51,
-        "weekday": "Sunday",
-        "status": "Completed"
       },
       {
         "homeTeam": "Chicago Bears",
@@ -728,6 +720,14 @@
         "homeScore": 21,
         "awayTeam": "Houston Texans",
         "awayScore": 41,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "New Orleans Saints",
+        "homeScore": 27,
+        "awayTeam": "Tampa Bay Buccaneers",
+        "awayScore": 51,
         "weekday": "Sunday",
         "status": "Completed"
       },
