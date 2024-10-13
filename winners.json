@@ -663,7 +663,7 @@
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 7,
         "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 15,
+        "awayScore": 22,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -671,7 +671,7 @@
         "homeTeam": "Dallas Cowboys",
         "homeScore": 6,
         "awayTeam": "Detroit Lions",
-        "awayScore": 27,
+        "awayScore": 34,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -679,7 +679,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 17,
         "awayTeam": "Atlanta Falcons",
-        "awayScore": 22,
+        "awayScore": 25,
         "weekday": "Sunday",
         "status": "In Progress"
       },
