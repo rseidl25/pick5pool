@@ -279,6 +279,7 @@
         const teamInfo = document.getElementById('team-info');
         const playersTablesContent = document.getElementById('players-tables-content');
         const winnersTableContent = document.getElementById('winners-table-content');
+		let currentWeek = 1;
         let currentWinners = [];
 	let currentLosers = [];
 
@@ -316,7 +317,38 @@
             'Tennessee Titans',
             'Washington Commanders'
         ];
+	    const weeks = [
+			'09/11/2024',
+			'09/18/2024',
+			'09/25/2024',
+			'10/02/2024',
+			'10/09/2024',
+			'10/16/2024',
+			'10/23/2024',
+			'10/30/2024',
+			'11/06/2024',
+			'11/13/2024',
+			'11/20/2024',
+			'11/27/2024',
+			'12/04/2024',
+			'12/11/2024',
+			'12/18/2024',
+			'12/25/2024',
+			'01/01/2025',
+			'01/08/2025',
+		];
 
+		function calculateCurrentWeek() {
+			const currentDay = new Date();
+			for (int i = 1; i < 18; i++) {
+				let weekStart = new Date(weeks[i]);
+				if (currentDay < weekStart) {
+					currentWeek = i;
+					break;
+				}
+			}
+		}
+		
         function populateTeamOptions() {
             teams.forEach(team => {
                 const option = document.createElement('option');
@@ -701,6 +733,7 @@
         }
 
         function initializePage() {
+			calculateCurrentWeek();
             populateWeekOptions();
             populatePlayerOptions();
             populateTeamOptions();
@@ -709,11 +742,11 @@
 
             // Set default values and load data
             if (weekSelect.options.length > 0) {
-                weekSelect.value = 6; // Default to Week 1
+                weekSelect.value = currentWeek; // Default to Week 1
                 playerSelect.value = 'All'; // Default to All Players
                 handleWeekChange();
-                fetchWinners(6).then(() => {
-                    fetchPlayersPicks(6, 'All');
+                fetchWinners(currentWeek).then(() => {
+                    fetchPlayersPicks(currentWeek, 'All');
                 });
             }
         }
