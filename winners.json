@@ -652,14 +652,6 @@
     "week": 6,
     "games": [
       {
-        "homeTeam": "New York Giants",
-        "homeScore": 7,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 10,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Chicago Bears",
         "homeScore": 35,
         "awayTeam": "Jacksonville Jaguars",
@@ -744,6 +736,14 @@
         "homeScore": 20,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 38,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "New York Giants",
+        "homeScore": 7,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "Completed"
       },
