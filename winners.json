@@ -652,6 +652,22 @@
     "week": 6,
     "games": [
       {
+        "homeTeam": "New York Jets",
+        "homeScore": 0,
+        "awayTeam": "Buffalo Bills",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Seattle Seahawks",
+        "homeScore": 24,
+        "awayTeam": "San Francisco 49ers",
+        "awayScore": 36,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Chicago Bears",
         "homeScore": 35,
         "awayTeam": "Jacksonville Jaguars",
@@ -746,22 +762,6 @@
         "awayScore": 17,
         "weekday": "Sunday",
         "status": "Completed"
-      },
-      {
-        "homeTeam": "Seattle Seahawks",
-        "homeScore": 24,
-        "awayTeam": "San Francisco 49ers",
-        "awayScore": 36,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "New York Jets",
-        "homeScore": 0,
-        "awayTeam": "Buffalo Bills",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
       }
     ]
   },
