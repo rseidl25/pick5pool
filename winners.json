@@ -655,17 +655,9 @@
         "homeTeam": "New York Giants",
         "homeScore": 0,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 9,
-        "awayTeam": "Detroit Lions",
-        "awayScore": 47,
-        "weekday": "Sunday",
-        "status": "Completed"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Chicago Bears",
@@ -736,6 +728,14 @@
         "homeScore": 13,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 32,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 9,
+        "awayTeam": "Detroit Lions",
+        "awayScore": 47,
         "weekday": "Sunday",
         "status": "Completed"
       },
