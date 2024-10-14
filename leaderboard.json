@@ -2,51 +2,55 @@
   "totalScores": [
     [
       "Fred",
-      363
+      373
     ],
     [
       "Alex",
-      330
+      340
     ],
     [
       "Bryan",
-      326
+      336
     ],
     [
       "Emily/Aiden",
-      325
+      335
     ],
     [
       "Kelly",
-      320
+      330
+    ],
+    [
+      "Lisa",
+      326
     ],
     [
       "Angie",
       320
     ],
     [
-      "Lisa",
-      316
-    ],
-    [
       "Ben",
-      308
+      318
     ],
     [
       "Cal",
-      294
+      304
     ],
     [
       "Ryan",
-      281
+      291
     ],
     [
       "Steve",
-      266
+      276
     ],
     [
       "Judy",
       263
+    ],
+    [
+      "Paul",
+      260
     ],
     [
       "Brett",
@@ -57,12 +61,8 @@
       250
     ],
     [
-      "Paul",
-      250
-    ],
-    [
       "Kalysta",
-      223
+      233
     ],
     [
       "Brayden",
@@ -165,21 +165,21 @@
     "Brayden": 30
   },
   "Week 6": {
-    "Fred": 60,
+    "Fred": 70,
     "Judy": 80,
-    "Steve": 74,
-    "Kelly": 78,
-    "Ben": 70,
-    "Ryan": 81,
+    "Steve": 84,
+    "Kelly": 88,
+    "Ben": 80,
+    "Ryan": 91,
     "Sam": 40,
-    "Lisa": 81,
-    "Alex": 78,
-    "Cal": 70,
-    "Emily/Aiden": 50,
-    "Bryan": 81,
-    "Paul": 70,
+    "Lisa": 91,
+    "Alex": 88,
+    "Cal": 80,
+    "Emily/Aiden": 60,
+    "Bryan": 91,
+    "Paul": 80,
     "Angie": 84,
-    "Kalysta": 40,
+    "Kalysta": 50,
     "Brett": 65,
     "Brayden": 62
   },
