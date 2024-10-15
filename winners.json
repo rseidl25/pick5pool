@@ -653,9 +653,9 @@
     "games": [
       {
         "homeTeam": "New York Jets",
-        "homeScore": 3,
+        "homeScore": 17,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 7,
+        "awayScore": 20,
         "weekday": "Monday",
         "status": "In Progress"
       },
