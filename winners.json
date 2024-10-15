@@ -652,14 +652,6 @@
     "week": 6,
     "games": [
       {
-        "homeTeam": "New York Jets",
-        "homeScore": 20,
-        "awayTeam": "Buffalo Bills",
-        "awayScore": 23,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Seattle Seahawks",
         "homeScore": 24,
         "awayTeam": "San Francisco 49ers",
@@ -761,6 +753,14 @@
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 17,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "New York Jets",
+        "homeScore": 20,
+        "awayTeam": "Buffalo Bills",
+        "awayScore": 23,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
