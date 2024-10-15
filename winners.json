@@ -653,11 +653,11 @@
     "games": [
       {
         "homeTeam": "New York Jets",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Seattle Seahawks",
