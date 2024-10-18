@@ -770,9 +770,9 @@
     "games": [
       {
         "homeTeam": "New Orleans Saints",
-        "homeScore": 3,
+        "homeScore": 10,
         "awayTeam": "Denver Broncos",
-        "awayScore": 26,
+        "awayScore": 33,
         "weekday": "Thursday",
         "status": "In Progress"
       },
