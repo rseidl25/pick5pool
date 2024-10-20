@@ -778,7 +778,7 @@
       },
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 10,
+        "homeScore": 20,
         "awayTeam": "Carolina Panthers",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -786,7 +786,7 @@
       },
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
         "weekday": "Sunday",
