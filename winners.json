@@ -772,13 +772,13 @@
         "homeTeam": "Los Angeles Rams",
         "homeScore": 20,
         "awayTeam": "Las Vegas Raiders",
-        "awayScore": 9,
+        "awayScore": 12,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 37,
+        "homeScore": 40,
         "awayTeam": "Carolina Panthers",
         "awayScore": 7,
         "weekday": "Sunday",
