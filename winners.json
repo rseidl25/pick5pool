@@ -772,7 +772,7 @@
         "homeTeam": "Los Angeles Rams",
         "homeScore": 20,
         "awayTeam": "Las Vegas Raiders",
-        "awayScore": 12,
+        "awayScore": 15,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -791,14 +791,6 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Washington Commanders",
-        "homeScore": 40,
-        "awayTeam": "Carolina Panthers",
-        "awayScore": 7,
-        "weekday": "Sunday",
-        "status": "Completed"
       },
       {
         "homeTeam": "Jacksonville Jaguars",
@@ -861,6 +853,14 @@
         "homeScore": 3,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 28,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Washington Commanders",
+        "homeScore": 40,
+        "awayTeam": "Carolina Panthers",
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "Completed"
       },
