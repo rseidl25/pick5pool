@@ -2,59 +2,59 @@
   "totalScores": [
     [
       "Fred",
-      403
+      413
     ],
     [
       "Emily/Aiden",
-      393
-    ],
-    [
-      "Bryan",
-      384
+      403
     ],
     [
       "Kelly",
-      378
-    ],
-    [
-      "Alex",
-      378
-    ],
-    [
-      "Ben",
-      370
-    ],
-    [
-      "Angie",
-      358
+      398
     ],
     [
       "Lisa",
-      346
+      397
+    ],
+    [
+      "Bryan",
+      394
+    ],
+    [
+      "Ben",
+      390
+    ],
+    [
+      "Alex",
+      388
+    ],
+    [
+      "Angie",
+      378
     ],
     [
       "Ryan",
-      339
-    ],
-    [
-      "Steve",
-      328
+      359
     ],
     [
       "Cal",
-      324
+      344
+    ],
+    [
+      "Steve",
+      338
     ],
     [
       "Judy",
-      315
-    ],
-    [
-      "Sam",
-      280
+      335
     ],
     [
       "Paul",
-      280
+      334
+    ],
+    [
+      "Sam",
+      321
     ],
     [
       "Brett",
@@ -184,20 +184,20 @@
     "Brayden": 62
   },
   "Week 7": {
-    "Fred": 20,
-    "Judy": 52,
-    "Steve": 52,
-    "Kelly": 48,
-    "Ben": 52,
-    "Ryan": 48,
-    "Sam": 30,
-    "Lisa": 20,
-    "Alex": 38,
-    "Cal": 20,
-    "Emily/Aiden": 48,
-    "Bryan": 48,
-    "Paul": 20,
-    "Angie": 38,
+    "Fred": 30,
+    "Judy": 72,
+    "Steve": 62,
+    "Kelly": 68,
+    "Ben": 72,
+    "Ryan": 68,
+    "Sam": 71,
+    "Lisa": 71,
+    "Alex": 48,
+    "Cal": 40,
+    "Emily/Aiden": 58,
+    "Bryan": 58,
+    "Paul": 74,
+    "Angie": 58,
     "Kalysta": 10,
     "Brett": 10,
     "Brayden": 44

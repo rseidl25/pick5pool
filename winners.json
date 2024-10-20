@@ -769,14 +769,6 @@
     "week": 7,
     "games": [
       {
-        "homeTeam": "Cleveland Browns",
-        "homeScore": 14,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 21,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 0,
         "awayTeam": "Las Vegas Raiders",
@@ -786,7 +778,7 @@
       },
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 7,
+        "homeScore": 10,
         "awayTeam": "Carolina Panthers",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -798,7 +790,7 @@
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
@@ -807,6 +799,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Cleveland Browns",
+        "homeScore": 14,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 21,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Jacksonville Jaguars",
