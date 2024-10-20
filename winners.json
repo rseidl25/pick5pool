@@ -772,13 +772,13 @@
         "homeTeam": "Atlanta Falcons",
         "homeScore": 14,
         "awayTeam": "Seattle Seahawks",
-        "awayScore": 31,
+        "awayScore": 34,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Buffalo Bills",
-        "homeScore": 24,
+        "homeScore": 27,
         "awayTeam": "Tennessee Titans",
         "awayScore": 10,
         "weekday": "Sunday",
@@ -810,7 +810,7 @@
       },
       {
         "homeTeam": "Minnesota Vikings",
-        "homeScore": 20,
+        "homeScore": 29,
         "awayTeam": "Detroit Lions",
         "awayScore": 28,
         "weekday": "Sunday",
