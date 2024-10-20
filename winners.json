@@ -770,15 +770,15 @@
     "games": [
       {
         "homeTeam": "Atlanta Falcons",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 17,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Buffalo Bills",
-        "homeScore": 7,
+        "homeScore": 13,
         "awayTeam": "Tennessee Titans",
         "awayScore": 10,
         "weekday": "Sunday",
