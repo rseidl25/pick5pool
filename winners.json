@@ -769,14 +769,6 @@
     "week": 7,
     "games": [
       {
-        "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 25,
-        "awayTeam": "New England Patriots",
-        "awayScore": 16,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 0,
         "awayTeam": "Seattle Seahawks",
@@ -863,6 +855,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Jacksonville Jaguars",
+        "homeScore": 32,
+        "awayTeam": "New England Patriots",
+        "awayScore": 16,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "New Orleans Saints",
