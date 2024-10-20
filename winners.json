@@ -772,7 +772,7 @@
         "homeTeam": "Atlanta Falcons",
         "homeScore": 14,
         "awayTeam": "Seattle Seahawks",
-        "awayScore": 24,
+        "awayScore": 31,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -788,7 +788,7 @@
         "homeTeam": "Cleveland Browns",
         "homeScore": 6,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 14,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
