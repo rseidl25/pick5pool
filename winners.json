@@ -788,7 +788,7 @@
         "homeTeam": "Cleveland Browns",
         "homeScore": 6,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 20,
+        "awayScore": 21,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -810,7 +810,7 @@
       },
       {
         "homeTeam": "Minnesota Vikings",
-        "homeScore": 17,
+        "homeScore": 20,
         "awayTeam": "Detroit Lions",
         "awayScore": 28,
         "weekday": "Sunday",
@@ -820,7 +820,7 @@
         "homeTeam": "New York Giants",
         "homeScore": 3,
         "awayTeam": "Philadelphia Eagles",
-        "awayScore": 21,
+        "awayScore": 28,
         "weekday": "Sunday",
         "status": "In Progress"
       },
