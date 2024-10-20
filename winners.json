@@ -780,7 +780,7 @@
         "homeTeam": "Buffalo Bills",
         "homeScore": 0,
         "awayTeam": "Tennessee Titans",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -810,7 +810,7 @@
       },
       {
         "homeTeam": "Minnesota Vikings",
-        "homeScore": 7,
+        "homeScore": 10,
         "awayTeam": "Detroit Lions",
         "awayScore": 0,
         "weekday": "Sunday",
