@@ -778,7 +778,7 @@
       },
       {
         "homeTeam": "Buffalo Bills",
-        "homeScore": 14,
+        "homeScore": 17,
         "awayTeam": "Tennessee Titans",
         "awayScore": 10,
         "weekday": "Sunday",
@@ -812,7 +812,7 @@
         "homeTeam": "Minnesota Vikings",
         "homeScore": 17,
         "awayTeam": "Detroit Lions",
-        "awayScore": 21,
+        "awayScore": 28,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -820,7 +820,7 @@
         "homeTeam": "New York Giants",
         "homeScore": 3,
         "awayTeam": "Philadelphia Eagles",
-        "awayScore": 14,
+        "awayScore": 21,
         "weekday": "Sunday",
         "status": "In Progress"
       },
