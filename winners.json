@@ -769,18 +769,10 @@
     "week": 7,
     "games": [
       {
-        "homeTeam": "Los Angeles Rams",
-        "homeScore": 20,
-        "awayTeam": "Las Vegas Raiders",
-        "awayScore": 15,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 12,
+        "homeScore": 18,
         "awayTeam": "Kansas City Chiefs",
-        "awayScore": 21,
+        "awayScore": 28,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -853,6 +845,14 @@
         "homeScore": 3,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 28,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Los Angeles Rams",
+        "homeScore": 20,
+        "awayTeam": "Las Vegas Raiders",
+        "awayScore": 15,
         "weekday": "Sunday",
         "status": "Completed"
       },
