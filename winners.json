@@ -770,7 +770,7 @@
     "games": [
       {
         "homeTeam": "Los Angeles Rams",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 3,
         "weekday": "Sunday",
@@ -788,7 +788,7 @@
         "homeTeam": "San Francisco 49ers",
         "homeScore": 3,
         "awayTeam": "Kansas City Chiefs",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
