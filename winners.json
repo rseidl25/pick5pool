@@ -801,14 +801,6 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Cleveland Browns",
-        "homeScore": 14,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 21,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Jacksonville Jaguars",
         "homeScore": 32,
         "awayTeam": "New England Patriots",
@@ -829,6 +821,14 @@
         "homeScore": 34,
         "awayTeam": "Tennessee Titans",
         "awayScore": 10,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Cleveland Browns",
+        "homeScore": 14,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 21,
         "weekday": "Sunday",
         "status": "Completed"
       },
