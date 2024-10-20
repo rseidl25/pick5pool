@@ -777,18 +777,10 @@
         "status": "In Progress"
       },
       {
-        "homeTeam": "Washington Commanders",
-        "homeScore": 40,
-        "awayTeam": "Carolina Panthers",
-        "awayScore": 7,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "San Francisco 49ers",
         "homeScore": 12,
         "awayTeam": "Kansas City Chiefs",
-        "awayScore": 14,
+        "awayScore": 21,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -799,6 +791,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Washington Commanders",
+        "homeScore": 40,
+        "awayTeam": "Carolina Panthers",
+        "awayScore": 7,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Jacksonville Jaguars",
