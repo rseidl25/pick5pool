@@ -777,14 +777,6 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "San Francisco 49ers",
-        "homeScore": 18,
-        "awayTeam": "Kansas City Chiefs",
-        "awayScore": 28,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Jacksonville Jaguars",
         "homeScore": 32,
         "awayTeam": "New England Patriots",
@@ -861,6 +853,14 @@
         "homeScore": 40,
         "awayTeam": "Carolina Panthers",
         "awayScore": 7,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "San Francisco 49ers",
+        "homeScore": 18,
+        "awayTeam": "Kansas City Chiefs",
+        "awayScore": 28,
         "weekday": "Sunday",
         "status": "Completed"
       },
