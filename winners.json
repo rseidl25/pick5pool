@@ -770,9 +770,9 @@
     "games": [
       {
         "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "New England Patriots",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
