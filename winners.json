@@ -770,9 +770,9 @@
     "games": [
       {
         "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 3,
+        "homeScore": 13,
         "awayTeam": "New York Jets",
-        "awayScore": 0,
+        "awayScore": 15,
         "weekday": "Sunday",
         "status": "In Progress"
       },
