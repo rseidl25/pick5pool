@@ -769,14 +769,6 @@
     "week": 7,
     "games": [
       {
-        "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 30,
-        "awayTeam": "New York Jets",
-        "awayScore": 15,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Jacksonville Jaguars",
         "homeScore": 32,
         "awayTeam": "New England Patriots",
@@ -861,6 +853,14 @@
         "homeScore": 18,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 28,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Pittsburgh Steelers",
+        "homeScore": 37,
+        "awayTeam": "New York Jets",
+        "awayScore": 15,
         "weekday": "Sunday",
         "status": "Completed"
       },
