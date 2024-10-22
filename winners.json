@@ -769,22 +769,6 @@
     "week": 7,
     "games": [
       {
-        "homeTeam": "Tampa Bay Buccaneers",
-        "homeScore": 31,
-        "awayTeam": "Baltimore Ravens",
-        "awayScore": 41,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Arizona Cardinals",
-        "homeScore": 17,
-        "awayTeam": "Los Angeles Chargers",
-        "awayScore": 15,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "New Orleans Saints",
         "homeScore": 10,
         "awayTeam": "Denver Broncos",
@@ -886,6 +870,22 @@
         "awayTeam": "New York Jets",
         "awayScore": 15,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Tampa Bay Buccaneers",
+        "homeScore": 31,
+        "awayTeam": "Baltimore Ravens",
+        "awayScore": 41,
+        "weekday": "Monday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Arizona Cardinals",
+        "homeScore": 17,
+        "awayTeam": "Los Angeles Chargers",
+        "awayScore": 15,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
