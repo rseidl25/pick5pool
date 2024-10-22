@@ -770,11 +770,11 @@
     "games": [
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 14,
+        "homeScore": 17,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 12,
+        "awayScore": 15,
         "weekday": "Monday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
