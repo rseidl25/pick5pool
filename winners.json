@@ -772,17 +772,17 @@
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 10,
         "awayTeam": "Baltimore Ravens",
-        "awayScore": 0,
+        "awayScore": 20,
         "weekday": "Monday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "New Orleans Saints",
