@@ -769,20 +769,20 @@
     "week": 7,
     "games": [
       {
-        "homeTeam": "Tampa Bay Buccaneers",
-        "homeScore": 31,
-        "awayTeam": "Baltimore Ravens",
-        "awayScore": 41,
-        "weekday": "Monday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Arizona Cardinals",
         "homeScore": 14,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 12,
         "weekday": "Monday",
         "status": "In Progress"
+      },
+      {
+        "homeTeam": "Tampa Bay Buccaneers",
+        "homeScore": 31,
+        "awayTeam": "Baltimore Ravens",
+        "awayScore": 41,
+        "weekday": "Monday",
+        "status": "Completed"
       },
       {
         "homeTeam": "New Orleans Saints",
