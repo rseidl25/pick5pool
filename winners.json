@@ -770,9 +770,9 @@
     "games": [
       {
         "homeTeam": "Tampa Bay Buccaneers",
-        "homeScore": 10,
+        "homeScore": 18,
         "awayTeam": "Baltimore Ravens",
-        "awayScore": 20,
+        "awayScore": 41,
         "weekday": "Monday",
         "status": "In Progress"
       },
@@ -780,7 +780,7 @@
         "homeTeam": "Arizona Cardinals",
         "homeScore": 7,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 3,
+        "awayScore": 9,
         "weekday": "Monday",
         "status": "In Progress"
       },
