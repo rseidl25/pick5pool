@@ -895,11 +895,11 @@
     "games": [
       {
         "homeTeam": "Los Angeles Rams",
-        "homeScore": 28,
+        "homeScore": 30,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 20,
         "weekday": "Thursday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Cincinnati Bengals",
