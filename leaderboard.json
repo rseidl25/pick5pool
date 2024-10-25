@@ -5,8 +5,16 @@
       460
     ],
     [
+      "Bryan",
+      444
+    ],
+    [
       "Emily/Aiden",
-      413
+      423
+    ],
+    [
+      "Lisa",
+      417
     ],
     [
       "Kelly",
@@ -17,20 +25,24 @@
       408
     ],
     [
-      "Lisa",
-      407
-    ],
-    [
-      "Bryan",
-      404
-    ],
-    [
       "Ben",
       400
     ],
     [
       "Angie",
       398
+    ],
+    [
+      "Cal",
+      384
+    ],
+    [
+      "Paul",
+      384
+    ],
+    [
+      "Sam",
+      371
     ],
     [
       "Ryan",
@@ -43,18 +55,6 @@
     [
       "Judy",
       345
-    ],
-    [
-      "Cal",
-      344
-    ],
-    [
-      "Paul",
-      344
-    ],
-    [
-      "Sam",
-      331
     ],
     [
       "Kalysta",
@@ -209,13 +209,13 @@
     "Kelly": 0,
     "Ben": 0,
     "Ryan": 0,
-    "Sam": 0,
-    "Lisa": 0,
+    "Sam": 40,
+    "Lisa": 10,
     "Alex": 0,
-    "Cal": 0,
-    "Emily/Aiden": 0,
-    "Bryan": 0,
-    "Paul": 0,
+    "Cal": 40,
+    "Emily/Aiden": 10,
+    "Bryan": 40,
+    "Paul": 40,
     "Angie": 0,
     "Kalysta": 0,
     "Brett": 0,
