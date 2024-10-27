@@ -894,14 +894,6 @@
     "week": 8,
     "games": [
       {
-        "homeTeam": "Washington Commanders",
-        "homeScore": 12,
-        "awayTeam": "Chicago Bears",
-        "awayScore": 15,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "San Francisco 49ers",
         "homeScore": 0,
         "awayTeam": "Dallas Cowboys",
@@ -914,6 +906,14 @@
         "homeScore": 28,
         "awayTeam": "Carolina Panthers",
         "awayScore": 14,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Washington Commanders",
+        "homeScore": 18,
+        "awayTeam": "Chicago Bears",
+        "awayScore": 15,
         "weekday": "Sunday",
         "status": "Completed"
       },
