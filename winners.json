@@ -895,7 +895,7 @@
     "games": [
       {
         "homeTeam": "Los Angeles Chargers",
-        "homeScore": 16,
+        "homeScore": 19,
         "awayTeam": "New Orleans Saints",
         "awayScore": 8,
         "weekday": "Sunday",
@@ -929,7 +929,7 @@
         "homeTeam": "Washington Commanders",
         "homeScore": 12,
         "awayTeam": "Chicago Bears",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
