@@ -895,7 +895,7 @@
     "games": [
       {
         "homeTeam": "Los Angeles Chargers",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "New Orleans Saints",
         "awayScore": 2,
         "weekday": "Sunday",
@@ -919,7 +919,7 @@
       },
       {
         "homeTeam": "Las Vegas Raiders",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 7,
         "weekday": "Sunday",
