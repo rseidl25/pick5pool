@@ -911,7 +911,7 @@
       },
       {
         "homeTeam": "Denver Broncos",
-        "homeScore": 14,
+        "homeScore": 21,
         "awayTeam": "Carolina Panthers",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -921,7 +921,7 @@
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 10,
         "awayTeam": "Kansas City Chiefs",
-        "awayScore": 14,
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "In Progress"
       },
