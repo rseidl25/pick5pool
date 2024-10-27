@@ -903,7 +903,7 @@
       },
       {
         "homeTeam": "Seattle Seahawks",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Buffalo Bills",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -911,7 +911,7 @@
       },
       {
         "homeTeam": "Denver Broncos",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Carolina Panthers",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -919,7 +919,7 @@
       },
       {
         "homeTeam": "Las Vegas Raiders",
-        "homeScore": 7,
+        "homeScore": 10,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -927,7 +927,7 @@
       },
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "Chicago Bears",
         "awayScore": 0,
         "weekday": "Sunday",
