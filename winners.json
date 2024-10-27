@@ -905,13 +905,13 @@
         "homeTeam": "Seattle Seahawks",
         "homeScore": 3,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Denver Broncos",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Carolina Panthers",
         "awayScore": 7,
         "weekday": "Sunday",
