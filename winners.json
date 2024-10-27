@@ -902,22 +902,6 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Denver Broncos",
-        "homeScore": 28,
-        "awayTeam": "Carolina Panthers",
-        "awayScore": 14,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Washington Commanders",
-        "homeScore": 18,
-        "awayTeam": "Chicago Bears",
-        "awayScore": 15,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 17,
         "awayTeam": "Philadelphia Eagles",
@@ -998,10 +982,26 @@
         "status": "Completed"
       },
       {
+        "homeTeam": "Denver Broncos",
+        "homeScore": 28,
+        "awayTeam": "Carolina Panthers",
+        "awayScore": 14,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 20,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 27,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Washington Commanders",
+        "homeScore": 18,
+        "awayTeam": "Chicago Bears",
+        "awayScore": 15,
         "weekday": "Sunday",
         "status": "Completed"
       },
