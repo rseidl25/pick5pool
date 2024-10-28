@@ -895,9 +895,9 @@
     "games": [
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "Dallas Cowboys",
-        "awayScore": 0,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
