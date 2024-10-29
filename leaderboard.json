@@ -2,7 +2,7 @@
   "totalScores": [
     [
       "Fred",
-      490
+      500
     ],
     [
       "Kelly",
@@ -13,8 +13,12 @@
       480
     ],
     [
+      "Alex",
+      474
+    ],
+    [
       "Bryan",
-      464
+      474
     ],
     [
       "Angie",
@@ -29,20 +33,16 @@
       440
     ],
     [
-      "Alex",
-      438
+      "Cal",
+      424
     ],
     [
-      "Cal",
+      "Paul",
       414
     ],
     [
       "Steve",
       411
-    ],
-    [
-      "Paul",
-      404
     ],
     [
       "Sam",
@@ -54,7 +54,7 @@
     ],
     [
       "Judy",
-      355
+      365
     ],
     [
       "Kalysta",
@@ -203,19 +203,19 @@
     "Brayden": 44
   },
   "Week 8": {
-    "Fred": 30,
-    "Judy": 10,
+    "Fred": 40,
+    "Judy": 20,
     "Steve": 53,
     "Kelly": 82,
     "Ben": 40,
     "Ryan": 30,
     "Sam": 70,
     "Lisa": 40,
-    "Alex": 30,
-    "Cal": 70,
+    "Alex": 66,
+    "Cal": 80,
     "Emily/Aiden": 67,
-    "Bryan": 60,
-    "Paul": 60,
+    "Bryan": 70,
+    "Paul": 70,
     "Angie": 63,
     "Kalysta": 57,
     "Brett": 30,
