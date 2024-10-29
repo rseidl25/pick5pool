@@ -894,14 +894,6 @@
     "week": 8,
     "games": [
       {
-        "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 26,
-        "awayTeam": "New York Giants",
-        "awayScore": 18,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 30,
         "awayTeam": "Minnesota Vikings",
@@ -1019,6 +1011,14 @@
         "awayTeam": "Dallas Cowboys",
         "awayScore": 24,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Pittsburgh Steelers",
+        "homeScore": 26,
+        "awayTeam": "New York Giants",
+        "awayScore": 18,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
