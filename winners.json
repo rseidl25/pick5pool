@@ -895,11 +895,11 @@
     "games": [
       {
         "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 0,
+        "homeScore": 6,
         "awayTeam": "New York Giants",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Los Angeles Rams",
