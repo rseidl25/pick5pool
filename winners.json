@@ -895,9 +895,9 @@
     "games": [
       {
         "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 9,
+        "homeScore": 26,
         "awayTeam": "New York Giants",
-        "awayScore": 9,
+        "awayScore": 15,
         "weekday": "Monday",
         "status": "In Progress"
       },
