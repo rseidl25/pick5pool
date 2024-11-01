@@ -1028,9 +1028,9 @@
     "games": [
       {
         "homeTeam": "New York Jets",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Houston Texans",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Thursday",
         "status": "In Progress"
       },
