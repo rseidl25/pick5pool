@@ -1028,11 +1028,11 @@
     "games": [
       {
         "homeTeam": "New York Jets",
-        "homeScore": 14,
+        "homeScore": 21,
         "awayTeam": "Houston Texans",
-        "awayScore": 10,
+        "awayScore": 13,
         "weekday": "Thursday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Atlanta Falcons",
