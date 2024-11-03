@@ -1036,7 +1036,7 @@
       },
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 27,
+        "homeScore": 29,
         "awayTeam": "Chicago Bears",
         "awayScore": 9,
         "weekday": "Sunday",
@@ -1054,7 +1054,7 @@
         "homeTeam": "Seattle Seahawks",
         "homeScore": 13,
         "awayTeam": "Los Angeles Rams",
-        "awayScore": 10,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
