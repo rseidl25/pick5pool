@@ -1044,7 +1044,7 @@
       },
       {
         "homeTeam": "Cincinnati Bengals",
-        "homeScore": 10,
+        "homeScore": 17,
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 10,
         "weekday": "Sunday",
@@ -1084,9 +1084,9 @@
       },
       {
         "homeTeam": "Baltimore Ravens",
-        "homeScore": 17,
+        "homeScore": 24,
         "awayTeam": "Denver Broncos",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
