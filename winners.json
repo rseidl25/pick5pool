@@ -1068,7 +1068,7 @@
       },
       {
         "homeTeam": "New York Giants",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Washington Commanders",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -1084,7 +1084,7 @@
       },
       {
         "homeTeam": "Baltimore Ravens",
-        "homeScore": 7,
+        "homeScore": 10,
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
         "weekday": "Sunday",
