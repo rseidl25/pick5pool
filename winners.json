@@ -1048,7 +1048,7 @@
         "awayTeam": "Detroit Lions",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Seattle Seahawks",
@@ -1056,7 +1056,7 @@
         "awayTeam": "Los Angeles Rams",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Minnesota Vikings",
@@ -1065,30 +1065,6 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Cincinnati Bengals",
-        "homeScore": 41,
-        "awayTeam": "Las Vegas Raiders",
-        "awayScore": 24,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Tennessee Titans",
-        "homeScore": 20,
-        "awayTeam": "New England Patriots",
-        "awayScore": 17,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 23,
-        "awayTeam": "New Orleans Saints",
-        "awayScore": 22,
-        "weekday": "Sunday",
-        "status": "Completed"
       },
       {
         "homeTeam": "Atlanta Falcons",
@@ -1107,6 +1083,14 @@
         "status": "Completed"
       },
       {
+        "homeTeam": "Cincinnati Bengals",
+        "homeScore": 41,
+        "awayTeam": "Las Vegas Raiders",
+        "awayScore": 24,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Cleveland Browns",
         "homeScore": 10,
         "awayTeam": "Los Angeles Chargers",
@@ -1115,10 +1099,26 @@
         "status": "Completed"
       },
       {
+        "homeTeam": "Tennessee Titans",
+        "homeScore": 20,
+        "awayTeam": "New England Patriots",
+        "awayScore": 17,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "New York Giants",
         "homeScore": 22,
         "awayTeam": "Washington Commanders",
         "awayScore": 27,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 23,
+        "awayTeam": "New Orleans Saints",
+        "awayScore": 22,
         "weekday": "Sunday",
         "status": "Completed"
       },
