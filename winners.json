@@ -1030,13 +1030,13 @@
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 22,
         "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 0,
+        "awayScore": 16,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 24,
+        "homeScore": 27,
         "awayTeam": "Chicago Bears",
         "awayScore": 9,
         "weekday": "Sunday",
@@ -1046,7 +1046,7 @@
         "homeTeam": "Green Bay Packers",
         "homeScore": 3,
         "awayTeam": "Detroit Lions",
-        "awayScore": 17,
+        "awayScore": 24,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1054,7 +1054,7 @@
         "homeTeam": "Seattle Seahawks",
         "homeScore": 13,
         "awayTeam": "Los Angeles Rams",
-        "awayScore": 3,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
