@@ -1027,14 +1027,6 @@
     "week": 9,
     "games": [
       {
-        "homeTeam": "New York Jets",
-        "homeScore": 21,
-        "awayTeam": "Houston Texans",
-        "awayScore": 13,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 0,
         "awayTeam": "Dallas Cowboys",
@@ -1137,6 +1129,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New York Jets",
+        "homeScore": 21,
+        "awayTeam": "Houston Texans",
+        "awayScore": 13,
+        "weekday": "Thursday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Kansas City Chiefs",
