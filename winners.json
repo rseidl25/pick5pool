@@ -1027,32 +1027,8 @@
     "week": 9,
     "games": [
       {
-        "homeTeam": "Cincinnati Bengals",
-        "homeScore": 41,
-        "awayTeam": "Las Vegas Raiders",
-        "awayScore": 17,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Tennessee Titans",
-        "homeScore": 17,
-        "awayTeam": "New England Patriots",
-        "awayScore": 17,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 23,
-        "awayTeam": "New Orleans Saints",
-        "awayScore": 22,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -1091,6 +1067,30 @@
         "status": "Scheduled"
       },
       {
+        "homeTeam": "Cincinnati Bengals",
+        "homeScore": 41,
+        "awayTeam": "Las Vegas Raiders",
+        "awayScore": 24,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Tennessee Titans",
+        "homeScore": 20,
+        "awayTeam": "New England Patriots",
+        "awayScore": 17,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 23,
+        "awayTeam": "New Orleans Saints",
+        "awayScore": 22,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 27,
         "awayTeam": "Dallas Cowboys",
@@ -1115,18 +1115,18 @@
         "status": "Completed"
       },
       {
-        "homeTeam": "Baltimore Ravens",
-        "homeScore": 41,
-        "awayTeam": "Denver Broncos",
-        "awayScore": 10,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "New York Giants",
         "homeScore": 22,
         "awayTeam": "Washington Commanders",
         "awayScore": 27,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Baltimore Ravens",
+        "homeScore": 41,
+        "awayTeam": "Denver Broncos",
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "Completed"
       },
