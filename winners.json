@@ -1028,7 +1028,7 @@
     "games": [
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 10,
+        "homeScore": 16,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -1036,7 +1036,7 @@
       },
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Chicago Bears",
         "awayScore": 6,
         "weekday": "Sunday",
