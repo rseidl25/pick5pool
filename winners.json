@@ -1027,34 +1027,10 @@
     "week": 9,
     "games": [
       {
-        "homeTeam": "Philadelphia Eagles",
-        "homeScore": 22,
-        "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 16,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Arizona Cardinals",
-        "homeScore": 29,
-        "awayTeam": "Chicago Bears",
-        "awayScore": 9,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Green Bay Packers",
-        "homeScore": 6,
-        "awayTeam": "Detroit Lions",
-        "awayScore": 24,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Seattle Seahawks",
-        "homeScore": 13,
+        "homeScore": 20,
         "awayTeam": "Los Angeles Rams",
-        "awayScore": 13,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1127,6 +1103,30 @@
         "homeScore": 41,
         "awayTeam": "Denver Broncos",
         "awayScore": 10,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Philadelphia Eagles",
+        "homeScore": 28,
+        "awayTeam": "Jacksonville Jaguars",
+        "awayScore": 23,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Arizona Cardinals",
+        "homeScore": 29,
+        "awayTeam": "Chicago Bears",
+        "awayScore": 9,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Green Bay Packers",
+        "homeScore": 14,
+        "awayTeam": "Detroit Lions",
+        "awayScore": 24,
         "weekday": "Sunday",
         "status": "Completed"
       },
