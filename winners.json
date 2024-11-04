@@ -1027,6 +1027,22 @@
     "week": 9,
     "games": [
       {
+        "homeTeam": "Kansas City Chiefs",
+        "homeScore": 0,
+        "awayTeam": "Tampa Bay Buccaneers",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New York Jets",
+        "homeScore": 21,
+        "awayTeam": "Houston Texans",
+        "awayScore": 13,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 27,
         "awayTeam": "Dallas Cowboys",
@@ -1129,22 +1145,6 @@
         "awayScore": 13,
         "weekday": "Sunday",
         "status": "Completed"
-      },
-      {
-        "homeTeam": "New York Jets",
-        "homeScore": 21,
-        "awayTeam": "Houston Texans",
-        "awayScore": 13,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Kansas City Chiefs",
-        "homeScore": 0,
-        "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
       }
     ]
   },
