@@ -1027,14 +1027,6 @@
     "week": 9,
     "games": [
       {
-        "homeTeam": "Minnesota Vikings",
-        "homeScore": 21,
-        "awayTeam": "Indianapolis Colts",
-        "awayScore": 10,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 27,
         "awayTeam": "Dallas Cowboys",
@@ -1127,6 +1119,14 @@
         "homeScore": 20,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 26,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Minnesota Vikings",
+        "homeScore": 21,
+        "awayTeam": "Indianapolis Colts",
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "Completed"
       },
