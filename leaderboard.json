@@ -18,7 +18,7 @@
     ],
     [
       "Fred",
-      500
+      510
     ],
     [
       "Emily/Aiden",
@@ -34,7 +34,11 @@
     ],
     [
       "Cal",
-      472
+      482
+    ],
+    [
+      "Lisa",
+      477
     ],
     [
       "Ben",
@@ -43,10 +47,6 @@
     [
       "Ryan",
       470
-    ],
-    [
-      "Lisa",
-      467
     ],
     [
       "Sam",
@@ -58,7 +58,7 @@
     ],
     [
       "Kalysta",
-      360
+      370
     ],
     [
       "Brett",
@@ -222,21 +222,21 @@
     "Brayden": 10
   },
   "Week 9": {
-    "Fred": 0,
+    "Fred": 10,
     "Judy": 20,
     "Steve": 81,
     "Kelly": 71,
     "Ben": 30,
     "Ryan": 71,
     "Sam": 20,
-    "Lisa": 20,
+    "Lisa": 30,
     "Alex": 50,
-    "Cal": 48,
+    "Cal": 58,
     "Emily/Aiden": 20,
     "Bryan": 61,
     "Paul": 71,
     "Angie": 71,
-    "Kalysta": 20,
+    "Kalysta": 30,
     "Brett": 20,
     "Brayden": 20
   },
