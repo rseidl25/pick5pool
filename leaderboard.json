@@ -2,55 +2,55 @@
   "totalScores": [
     [
       "Kelly",
-      561
+      571
     ],
     [
       "Bryan",
-      535
+      545
     ],
     [
       "Angie",
-      532
+      542
     ],
     [
       "Alex",
-      524
+      534
     ],
     [
       "Fred",
       510
     ],
     [
+      "Ben",
+      510
+    ],
+    [
       "Emily/Aiden",
-      500
+      510
+    ],
+    [
+      "Paul",
+      495
     ],
     [
       "Steve",
       492
     ],
     [
-      "Paul",
-      485
-    ],
-    [
       "Cal",
-      482
+      492
     ],
     [
       "Lisa",
-      477
-    ],
-    [
-      "Ben",
-      470
+      487
     ],
     [
       "Ryan",
-      470
+      480
     ],
     [
       "Sam",
-      421
+      431
     ],
     [
       "Judy",
@@ -225,17 +225,17 @@
     "Fred": 10,
     "Judy": 20,
     "Steve": 81,
-    "Kelly": 71,
-    "Ben": 30,
-    "Ryan": 71,
-    "Sam": 20,
-    "Lisa": 30,
-    "Alex": 50,
-    "Cal": 58,
-    "Emily/Aiden": 20,
-    "Bryan": 61,
-    "Paul": 71,
-    "Angie": 71,
+    "Kelly": 81,
+    "Ben": 70,
+    "Ryan": 81,
+    "Sam": 30,
+    "Lisa": 40,
+    "Alex": 60,
+    "Cal": 68,
+    "Emily/Aiden": 30,
+    "Bryan": 71,
+    "Paul": 81,
+    "Angie": 81,
     "Kalysta": 30,
     "Brett": 20,
     "Brayden": 20
