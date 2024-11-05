@@ -1027,14 +1027,6 @@
     "week": 9,
     "games": [
       {
-        "homeTeam": "Kansas City Chiefs",
-        "homeScore": 30,
-        "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 24,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "New York Jets",
         "homeScore": 21,
         "awayTeam": "Houston Texans",
@@ -1144,6 +1136,14 @@
         "awayTeam": "Indianapolis Colts",
         "awayScore": 13,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Kansas City Chiefs",
+        "homeScore": 30,
+        "awayTeam": "Tampa Bay Buccaneers",
+        "awayScore": 24,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
