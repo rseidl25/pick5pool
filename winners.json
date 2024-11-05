@@ -1028,11 +1028,11 @@
     "games": [
       {
         "homeTeam": "Kansas City Chiefs",
-        "homeScore": 24,
+        "homeScore": 30,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 24,
         "weekday": "Monday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "New York Jets",
