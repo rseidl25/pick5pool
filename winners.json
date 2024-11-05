@@ -1028,9 +1028,9 @@
     "games": [
       {
         "homeTeam": "Kansas City Chiefs",
-        "homeScore": 3,
+        "homeScore": 10,
         "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Monday",
         "status": "In Progress"
       },
