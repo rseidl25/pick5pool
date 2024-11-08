@@ -1153,9 +1153,9 @@
     "games": [
       {
         "homeTeam": "Baltimore Ravens",
-        "homeScore": 28,
+        "homeScore": 35,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 28,
+        "awayScore": 34,
         "weekday": "Thursday",
         "status": "In Progress"
       },
