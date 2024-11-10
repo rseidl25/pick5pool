@@ -1155,7 +1155,7 @@
         "homeTeam": "Chicago Bears",
         "homeScore": 3,
         "awayTeam": "New England Patriots",
-        "awayScore": 16,
+        "awayScore": 19,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1163,7 +1163,7 @@
         "homeTeam": "Indianapolis Colts",
         "homeScore": 13,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 23,
+        "awayScore": 29,
         "weekday": "Sunday",
         "status": "In Progress"
       },
