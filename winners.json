@@ -1169,7 +1169,7 @@
       },
       {
         "homeTeam": "Kansas City Chiefs",
-        "homeScore": 13,
+        "homeScore": 16,
         "awayTeam": "Denver Broncos",
         "awayScore": 14,
         "weekday": "Sunday",
@@ -1203,7 +1203,7 @@
         "homeTeam": "Jacksonville Jaguars",
         "homeScore": 7,
         "awayTeam": "Minnesota Vikings",
-        "awayScore": 9,
+        "awayScore": 12,
         "weekday": "Sunday",
         "status": "In Progress"
       },
