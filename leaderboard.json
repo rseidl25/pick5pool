@@ -5,6 +5,10 @@
       617
     ],
     [
+      "Angie",
+      590
+    ],
+    [
       "Alex",
       580
     ],
@@ -13,28 +17,24 @@
       571
     ],
     [
-      "Angie",
-      552
+      "Emily/Aiden",
+      550
+    ],
+    [
+      "Fred",
+      546
+    ],
+    [
+      "Paul",
+      541
     ],
     [
       "Ben",
       540
     ],
     [
-      "Emily/Aiden",
-      540
-    ],
-    [
-      "Fred",
-      536
-    ],
-    [
-      "Paul",
-      531
-    ],
-    [
       "Steve",
-      528
+      538
     ],
     [
       "Cal",
@@ -49,24 +49,24 @@
       500
     ],
     [
+      "Judy",
+      453
+    ],
+    [
       "Sam",
       451
     ],
     [
       "Kalysta",
-      420
-    ],
-    [
-      "Judy",
-      415
+      430
     ],
     [
       "Brett",
-      316
+      354
     ],
     [
       "Brayden",
-      298
+      308
     ]
   ],
   "Week 1": {
@@ -241,9 +241,9 @@
     "Brayden": 20
   },
   "Week 10": {
-    "Fred": 26,
-    "Judy": 30,
-    "Steve": 36,
+    "Fred": 36,
+    "Judy": 68,
+    "Steve": 46,
     "Kelly": 46,
     "Ben": 30,
     "Ryan": 20,
@@ -251,13 +251,13 @@
     "Lisa": 20,
     "Alex": 46,
     "Cal": 30,
-    "Emily/Aiden": 30,
+    "Emily/Aiden": 40,
     "Bryan": 26,
-    "Paul": 36,
-    "Angie": 10,
-    "Kalysta": 50,
-    "Brett": 0,
-    "Brayden": 10
+    "Paul": 46,
+    "Angie": 48,
+    "Kalysta": 60,
+    "Brett": 38,
+    "Brayden": 20
   },
   "Week 11": {
     "Fred": 0,
