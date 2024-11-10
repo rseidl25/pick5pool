@@ -1153,7 +1153,7 @@
     "games": [
       {
         "homeTeam": "Los Angeles Chargers",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "Tennessee Titans",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -1163,7 +1163,7 @@
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "Philadelphia Eagles",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1171,7 +1171,7 @@
         "homeTeam": "Arizona Cardinals",
         "homeScore": 7,
         "awayTeam": "New York Jets",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
