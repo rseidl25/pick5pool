@@ -1152,14 +1152,6 @@
     "week": 10,
     "games": [
       {
-        "homeTeam": "Baltimore Ravens",
-        "homeScore": 35,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 34,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Carolina Panthers",
         "homeScore": 0,
         "awayTeam": "New York Giants",
@@ -1254,6 +1246,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Baltimore Ravens",
+        "homeScore": 35,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 34,
+        "weekday": "Thursday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Los Angeles Rams",
