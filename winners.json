@@ -1152,18 +1152,10 @@
     "week": 10,
     "games": [
       {
-        "homeTeam": "Los Angeles Chargers",
-        "homeScore": 27,
-        "awayTeam": "Tennessee Titans",
-        "awayScore": 10,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 6,
         "awayTeam": "Philadelphia Eagles",
-        "awayScore": 28,
+        "awayScore": 31,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1244,6 +1236,14 @@
         "homeScore": 7,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 12,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Los Angeles Chargers",
+        "homeScore": 27,
+        "awayTeam": "Tennessee Titans",
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "Completed"
       },
