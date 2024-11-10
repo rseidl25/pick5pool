@@ -1161,7 +1161,7 @@
       },
       {
         "homeTeam": "Indianapolis Colts",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Buffalo Bills",
         "awayScore": 10,
         "weekday": "Sunday",
@@ -1171,13 +1171,13 @@
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "New Orleans Saints",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -1193,7 +1193,7 @@
       },
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 7,
         "weekday": "Sunday",
