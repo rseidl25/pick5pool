@@ -1152,14 +1152,6 @@
     "week": 10,
     "games": [
       {
-        "homeTeam": "Indianapolis Colts",
-        "homeScore": 20,
-        "awayTeam": "Buffalo Bills",
-        "awayScore": 30,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Washington Commanders",
         "homeScore": 27,
         "awayTeam": "Pittsburgh Steelers",
@@ -1169,11 +1161,11 @@
       },
       {
         "homeTeam": "Los Angeles Chargers",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Tennessee Titans",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Dallas Cowboys",
@@ -1200,14 +1192,6 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 7,
-        "awayTeam": "Minnesota Vikings",
-        "awayScore": 12,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Carolina Panthers",
         "homeScore": 20,
         "awayTeam": "New York Giants",
@@ -1220,6 +1204,14 @@
         "homeScore": 3,
         "awayTeam": "New England Patriots",
         "awayScore": 19,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Indianapolis Colts",
+        "homeScore": 20,
+        "awayTeam": "Buffalo Bills",
+        "awayScore": 30,
         "weekday": "Sunday",
         "status": "Completed"
       },
@@ -1244,6 +1236,14 @@
         "homeScore": 20,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 23,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Jacksonville Jaguars",
+        "homeScore": 7,
+        "awayTeam": "Minnesota Vikings",
+        "awayScore": 12,
         "weekday": "Sunday",
         "status": "Completed"
       },
