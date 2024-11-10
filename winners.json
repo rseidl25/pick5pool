@@ -1179,7 +1179,7 @@
         "homeTeam": "New Orleans Saints",
         "homeScore": 20,
         "awayTeam": "Atlanta Falcons",
-        "awayScore": 10,
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1203,7 +1203,7 @@
         "homeTeam": "Jacksonville Jaguars",
         "homeScore": 7,
         "awayTeam": "Minnesota Vikings",
-        "awayScore": 3,
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "In Progress"
       },
