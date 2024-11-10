@@ -1161,7 +1161,7 @@
       },
       {
         "homeTeam": "Dallas Cowboys",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -1169,7 +1169,7 @@
       },
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "New York Jets",
         "awayScore": 3,
         "weekday": "Sunday",
