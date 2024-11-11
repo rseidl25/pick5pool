@@ -1152,22 +1152,6 @@
     "week": 10,
     "games": [
       {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 6,
-        "awayTeam": "Philadelphia Eagles",
-        "awayScore": 31,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Arizona Cardinals",
-        "homeScore": 31,
-        "awayTeam": "New York Jets",
-        "awayScore": 6,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Houston Texans",
         "homeScore": 0,
         "awayTeam": "Detroit Lions",
@@ -1244,6 +1228,22 @@
         "homeScore": 27,
         "awayTeam": "Tennessee Titans",
         "awayScore": 17,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 6,
+        "awayTeam": "Philadelphia Eagles",
+        "awayScore": 34,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Arizona Cardinals",
+        "homeScore": 31,
+        "awayTeam": "New York Jets",
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "Completed"
       },
