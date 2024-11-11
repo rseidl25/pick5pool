@@ -1152,14 +1152,6 @@
     "week": 10,
     "games": [
       {
-        "homeTeam": "Houston Texans",
-        "homeScore": 23,
-        "awayTeam": "Detroit Lions",
-        "awayScore": 26,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Carolina Panthers",
         "homeScore": 20,
         "awayTeam": "New York Giants",
@@ -1244,6 +1236,14 @@
         "homeScore": 31,
         "awayTeam": "New York Jets",
         "awayScore": 6,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Houston Texans",
+        "homeScore": 23,
+        "awayTeam": "Detroit Lions",
+        "awayScore": 26,
         "weekday": "Sunday",
         "status": "Completed"
       },
