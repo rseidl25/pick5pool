@@ -1153,11 +1153,11 @@
     "games": [
       {
         "homeTeam": "Houston Texans",
-        "homeScore": 0,
+        "homeScore": 10,
         "awayTeam": "Detroit Lions",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Carolina Panthers",
