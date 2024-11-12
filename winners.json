@@ -1152,14 +1152,6 @@
     "week": 10,
     "games": [
       {
-        "homeTeam": "Los Angeles Rams",
-        "homeScore": 15,
-        "awayTeam": "Miami Dolphins",
-        "awayScore": 23,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Baltimore Ravens",
         "homeScore": 35,
         "awayTeam": "Cincinnati Bengals",
@@ -1261,6 +1253,14 @@
         "awayTeam": "Detroit Lions",
         "awayScore": 26,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Los Angeles Rams",
+        "homeScore": 15,
+        "awayTeam": "Miami Dolphins",
+        "awayScore": 23,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
