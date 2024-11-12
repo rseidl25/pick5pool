@@ -1,72 +1,72 @@
 {
   "totalScores": [
     [
-      "Kelly",
-      617
-    ],
-    [
-      "Alex",
-      590
-    ],
-    [
-      "Angie",
-      590
-    ],
-    [
-      "Bryan",
-      571
-    ],
-    [
-      "Fred",
-      556
-    ],
-    [
-      "Emily/Aiden",
-      550
-    ],
-    [
       "Paul",
-      541
-    ],
-    [
-      "Ben",
-      540
+      347
     ],
     [
       "Steve",
-      538
+      328
     ],
     [
-      "Cal",
-      532
+      "Kelly",
+      327
     ],
     [
-      "Lisa",
-      507
+      "Angie",
+      310
     ],
     [
-      "Ryan",
-      500
+      "Ben",
+      296
     ],
     [
       "Sam",
-      461
+      295
+    ],
+    [
+      "Bryan",
+      291
+    ],
+    [
+      "Alex",
+      290
+    ],
+    [
+      "Emily/Aiden",
+      287
+    ],
+    [
+      "Ryan",
+      283
+    ],
+    [
+      "Cal",
+      258
+    ],
+    [
+      "Fred",
+      247
     ],
     [
       "Judy",
-      453
+      230
+    ],
+    [
+      "Lisa",
+      221
     ],
     [
       "Kalysta",
-      430
-    ],
-    [
-      "Brett",
-      364
+      207
     ],
     [
       "Brayden",
-      344
+      192
+    ],
+    [
+      "Brett",
+      148
     ]
   ],
   "Week 1": {
@@ -86,101 +86,6 @@
     "Angie": 40,
     "Kalysta": 20,
     "Brett": 40,
-    "Brayden": 62
-  },
-  "Week 2": {
-    "Fred": 63,
-    "Judy": 10,
-    "Steve": 10,
-    "Kelly": 23,
-    "Ben": 10,
-    "Ryan": 10,
-    "Sam": 10,
-    "Lisa": 20,
-    "Alex": 56,
-    "Cal": 46,
-    "Emily/Aiden": 29,
-    "Bryan": 44,
-    "Paul": 20,
-    "Angie": 20,
-    "Kalysta": 30,
-    "Brett": 46,
-    "Brayden": 30
-  },
-  "Week 3": {
-    "Fred": 40,
-    "Judy": 56,
-    "Steve": 20,
-    "Kelly": 64,
-    "Ben": 50,
-    "Ryan": 20,
-    "Sam": 30,
-    "Lisa": 70,
-    "Alex": 20,
-    "Cal": 10,
-    "Emily/Aiden": 70,
-    "Bryan": 50,
-    "Paul": 30,
-    "Angie": 50,
-    "Kalysta": 30,
-    "Brett": 20,
-    "Brayden": 20
-  },
-  "Week 4": {
-    "Fred": 60,
-    "Judy": 57,
-    "Steve": 30,
-    "Kelly": 70,
-    "Ben": 74,
-    "Ryan": 30,
-    "Sam": 30,
-    "Lisa": 60,
-    "Alex": 60,
-    "Cal": 72,
-    "Emily/Aiden": 64,
-    "Bryan": 60,
-    "Paul": 54,
-    "Angie": 60,
-    "Kalysta": 40,
-    "Brett": 30,
-    "Brayden": 10
-  },
-  "Week 5": {
-    "Fred": 66,
-    "Judy": 20,
-    "Steve": 66,
-    "Kelly": 45,
-    "Ben": 30,
-    "Ryan": 66,
-    "Sam": 56,
-    "Lisa": 45,
-    "Alex": 76,
-    "Cal": 66,
-    "Emily/Aiden": 30,
-    "Bryan": 35,
-    "Paul": 10,
-    "Angie": 66,
-    "Kalysta": 63,
-    "Brett": 55,
-    "Brayden": 30
-  },
-  "Week 6": {
-    "Fred": 80,
-    "Judy": 80,
-    "Steve": 84,
-    "Kelly": 88,
-    "Ben": 80,
-    "Ryan": 91,
-    "Sam": 40,
-    "Lisa": 91,
-    "Alex": 88,
-    "Cal": 80,
-    "Emily/Aiden": 70,
-    "Bryan": 91,
-    "Paul": 80,
-    "Angie": 84,
-    "Kalysta": 60,
-    "Brett": 65,
     "Brayden": 62
   },
   "Week 7": {
