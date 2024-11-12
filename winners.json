@@ -1153,9 +1153,9 @@
     "games": [
       {
         "homeTeam": "Los Angeles Rams",
-        "homeScore": 6,
+        "homeScore": 9,
         "awayTeam": "Miami Dolphins",
-        "awayScore": 10,
+        "awayScore": 17,
         "weekday": "Monday",
         "status": "In Progress"
       },
