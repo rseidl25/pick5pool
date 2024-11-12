@@ -1155,9 +1155,9 @@
         "homeTeam": "Los Angeles Rams",
         "homeScore": 0,
         "awayTeam": "Miami Dolphins",
-        "awayScore": 0,
+        "awayScore": 10,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Baltimore Ravens",
