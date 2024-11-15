@@ -1272,9 +1272,9 @@
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 0,
         "awayTeam": "Washington Commanders",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Thursday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Chicago Bears",
