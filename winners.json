@@ -1270,9 +1270,9 @@
     "games": [
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "Washington Commanders",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Thursday",
         "status": "In Progress"
       },
