@@ -1270,9 +1270,9 @@
     "games": [
       {
         "homeTeam": "Denver Broncos",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Atlanta Falcons",
-        "awayScore": 3,
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1288,7 +1288,7 @@
         "homeTeam": "Buffalo Bills",
         "homeScore": 6,
         "awayTeam": "Kansas City Chiefs",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
