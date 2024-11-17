@@ -1278,7 +1278,7 @@
       },
       {
         "homeTeam": "Detroit Lions",
-        "homeScore": 14,
+        "homeScore": 21,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 3,
         "weekday": "Sunday",
@@ -1288,7 +1288,7 @@
         "homeTeam": "Tennessee Titans",
         "homeScore": 3,
         "awayTeam": "Minnesota Vikings",
-        "awayScore": 7,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1304,13 +1304,13 @@
         "homeTeam": "New England Patriots",
         "homeScore": 7,
         "awayTeam": "Los Angeles Rams",
-        "awayScore": 0,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "New Orleans Saints",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Cleveland Browns",
         "awayScore": 6,
         "weekday": "Sunday",
@@ -1320,13 +1320,13 @@
         "homeTeam": "New York Jets",
         "homeScore": 0,
         "awayTeam": "Indianapolis Colts",
-        "awayScore": 10,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 0,
         "weekday": "Sunday",
