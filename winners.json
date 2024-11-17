@@ -1286,7 +1286,7 @@
       },
       {
         "homeTeam": "Buffalo Bills",
-        "homeScore": 0,
+        "homeScore": 6,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -1299,14 +1299,6 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 18,
-        "awayTeam": "Baltimore Ravens",
-        "awayScore": 16,
-        "weekday": "Sunday",
-        "status": "Completed"
       },
       {
         "homeTeam": "Chicago Bears",
@@ -1361,6 +1353,14 @@
         "homeScore": 27,
         "awayTeam": "Indianapolis Colts",
         "awayScore": 28,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Pittsburgh Steelers",
+        "homeScore": 18,
+        "awayTeam": "Baltimore Ravens",
+        "awayScore": 16,
         "weekday": "Sunday",
         "status": "Completed"
       },
