@@ -1278,7 +1278,7 @@
       },
       {
         "homeTeam": "Detroit Lions",
-        "homeScore": 49,
+        "homeScore": 52,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 6,
         "weekday": "Sunday",
@@ -1296,7 +1296,7 @@
         "homeTeam": "Miami Dolphins",
         "homeScore": 24,
         "awayTeam": "Las Vegas Raiders",
-        "awayScore": 12,
+        "awayScore": 19,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1310,7 +1310,7 @@
       },
       {
         "homeTeam": "New Orleans Saints",
-        "homeScore": 21,
+        "homeScore": 28,
         "awayTeam": "Cleveland Browns",
         "awayScore": 14,
         "weekday": "Sunday",
