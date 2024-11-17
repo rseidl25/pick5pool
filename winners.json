@@ -1270,7 +1270,7 @@
     "games": [
       {
         "homeTeam": "Denver Broncos",
-        "homeScore": 28,
+        "homeScore": 31,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 6,
         "weekday": "Sunday",
@@ -1278,7 +1278,7 @@
       },
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 10,
+        "homeScore": 17,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 13,
         "weekday": "Sunday",
