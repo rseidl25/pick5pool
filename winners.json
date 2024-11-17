@@ -1272,25 +1272,17 @@
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Green Bay Packers",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Detroit Lions",
         "homeScore": 0,
         "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Tennessee Titans",
-        "homeScore": 0,
-        "awayTeam": "Minnesota Vikings",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Miami Dolphins",
@@ -1298,7 +1290,7 @@
         "awayTeam": "Las Vegas Raiders",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "New England Patriots",
@@ -1306,7 +1298,7 @@
         "awayTeam": "Los Angeles Rams",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "New Orleans Saints",
@@ -1314,7 +1306,7 @@
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "New York Jets",
@@ -1322,15 +1314,23 @@
         "awayTeam": "Indianapolis Colts",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
+      },
+      {
+        "homeTeam": "Tennessee Titans",
+        "homeScore": 0,
+        "awayTeam": "Minnesota Vikings",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "In Progress"
       },
       {
         "homeTeam": "Denver Broncos",
