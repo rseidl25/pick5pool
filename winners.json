@@ -1270,7 +1270,7 @@
     "games": [
       {
         "homeTeam": "Chicago Bears",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Green Bay Packers",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -1278,23 +1278,31 @@
       },
       {
         "homeTeam": "Detroit Lions",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
-        "homeTeam": "Miami Dolphins",
-        "homeScore": 0,
-        "awayTeam": "Las Vegas Raiders",
+        "homeTeam": "Tennessee Titans",
+        "homeScore": 3,
+        "awayTeam": "Minnesota Vikings",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
+        "homeTeam": "Miami Dolphins",
+        "homeScore": 7,
+        "awayTeam": "Las Vegas Raiders",
+        "awayScore": 3,
+        "weekday": "Sunday",
+        "status": "In Progress"
+      },
+      {
         "homeTeam": "New England Patriots",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -1302,7 +1310,7 @@
       },
       {
         "homeTeam": "New Orleans Saints",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Cleveland Browns",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -1312,7 +1320,7 @@
         "homeTeam": "New York Jets",
         "homeScore": 0,
         "awayTeam": "Indianapolis Colts",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1320,14 +1328,6 @@
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 3,
         "awayTeam": "Baltimore Ravens",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Tennessee Titans",
-        "homeScore": 0,
-        "awayTeam": "Minnesota Vikings",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "In Progress"
