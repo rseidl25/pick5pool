@@ -1269,14 +1269,6 @@
     "week": 11,
     "games": [
       {
-        "homeTeam": "Los Angeles Chargers",
-        "homeScore": 34,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 27,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Chicago Bears",
         "homeScore": 19,
         "awayTeam": "Green Bay Packers",
@@ -1361,6 +1353,14 @@
         "homeScore": 30,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 21,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Los Angeles Chargers",
+        "homeScore": 34,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 27,
         "weekday": "Sunday",
         "status": "Completed"
       },
