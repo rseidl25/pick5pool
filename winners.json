@@ -1269,6 +1269,22 @@
     "week": 11,
     "games": [
       {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 0,
+        "awayTeam": "Houston Texans",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Philadelphia Eagles",
+        "homeScore": 26,
+        "awayTeam": "Washington Commanders",
+        "awayScore": 18,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Chicago Bears",
         "homeScore": 19,
         "awayTeam": "Green Bay Packers",
@@ -1363,22 +1379,6 @@
         "awayScore": 27,
         "weekday": "Sunday",
         "status": "Completed"
-      },
-      {
-        "homeTeam": "Philadelphia Eagles",
-        "homeScore": 26,
-        "awayTeam": "Washington Commanders",
-        "awayScore": 18,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 0,
-        "awayTeam": "Houston Texans",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
       }
     ]
   },
