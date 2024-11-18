@@ -1270,9 +1270,9 @@
     "games": [
       {
         "homeTeam": "Los Angeles Chargers",
-        "homeScore": 24,
+        "homeScore": 27,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 6,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
