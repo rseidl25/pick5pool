@@ -1269,14 +1269,6 @@
     "week": 11,
     "games": [
       {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 10,
-        "awayTeam": "Houston Texans",
-        "awayScore": 34,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 26,
         "awayTeam": "Washington Commanders",
@@ -1378,6 +1370,14 @@
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 27,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 10,
+        "awayTeam": "Houston Texans",
+        "awayScore": 34,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
