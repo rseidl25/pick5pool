@@ -1270,11 +1270,11 @@
     "games": [
       {
         "homeTeam": "Dallas Cowboys",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Houston Texans",
-        "awayScore": 0,
+        "awayScore": 14,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Philadelphia Eagles",
