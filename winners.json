@@ -1870,9 +1870,9 @@
     "week": 16,
     "games": [
       {
-        "homeTeam": "Cincinnati Bengals",
+        "homeTeam": "Los Angeles Chargers",
         "homeScore": 0,
-        "awayTeam": "Cleveland Browns",
+        "awayTeam": "Denver Broncos",
         "awayScore": 0,
         "weekday": "Thursday",
         "status": "Scheduled"
@@ -1918,6 +1918,14 @@
         "status": "Scheduled"
       },
       {
+        "homeTeam": "Cincinnati Bengals",
+        "homeScore": 0,
+        "awayTeam": "Cleveland Browns",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
         "homeTeam": "Indianapolis Colts",
         "homeScore": 0,
         "awayTeam": "Tennessee Titans",
@@ -1945,14 +1953,6 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 0,
         "awayTeam": "Arizona Cardinals",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Los Angeles Chargers",
-        "homeScore": 0,
-        "awayTeam": "Denver Broncos",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
