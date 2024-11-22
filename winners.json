@@ -1387,9 +1387,9 @@
     "games": [
       {
         "homeTeam": "Cleveland Browns",
-        "homeScore": 10,
+        "homeScore": 18,
         "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 3,
+        "awayScore": 13,
         "weekday": "Thursday",
         "status": "In Progress"
       },
