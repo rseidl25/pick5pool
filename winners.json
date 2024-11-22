@@ -1387,11 +1387,11 @@
     "games": [
       {
         "homeTeam": "Cleveland Browns",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Thursday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Chicago Bears",
