@@ -1386,14 +1386,6 @@
     "week": 12,
     "games": [
       {
-        "homeTeam": "Cleveland Browns",
-        "homeScore": 24,
-        "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 19,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Minnesota Vikings",
@@ -1480,6 +1472,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Cleveland Browns",
+        "homeScore": 24,
+        "awayTeam": "Pittsburgh Steelers",
+        "awayScore": 19,
+        "weekday": "Thursday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Los Angeles Chargers",
