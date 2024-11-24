@@ -1389,13 +1389,13 @@
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 7,
         "awayTeam": "Denver Broncos",
-        "awayScore": 3,
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Green Bay Packers",
-        "homeScore": 7,
+        "homeScore": 10,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 0,
         "weekday": "Sunday",
