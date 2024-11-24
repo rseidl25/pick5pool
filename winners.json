@@ -1403,7 +1403,7 @@
       },
       {
         "homeTeam": "Miami Dolphins",
-        "homeScore": 21,
+        "homeScore": 24,
         "awayTeam": "New England Patriots",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -1421,7 +1421,7 @@
         "homeTeam": "Washington Commanders",
         "homeScore": 3,
         "awayTeam": "Dallas Cowboys",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1437,7 +1437,7 @@
         "homeTeam": "Houston Texans",
         "homeScore": 17,
         "awayTeam": "Tennessee Titans",
-        "awayScore": 17,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
