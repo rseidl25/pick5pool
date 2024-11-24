@@ -1387,7 +1387,7 @@
     "games": [
       {
         "homeTeam": "Chicago Bears",
-        "homeScore": 7,
+        "homeScore": 10,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 14,
         "weekday": "Sunday",
@@ -1427,7 +1427,7 @@
       },
       {
         "homeTeam": "Carolina Panthers",
-        "homeScore": 6,
+        "homeScore": 9,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 20,
         "weekday": "Sunday",
