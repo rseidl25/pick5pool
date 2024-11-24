@@ -1397,7 +1397,7 @@
         "homeTeam": "Indianapolis Colts",
         "homeScore": 6,
         "awayTeam": "Detroit Lions",
-        "awayScore": 21,
+        "awayScore": 24,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1435,9 +1435,9 @@
       },
       {
         "homeTeam": "Houston Texans",
-        "homeScore": 24,
+        "homeScore": 27,
         "awayTeam": "Tennessee Titans",
-        "awayScore": 23,
+        "awayScore": 30,
         "weekday": "Sunday",
         "status": "In Progress"
       },
