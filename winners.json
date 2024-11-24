@@ -1405,7 +1405,7 @@
         "homeTeam": "Miami Dolphins",
         "homeScore": 31,
         "awayTeam": "New England Patriots",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1427,7 +1427,7 @@
       },
       {
         "homeTeam": "Carolina Panthers",
-        "homeScore": 16,
+        "homeScore": 19,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 27,
         "weekday": "Sunday",
