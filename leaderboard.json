@@ -2,15 +2,19 @@
   "totalScores": [
     [
       "Kelly",
-      665
+      675
+    ],
+    [
+      "Angie",
+      664
     ],
     [
       "Alex",
       658
     ],
     [
-      "Angie",
-      654
+      "Paul",
+      655
     ],
     [
       "Emily/Aiden",
@@ -18,23 +22,19 @@
     ],
     [
       "Fred",
-      622
+      632
     ],
     [
-      "Paul",
-      615
+      "Bryan",
+      631
+    ],
+    [
+      "Ben",
+      618
     ],
     [
       "Ryan",
       602
-    ],
-    [
-      "Ben",
-      598
-    ],
-    [
-      "Bryan",
-      591
     ],
     [
       "Steve",
@@ -42,7 +42,7 @@
     ],
     [
       "Lisa",
-      565
+      575
     ],
     [
       "Cal",
@@ -53,16 +53,16 @@
       509
     ],
     [
+      "Kalysta",
+      500
+    ],
+    [
       "Sam",
       491
     ],
     [
-      "Kalysta",
-      490
-    ],
-    [
       "Brett",
-      414
+      424
     ],
     [
       "Brayden",
@@ -279,22 +279,22 @@
     "Brayden": 20
   },
   "Week 12": {
-    "Fred": 0,
+    "Fred": 10,
     "Judy": 0,
     "Steve": 0,
-    "Kelly": 0,
-    "Ben": 0,
+    "Kelly": 10,
+    "Ben": 20,
     "Ryan": 10,
     "Sam": 0,
-    "Lisa": 0,
+    "Lisa": 10,
     "Alex": 0,
     "Cal": 0,
     "Emily/Aiden": 0,
-    "Bryan": 0,
-    "Paul": 0,
-    "Angie": 0,
-    "Kalysta": 0,
-    "Brett": 10,
+    "Bryan": 40,
+    "Paul": 40,
+    "Angie": 10,
+    "Kalysta": 10,
+    "Brett": 20,
     "Brayden": 0
   },
   "Week 13": {

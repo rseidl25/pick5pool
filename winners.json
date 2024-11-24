@@ -1387,41 +1387,17 @@
     "games": [
       {
         "homeTeam": "Chicago Bears",
-        "homeScore": 16,
+        "homeScore": 27,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 27,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
-        "homeTeam": "Miami Dolphins",
-        "homeScore": 34,
-        "awayTeam": "New England Patriots",
-        "awayScore": 15,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Washington Commanders",
-        "homeScore": 17,
+        "homeScore": 26,
         "awayTeam": "Dallas Cowboys",
-        "awayScore": 27,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 27,
-        "awayTeam": "Kansas City Chiefs",
-        "awayScore": 27,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Houston Texans",
-        "homeScore": 27,
-        "awayTeam": "Tennessee Titans",
-        "awayScore": 30,
+        "awayScore": 34,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1431,7 +1407,7 @@
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Green Bay Packers",
@@ -1466,10 +1442,34 @@
         "status": "Completed"
       },
       {
+        "homeTeam": "Miami Dolphins",
+        "homeScore": 34,
+        "awayTeam": "New England Patriots",
+        "awayScore": 15,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "New York Giants",
         "homeScore": 7,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 30,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 27,
+        "awayTeam": "Kansas City Chiefs",
+        "awayScore": 30,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Houston Texans",
+        "homeScore": 27,
+        "awayTeam": "Tennessee Titans",
+        "awayScore": 32,
         "weekday": "Sunday",
         "status": "Completed"
       },
