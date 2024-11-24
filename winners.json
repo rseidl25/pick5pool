@@ -1387,7 +1387,7 @@
     "games": [
       {
         "homeTeam": "Chicago Bears",
-        "homeScore": 10,
+        "homeScore": 16,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 24,
         "weekday": "Sunday",
@@ -1405,7 +1405,7 @@
         "homeTeam": "Miami Dolphins",
         "homeScore": 31,
         "awayTeam": "New England Patriots",
-        "awayScore": 7,
+        "awayScore": 15,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1421,7 +1421,7 @@
         "homeTeam": "Washington Commanders",
         "homeScore": 9,
         "awayTeam": "Dallas Cowboys",
-        "awayScore": 10,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
