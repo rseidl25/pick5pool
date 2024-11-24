@@ -1394,14 +1394,6 @@
         "status": "In Progress"
       },
       {
-        "homeTeam": "Washington Commanders",
-        "homeScore": 26,
-        "awayTeam": "Dallas Cowboys",
-        "awayScore": 34,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
@@ -1415,7 +1407,7 @@
         "awayTeam": "San Francisco 49ers",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Seattle Seahawks",
@@ -1423,7 +1415,7 @@
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Los Angeles Rams",
@@ -1432,6 +1424,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Washington Commanders",
+        "homeScore": 26,
+        "awayTeam": "Dallas Cowboys",
+        "awayScore": 34,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Indianapolis Colts",
