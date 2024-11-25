@@ -1,12 +1,12 @@
 {
   "totalScores": [
     [
-      "Alex",
-      722
+      "Angie",
+      724
     ],
     [
-      "Angie",
-      714
+      "Alex",
+      722
     ],
     [
       "Emily/Aiden",
@@ -50,7 +50,7 @@
     ],
     [
       "Judy",
-      573
+      583
     ],
     [
       "Sam",
@@ -62,7 +62,7 @@
     ],
     [
       "Brett",
-      424
+      434
     ],
     [
       "Brayden",
@@ -280,7 +280,7 @@
   },
   "Week 12": {
     "Fred": 30,
-    "Judy": 64,
+    "Judy": 74,
     "Steve": 64,
     "Kelly": 40,
     "Ben": 30,
@@ -292,9 +292,9 @@
     "Emily/Aiden": 64,
     "Bryan": 60,
     "Paul": 70,
-    "Angie": 60,
+    "Angie": 70,
     "Kalysta": 64,
-    "Brett": 20,
+    "Brett": 30,
     "Brayden": 50
   },
   "Week 13": {

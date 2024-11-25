@@ -1387,11 +1387,11 @@
     "games": [
       {
         "homeTeam": "Los Angeles Rams",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Philadelphia Eagles",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Chicago Bears",
