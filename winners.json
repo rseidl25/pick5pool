@@ -1387,9 +1387,9 @@
     "games": [
       {
         "homeTeam": "Los Angeles Rams",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Philadelphia Eagles",
-        "awayScore": 13,
+        "awayScore": 27,
         "weekday": "Sunday",
         "status": "In Progress"
       },
