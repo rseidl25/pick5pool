@@ -1386,14 +1386,6 @@
     "week": 12,
     "games": [
       {
-        "homeTeam": "Los Angeles Rams",
-        "homeScore": 20,
-        "awayTeam": "Philadelphia Eagles",
-        "awayScore": 37,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Chicago Bears",
         "homeScore": 27,
         "awayTeam": "Minnesota Vikings",
@@ -1470,6 +1462,14 @@
         "homeScore": 16,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 6,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Los Angeles Rams",
+        "homeScore": 20,
+        "awayTeam": "Philadelphia Eagles",
+        "awayScore": 37,
         "weekday": "Sunday",
         "status": "Completed"
       },
