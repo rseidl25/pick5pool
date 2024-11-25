@@ -1386,6 +1386,22 @@
     "week": 12,
     "games": [
       {
+        "homeTeam": "Los Angeles Chargers",
+        "homeScore": 0,
+        "awayTeam": "Baltimore Ravens",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Cleveland Browns",
+        "homeScore": 24,
+        "awayTeam": "Pittsburgh Steelers",
+        "awayScore": 19,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Chicago Bears",
         "homeScore": 27,
         "awayTeam": "Minnesota Vikings",
@@ -1472,22 +1488,6 @@
         "awayScore": 37,
         "weekday": "Sunday",
         "status": "Completed"
-      },
-      {
-        "homeTeam": "Cleveland Browns",
-        "homeScore": 24,
-        "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 19,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Los Angeles Chargers",
-        "homeScore": 0,
-        "awayTeam": "Baltimore Ravens",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
       }
     ]
   },
