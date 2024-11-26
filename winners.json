@@ -1387,9 +1387,9 @@
     "games": [
       {
         "homeTeam": "Los Angeles Chargers",
-        "homeScore": 13,
+        "homeScore": 16,
         "awayTeam": "Baltimore Ravens",
-        "awayScore": 17,
+        "awayScore": 23,
         "weekday": "Monday",
         "status": "In Progress"
       },
