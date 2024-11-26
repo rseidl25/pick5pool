@@ -1387,11 +1387,11 @@
     "games": [
       {
         "homeTeam": "Los Angeles Chargers",
-        "homeScore": 0,
+        "homeScore": 10,
         "awayTeam": "Baltimore Ravens",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Cleveland Browns",
