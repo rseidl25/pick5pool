@@ -1495,14 +1495,6 @@
     "week": 13,
     "games": [
       {
-        "homeTeam": "Detroit Lions",
-        "homeScore": 23,
-        "awayTeam": "Chicago Bears",
-        "awayScore": 20,
-        "weekday": "Thursday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "New York Giants",
@@ -1517,6 +1509,14 @@
         "awayScore": 0,
         "weekday": "Thursday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Detroit Lions",
+        "homeScore": 23,
+        "awayTeam": "Chicago Bears",
+        "awayScore": 20,
+        "weekday": "Thursday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Kansas City Chiefs",
