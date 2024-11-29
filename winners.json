@@ -1495,14 +1495,6 @@
     "week": 13,
     "games": [
       {
-        "homeTeam": "Green Bay Packers",
-        "homeScore": 30,
-        "awayTeam": "Miami Dolphins",
-        "awayScore": 17,
-        "weekday": "Thursday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Detroit Lions",
         "homeScore": 23,
         "awayTeam": "Chicago Bears",
@@ -1515,6 +1507,14 @@
         "homeScore": 27,
         "awayTeam": "New York Giants",
         "awayScore": 20,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Green Bay Packers",
+        "homeScore": 30,
+        "awayTeam": "Miami Dolphins",
+        "awayScore": 17,
         "weekday": "Thursday",
         "status": "Completed"
       },
