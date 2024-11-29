@@ -1495,25 +1495,25 @@
     "week": 13,
     "games": [
       {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 27,
-        "awayTeam": "New York Giants",
-        "awayScore": 13,
+        "homeTeam": "Green Bay Packers",
+        "homeScore": 14,
+        "awayTeam": "Miami Dolphins",
+        "awayScore": 3,
         "weekday": "Thursday",
         "status": "In Progress"
-      },
-      {
-        "homeTeam": "Green Bay Packers",
-        "homeScore": 0,
-        "awayTeam": "Miami Dolphins",
-        "awayScore": 0,
-        "weekday": "Thursday",
-        "status": "Scheduled"
       },
       {
         "homeTeam": "Detroit Lions",
         "homeScore": 23,
         "awayTeam": "Chicago Bears",
+        "awayScore": 20,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 27,
+        "awayTeam": "New York Giants",
         "awayScore": 20,
         "weekday": "Thursday",
         "status": "Completed"
