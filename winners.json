@@ -1496,9 +1496,9 @@
     "games": [
       {
         "homeTeam": "Kansas City Chiefs",
-        "homeScore": 13,
+        "homeScore": 16,
         "awayTeam": "Las Vegas Raiders",
-        "awayScore": 3,
+        "awayScore": 10,
         "weekday": "Friday",
         "status": "In Progress"
       },
