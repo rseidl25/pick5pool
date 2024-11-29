@@ -1496,9 +1496,9 @@
     "games": [
       {
         "homeTeam": "Green Bay Packers",
-        "homeScore": 27,
+        "homeScore": 30,
         "awayTeam": "Miami Dolphins",
-        "awayScore": 11,
+        "awayScore": 17,
         "weekday": "Thursday",
         "status": "In Progress"
       },
