@@ -1495,14 +1495,6 @@
     "week": 13,
     "games": [
       {
-        "homeTeam": "Kansas City Chiefs",
-        "homeScore": 19,
-        "awayTeam": "Las Vegas Raiders",
-        "awayScore": 17,
-        "weekday": "Friday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Detroit Lions",
         "homeScore": 23,
         "awayTeam": "Chicago Bears",
@@ -1524,6 +1516,14 @@
         "awayTeam": "Miami Dolphins",
         "awayScore": 17,
         "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Kansas City Chiefs",
+        "homeScore": 19,
+        "awayTeam": "Las Vegas Raiders",
+        "awayScore": 17,
+        "weekday": "Friday",
         "status": "Completed"
       },
       {
