@@ -1496,9 +1496,9 @@
     "games": [
       {
         "homeTeam": "New Orleans Saints",
-        "homeScore": 6,
+        "homeScore": 14,
         "awayTeam": "Los Angeles Rams",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
