@@ -1506,7 +1506,7 @@
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 21,
         "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 14,
+        "awayScore": 21,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1530,7 +1530,7 @@
         "homeTeam": "New York Jets",
         "homeScore": 21,
         "awayTeam": "Seattle Seahawks",
-        "awayScore": 13,
+        "awayScore": 16,
         "weekday": "Sunday",
         "status": "In Progress"
       },
