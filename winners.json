@@ -1496,7 +1496,7 @@
     "games": [
       {
         "homeTeam": "New Orleans Saints",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -1506,7 +1506,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 10,
         "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
