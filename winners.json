@@ -1495,38 +1495,6 @@
     "week": 13,
     "games": [
       {
-        "homeTeam": "Detroit Lions",
-        "homeScore": 23,
-        "awayTeam": "Chicago Bears",
-        "awayScore": 20,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 27,
-        "awayTeam": "New York Giants",
-        "awayScore": 20,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Green Bay Packers",
-        "homeScore": 30,
-        "awayTeam": "Miami Dolphins",
-        "awayScore": 17,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Kansas City Chiefs",
-        "homeScore": 19,
-        "awayTeam": "Las Vegas Raiders",
-        "awayScore": 17,
-        "weekday": "Friday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
@@ -1613,6 +1581,38 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Detroit Lions",
+        "homeScore": 23,
+        "awayTeam": "Chicago Bears",
+        "awayScore": 20,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 27,
+        "awayTeam": "New York Giants",
+        "awayScore": 20,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Green Bay Packers",
+        "homeScore": 30,
+        "awayTeam": "Miami Dolphins",
+        "awayScore": 17,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Kansas City Chiefs",
+        "homeScore": 19,
+        "awayTeam": "Las Vegas Raiders",
+        "awayScore": 17,
+        "weekday": "Friday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Denver Broncos",
