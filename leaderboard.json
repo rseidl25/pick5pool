@@ -2,11 +2,15 @@
   "totalScores": [
     [
       "Angie",
-      789
+      799
+    ],
+    [
+      "Emily/Aiden",
+      772
     ],
     [
       "Alex",
-      752
+      762
     ],
     [
       "Paul",
@@ -19,10 +23,6 @@
     [
       "Kelly",
       735
-    ],
-    [
-      "Emily/Aiden",
-      726
     ],
     [
       "Bryan",
@@ -58,7 +58,7 @@
     ],
     [
       "Sam",
-      565
+      575
     ],
     [
       "Brayden",
@@ -304,14 +304,14 @@
     "Kelly": 30,
     "Ben": 20,
     "Ryan": 67,
-    "Sam": 10,
+    "Sam": 20,
     "Lisa": 45,
-    "Alex": 20,
+    "Alex": 30,
     "Cal": 57,
-    "Emily/Aiden": 20,
+    "Emily/Aiden": 66,
     "Bryan": 47,
     "Paul": 57,
-    "Angie": 65,
+    "Angie": 75,
     "Kalysta": 53,
     "Brett": 43,
     "Brayden": 47
