@@ -1504,7 +1504,7 @@
       },
       {
         "homeTeam": "Carolina Panthers",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -1512,7 +1512,7 @@
       },
       {
         "homeTeam": "Baltimore Ravens",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -1527,18 +1527,18 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Cincinnati Bengals",
-        "homeScore": 38,
-        "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 44,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 13,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 17,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Cincinnati Bengals",
+        "homeScore": 38,
+        "awayTeam": "Pittsburgh Steelers",
+        "awayScore": 44,
         "weekday": "Sunday",
         "status": "Completed"
       },
