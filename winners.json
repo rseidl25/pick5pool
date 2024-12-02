@@ -1495,11 +1495,43 @@
     "week": 13,
     "games": [
       {
-        "homeTeam": "Buffalo Bills",
-        "homeScore": 35,
-        "awayTeam": "San Francisco 49ers",
-        "awayScore": 10,
-        "weekday": "Sunday",
+        "homeTeam": "Denver Broncos",
+        "homeScore": 0,
+        "awayTeam": "Cleveland Browns",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Detroit Lions",
+        "homeScore": 23,
+        "awayTeam": "Chicago Bears",
+        "awayScore": 20,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 27,
+        "awayTeam": "New York Giants",
+        "awayScore": 20,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Green Bay Packers",
+        "homeScore": 30,
+        "awayTeam": "Miami Dolphins",
+        "awayScore": 17,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Kansas City Chiefs",
+        "homeScore": 19,
+        "awayTeam": "Las Vegas Raiders",
+        "awayScore": 17,
+        "weekday": "Friday",
         "status": "Completed"
       },
       {
@@ -1583,44 +1615,12 @@
         "status": "Completed"
       },
       {
-        "homeTeam": "Detroit Lions",
-        "homeScore": 23,
-        "awayTeam": "Chicago Bears",
-        "awayScore": 20,
-        "weekday": "Thursday",
+        "homeTeam": "Buffalo Bills",
+        "homeScore": 35,
+        "awayTeam": "San Francisco 49ers",
+        "awayScore": 10,
+        "weekday": "Sunday",
         "status": "Completed"
-      },
-      {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 27,
-        "awayTeam": "New York Giants",
-        "awayScore": 20,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Green Bay Packers",
-        "homeScore": 30,
-        "awayTeam": "Miami Dolphins",
-        "awayScore": 17,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Kansas City Chiefs",
-        "homeScore": 19,
-        "awayTeam": "Las Vegas Raiders",
-        "awayScore": 17,
-        "weekday": "Friday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Denver Broncos",
-        "homeScore": 0,
-        "awayTeam": "Cleveland Browns",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
       }
     ]
   },
