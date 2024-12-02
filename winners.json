@@ -1495,14 +1495,6 @@
     "week": 13,
     "games": [
       {
-        "homeTeam": "Buffalo Bills",
-        "homeScore": 35,
-        "awayTeam": "San Francisco 49ers",
-        "awayScore": 10,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 13,
         "awayTeam": "Los Angeles Chargers",
@@ -1579,6 +1571,14 @@
         "homeScore": 19,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 24,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Buffalo Bills",
+        "homeScore": 35,
+        "awayTeam": "San Francisco 49ers",
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "Completed"
       },
