@@ -1496,19 +1496,11 @@
     "games": [
       {
         "homeTeam": "Buffalo Bills",
-        "homeScore": 0,
+        "homeScore": 14,
         "awayTeam": "San Francisco 49ers",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 23,
-        "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 26,
-        "weekday": "Sunday",
-        "status": "Completed"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Atlanta Falcons",
@@ -1571,6 +1563,14 @@
         "homeScore": 14,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 21,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 23,
+        "awayTeam": "Tampa Bay Buccaneers",
+        "awayScore": 26,
         "weekday": "Sunday",
         "status": "Completed"
       },
