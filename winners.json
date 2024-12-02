@@ -1496,9 +1496,9 @@
     "games": [
       {
         "homeTeam": "Buffalo Bills",
-        "homeScore": 21,
+        "homeScore": 35,
         "awayTeam": "San Francisco 49ers",
-        "awayScore": 3,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
