@@ -1495,14 +1495,6 @@
     "week": 13,
     "games": [
       {
-        "homeTeam": "Denver Broncos",
-        "homeScore": 41,
-        "awayTeam": "Cleveland Browns",
-        "awayScore": 32,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Detroit Lions",
         "homeScore": 23,
         "awayTeam": "Chicago Bears",
@@ -1620,6 +1612,14 @@
         "awayTeam": "San Francisco 49ers",
         "awayScore": 10,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Denver Broncos",
+        "homeScore": 41,
+        "awayTeam": "Cleveland Browns",
+        "awayScore": 32,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
