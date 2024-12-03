@@ -1496,11 +1496,11 @@
     "games": [
       {
         "homeTeam": "Denver Broncos",
-        "homeScore": 40,
+        "homeScore": 41,
         "awayTeam": "Cleveland Browns",
         "awayScore": 32,
         "weekday": "Monday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Detroit Lions",
