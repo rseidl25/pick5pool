@@ -1496,9 +1496,9 @@
     "games": [
       {
         "homeTeam": "Denver Broncos",
-        "homeScore": 21,
+        "homeScore": 28,
         "awayTeam": "Cleveland Browns",
-        "awayScore": 17,
+        "awayScore": 25,
         "weekday": "Monday",
         "status": "In Progress"
       },
