@@ -1629,11 +1629,11 @@
     "games": [
       {
         "homeTeam": "Detroit Lions",
-        "homeScore": 0,
+        "homeScore": 10,
         "awayTeam": "Green Bay Packers",
         "awayScore": 0,
         "weekday": "Thursday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Tennessee Titans",
