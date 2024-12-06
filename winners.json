@@ -1629,9 +1629,9 @@
     "games": [
       {
         "homeTeam": "Detroit Lions",
-        "homeScore": 17,
+        "homeScore": 24,
         "awayTeam": "Green Bay Packers",
-        "awayScore": 21,
+        "awayScore": 28,
         "weekday": "Thursday",
         "status": "In Progress"
       },
