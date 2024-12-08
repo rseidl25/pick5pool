@@ -1639,7 +1639,7 @@
         "homeTeam": "Miami Dolphins",
         "homeScore": 9,
         "awayTeam": "New York Jets",
-        "awayScore": 3,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1653,7 +1653,7 @@
       },
       {
         "homeTeam": "New York Giants",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "New Orleans Saints",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -1661,7 +1661,7 @@
       },
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Carolina Panthers",
         "awayScore": 3,
         "weekday": "Sunday",
