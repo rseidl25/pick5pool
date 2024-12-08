@@ -1629,7 +1629,7 @@
     "games": [
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 10,
+        "homeScore": 18,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 27,
         "weekday": "Sunday",
@@ -1637,9 +1637,9 @@
       },
       {
         "homeTeam": "Los Angeles Rams",
-        "homeScore": 24,
+        "homeScore": 31,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 14,
+        "awayScore": 21,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1647,7 +1647,7 @@
         "homeTeam": "San Francisco 49ers",
         "homeScore": 24,
         "awayTeam": "Chicago Bears",
-        "awayScore": 0,
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "In Progress"
       },
