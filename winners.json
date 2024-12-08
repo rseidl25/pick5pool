@@ -1628,16 +1628,8 @@
     "week": 14,
     "games": [
       {
-        "homeTeam": "Tennessee Titans",
-        "homeScore": 6,
-        "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 10,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Miami Dolphins",
-        "homeScore": 21,
+        "homeScore": 23,
         "awayTeam": "New York Jets",
         "awayScore": 23,
         "weekday": "Sunday",
@@ -1671,7 +1663,7 @@
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 27,
         "awayTeam": "Cleveland Browns",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1679,7 +1671,7 @@
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 21,
         "awayTeam": "Las Vegas Raiders",
-        "awayScore": 10,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1714,6 +1706,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Tennessee Titans",
+        "homeScore": 6,
+        "awayTeam": "Jacksonville Jaguars",
+        "awayScore": 10,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Detroit Lions",
