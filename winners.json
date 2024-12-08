@@ -1628,14 +1628,6 @@
     "week": 14,
     "games": [
       {
-        "homeTeam": "Detroit Lions",
-        "homeScore": 34,
-        "awayTeam": "Green Bay Packers",
-        "awayScore": 31,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Tennessee Titans",
         "homeScore": 0,
         "awayTeam": "Jacksonville Jaguars",
@@ -1722,6 +1714,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Detroit Lions",
+        "homeScore": 34,
+        "awayTeam": "Green Bay Packers",
+        "awayScore": 31,
+        "weekday": "Thursday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Dallas Cowboys",
