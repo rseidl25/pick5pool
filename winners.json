@@ -1637,7 +1637,7 @@
       },
       {
         "homeTeam": "Miami Dolphins",
-        "homeScore": 12,
+        "homeScore": 15,
         "awayTeam": "New York Jets",
         "awayScore": 13,
         "weekday": "Sunday",
@@ -1647,7 +1647,7 @@
         "homeTeam": "Minnesota Vikings",
         "homeScore": 14,
         "awayTeam": "Atlanta Falcons",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1661,7 +1661,7 @@
       },
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Carolina Panthers",
         "awayScore": 10,
         "weekday": "Sunday",
