@@ -1631,7 +1631,7 @@
         "homeTeam": "Arizona Cardinals",
         "homeScore": 7,
         "awayTeam": "Seattle Seahawks",
-        "awayScore": 10,
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1639,7 +1639,7 @@
         "homeTeam": "Los Angeles Rams",
         "homeScore": 7,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
