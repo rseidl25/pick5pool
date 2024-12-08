@@ -1628,18 +1628,10 @@
     "week": 14,
     "games": [
       {
-        "homeTeam": "Miami Dolphins",
-        "homeScore": 26,
-        "awayTeam": "New York Jets",
-        "awayScore": 26,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Arizona Cardinals",
         "homeScore": 7,
         "awayTeam": "Seattle Seahawks",
-        "awayScore": 0,
+        "awayScore": 9,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1649,15 +1641,15 @@
         "awayTeam": "Buffalo Bills",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Chicago Bears",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Kansas City Chiefs",
@@ -1666,6 +1658,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Miami Dolphins",
+        "homeScore": 32,
+        "awayTeam": "New York Jets",
+        "awayScore": 26,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "New York Giants",
