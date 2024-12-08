@@ -1631,13 +1631,13 @@
         "homeTeam": "Arizona Cardinals",
         "homeScore": 7,
         "awayTeam": "Seattle Seahawks",
-        "awayScore": 9,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Los Angeles Rams",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Buffalo Bills",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -1660,22 +1660,6 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Miami Dolphins",
-        "homeScore": 32,
-        "awayTeam": "New York Jets",
-        "awayScore": 26,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "New York Giants",
-        "homeScore": 11,
-        "awayTeam": "New Orleans Saints",
-        "awayScore": 14,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Tennessee Titans",
         "homeScore": 6,
         "awayTeam": "Jacksonville Jaguars",
@@ -1684,10 +1668,26 @@
         "status": "Completed"
       },
       {
+        "homeTeam": "Miami Dolphins",
+        "homeScore": 32,
+        "awayTeam": "New York Jets",
+        "awayScore": 26,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Minnesota Vikings",
         "homeScore": 42,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 21,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "New York Giants",
+        "homeScore": 11,
+        "awayTeam": "New Orleans Saints",
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "Completed"
       },

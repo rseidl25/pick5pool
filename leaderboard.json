@@ -25,16 +25,16 @@
       759
     ],
     [
+      "Steve",
+      751
+    ],
+    [
       "Ben",
       746
     ],
     [
       "Lisa",
       742
-    ],
-    [
-      "Steve",
-      741
     ],
     [
       "Fred",
@@ -66,7 +66,7 @@
     ],
     [
       "Brett",
-      497
+      507
     ]
   ],
   "Week 1": {
@@ -319,7 +319,7 @@
   "Week 14": {
     "Fred": 20,
     "Judy": 10,
-    "Steve": 42,
+    "Steve": 52,
     "Kelly": 30,
     "Ben": 42,
     "Ryan": 20,
@@ -332,7 +332,7 @@
     "Paul": 30,
     "Angie": 20,
     "Kalysta": 20,
-    "Brett": 10,
+    "Brett": 20,
     "Brayden": 30
   },
   "Week 15": {
