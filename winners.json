@@ -1639,15 +1639,15 @@
         "homeTeam": "Los Angeles Rams",
         "homeScore": 38,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 21,
+        "awayScore": 28,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 24,
+        "homeScore": 31,
         "awayTeam": "Chicago Bears",
-        "awayScore": 6,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
