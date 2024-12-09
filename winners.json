@@ -1628,36 +1628,20 @@
     "week": 14,
     "games": [
       {
-        "homeTeam": "Arizona Cardinals",
-        "homeScore": 18,
-        "awayTeam": "Seattle Seahawks",
-        "awayScore": 27,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Los Angeles Rams",
-        "homeScore": 38,
-        "awayTeam": "Buffalo Bills",
-        "awayScore": 28,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "San Francisco 49ers",
-        "homeScore": 31,
-        "awayTeam": "Chicago Bears",
-        "awayScore": 13,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Los Angeles Rams",
+        "homeScore": 44,
+        "awayTeam": "Buffalo Bills",
+        "awayScore": 42,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Tennessee Titans",
@@ -1711,6 +1695,22 @@
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 28,
         "awayTeam": "Las Vegas Raiders",
+        "awayScore": 13,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Arizona Cardinals",
+        "homeScore": 18,
+        "awayTeam": "Seattle Seahawks",
+        "awayScore": 30,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "San Francisco 49ers",
+        "homeScore": 38,
+        "awayTeam": "Chicago Bears",
         "awayScore": 13,
         "weekday": "Sunday",
         "status": "Completed"
