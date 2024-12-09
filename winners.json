@@ -1629,9 +1629,9 @@
     "games": [
       {
         "homeTeam": "Kansas City Chiefs",
-        "homeScore": 13,
+        "homeScore": 16,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
