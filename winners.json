@@ -1629,19 +1629,11 @@
     "games": [
       {
         "homeTeam": "Kansas City Chiefs",
-        "homeScore": 0,
+        "homeScore": 6,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Los Angeles Rams",
-        "homeScore": 44,
-        "awayTeam": "Buffalo Bills",
-        "awayScore": 42,
-        "weekday": "Sunday",
-        "status": "Completed"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Tennessee Titans",
@@ -1704,6 +1696,14 @@
         "homeScore": 18,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 30,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Los Angeles Rams",
+        "homeScore": 44,
+        "awayTeam": "Buffalo Bills",
+        "awayScore": 42,
         "weekday": "Sunday",
         "status": "Completed"
       },
