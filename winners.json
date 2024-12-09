@@ -1628,14 +1628,6 @@
     "week": 14,
     "games": [
       {
-        "homeTeam": "Kansas City Chiefs",
-        "homeScore": 16,
-        "awayTeam": "Los Angeles Chargers",
-        "awayScore": 17,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Tennessee Titans",
         "homeScore": 6,
         "awayTeam": "Jacksonville Jaguars",
@@ -1712,6 +1704,14 @@
         "homeScore": 38,
         "awayTeam": "Chicago Bears",
         "awayScore": 13,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Kansas City Chiefs",
+        "homeScore": 19,
+        "awayTeam": "Los Angeles Chargers",
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "Completed"
       },
