@@ -1629,9 +1629,9 @@
     "games": [
       {
         "homeTeam": "Dallas Cowboys",
-        "homeScore": 17,
+        "homeScore": 20,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 17,
+        "awayScore": 20,
         "weekday": "Monday",
         "status": "In Progress"
       },
