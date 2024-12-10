@@ -1629,11 +1629,11 @@
     "games": [
       {
         "homeTeam": "Dallas Cowboys",
-        "homeScore": 0,
+        "homeScore": 10,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 0,
+        "awayScore": 14,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Detroit Lions",
