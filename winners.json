@@ -1628,14 +1628,6 @@
     "week": 14,
     "games": [
       {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 20,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 27,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Detroit Lions",
         "homeScore": 34,
         "awayTeam": "Green Bay Packers",
@@ -1729,6 +1721,14 @@
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 17,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 20,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 27,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
