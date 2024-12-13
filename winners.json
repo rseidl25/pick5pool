@@ -1738,11 +1738,11 @@
     "games": [
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 0,
         "weekday": "Thursday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Cleveland Browns",
