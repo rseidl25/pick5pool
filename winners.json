@@ -1740,7 +1740,7 @@
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Indianapolis Colts",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1748,13 +1748,13 @@
         "homeTeam": "Detroit Lions",
         "homeScore": 0,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 0,
         "weekday": "Sunday",
