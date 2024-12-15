@@ -1754,7 +1754,7 @@
       },
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 17,
+        "homeScore": 20,
         "awayTeam": "Pittsburgh Steelers",
         "awayScore": 13,
         "weekday": "Sunday",
@@ -1772,7 +1772,7 @@
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 17,
         "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 20,
+        "awayScore": 23,
         "weekday": "Sunday",
         "status": "In Progress"
       },
