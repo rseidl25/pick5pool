@@ -1740,29 +1740,29 @@
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Indianapolis Colts",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Detroit Lions",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Buffalo Bills",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 3,
+        "homeScore": 10,
         "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 3,
+        "homeScore": 10,
         "awayTeam": "New England Patriots",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -1772,7 +1772,7 @@
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 7,
         "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 7,
+        "awayScore": 10,
         "weekday": "Sunday",
         "status": "In Progress"
       },
