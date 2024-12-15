@@ -1764,7 +1764,7 @@
         "homeTeam": "New York Giants",
         "homeScore": 0,
         "awayTeam": "Baltimore Ravens",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1772,7 +1772,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 0,
         "awayTeam": "Dallas Cowboys",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1788,7 +1788,7 @@
         "homeTeam": "Houston Texans",
         "homeScore": 3,
         "awayTeam": "Miami Dolphins",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
