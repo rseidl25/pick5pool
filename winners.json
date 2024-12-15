@@ -1740,7 +1740,7 @@
         "homeTeam": "Cleveland Browns",
         "homeScore": 0,
         "awayTeam": "Kansas City Chiefs",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1748,7 +1748,7 @@
         "homeTeam": "Tennessee Titans",
         "homeScore": 14,
         "awayTeam": "Cincinnati Bengals",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1764,7 +1764,7 @@
         "homeTeam": "New York Giants",
         "homeScore": 7,
         "awayTeam": "Baltimore Ravens",
-        "awayScore": 14,
+        "awayScore": 21,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1788,7 +1788,7 @@
         "homeTeam": "Houston Texans",
         "homeScore": 10,
         "awayTeam": "Miami Dolphins",
-        "awayScore": 3,
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "In Progress"
       },
