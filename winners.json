@@ -1737,14 +1737,6 @@
     "week": 15,
     "games": [
       {
-        "homeTeam": "San Francisco 49ers",
-        "homeScore": 6,
-        "awayTeam": "Los Angeles Rams",
-        "awayScore": 12,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Cleveland Browns",
         "homeScore": 0,
         "awayTeam": "Kansas City Chiefs",
@@ -1847,6 +1839,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "San Francisco 49ers",
+        "homeScore": 6,
+        "awayTeam": "Los Angeles Rams",
+        "awayScore": 12,
+        "weekday": "Thursday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Minnesota Vikings",
