@@ -1737,46 +1737,6 @@
     "week": 15,
     "games": [
       {
-        "homeTeam": "Cleveland Browns",
-        "homeScore": 7,
-        "awayTeam": "Kansas City Chiefs",
-        "awayScore": 21,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Tennessee Titans",
-        "homeScore": 21,
-        "awayTeam": "Cincinnati Bengals",
-        "awayScore": 31,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "New Orleans Saints",
-        "homeScore": 13,
-        "awayTeam": "Washington Commanders",
-        "awayScore": 20,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 14,
-        "awayTeam": "Dallas Cowboys",
-        "awayScore": 30,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 25,
-        "awayTeam": "New York Jets",
-        "awayScore": 25,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Indianapolis Colts",
@@ -1823,6 +1783,46 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Tennessee Titans",
+        "homeScore": 27,
+        "awayTeam": "Cincinnati Bengals",
+        "awayScore": 37,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 14,
+        "awayTeam": "Dallas Cowboys",
+        "awayScore": 30,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Jacksonville Jaguars",
+        "homeScore": 25,
+        "awayTeam": "New York Jets",
+        "awayScore": 32,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Cleveland Browns",
+        "homeScore": 7,
+        "awayTeam": "Kansas City Chiefs",
+        "awayScore": 21,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "New Orleans Saints",
+        "homeScore": 19,
+        "awayTeam": "Washington Commanders",
+        "awayScore": 20,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "New York Giants",
