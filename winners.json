@@ -1737,20 +1737,12 @@
     "week": 15,
     "games": [
       {
-        "homeTeam": "Detroit Lions",
-        "homeScore": 35,
-        "awayTeam": "Buffalo Bills",
-        "awayScore": 48,
+        "homeTeam": "Seattle Seahawks",
+        "homeScore": 3,
+        "awayTeam": "Green Bay Packers",
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "In Progress"
-      },
-      {
-        "homeTeam": "Seattle Seahawks",
-        "homeScore": 0,
-        "awayTeam": "Green Bay Packers",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "Scheduled"
       },
       {
         "homeTeam": "Cleveland Browns",
@@ -1813,6 +1805,14 @@
         "homeScore": 31,
         "awayTeam": "Indianapolis Colts",
         "awayScore": 13,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Detroit Lions",
+        "homeScore": 42,
+        "awayTeam": "Buffalo Bills",
+        "awayScore": 48,
         "weekday": "Sunday",
         "status": "Completed"
       },
