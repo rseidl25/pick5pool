@@ -1902,14 +1902,6 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Buffalo Bills",
-        "homeScore": 0,
-        "awayTeam": "New England Patriots",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "Scheduled"
-      },
-      {
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Detroit Lions",
@@ -1961,6 +1953,14 @@
         "homeTeam": "Seattle Seahawks",
         "homeScore": 0,
         "awayTeam": "Minnesota Vikings",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Buffalo Bills",
+        "homeScore": 0,
+        "awayTeam": "New England Patriots",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
