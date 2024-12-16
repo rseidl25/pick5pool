@@ -1737,6 +1737,30 @@
     "week": 15,
     "games": [
       {
+        "homeTeam": "Minnesota Vikings",
+        "homeScore": 0,
+        "awayTeam": "Chicago Bears",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Las Vegas Raiders",
+        "homeScore": 0,
+        "awayTeam": "Atlanta Falcons",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "San Francisco 49ers",
+        "homeScore": 6,
+        "awayTeam": "Los Angeles Rams",
+        "awayScore": 12,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Cleveland Browns",
         "homeScore": 7,
         "awayTeam": "Kansas City Chiefs",
@@ -1839,30 +1863,6 @@
         "awayScore": 30,
         "weekday": "Sunday",
         "status": "Completed"
-      },
-      {
-        "homeTeam": "San Francisco 49ers",
-        "homeScore": 6,
-        "awayTeam": "Los Angeles Rams",
-        "awayScore": 12,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Minnesota Vikings",
-        "homeScore": 0,
-        "awayTeam": "Chicago Bears",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Las Vegas Raiders",
-        "homeScore": 0,
-        "awayTeam": "Atlanta Falcons",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
       }
     ]
   },
