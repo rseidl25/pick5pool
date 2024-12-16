@@ -1738,9 +1738,9 @@
     "games": [
       {
         "homeTeam": "Seattle Seahawks",
-        "homeScore": 3,
+        "homeScore": 6,
         "awayTeam": "Green Bay Packers",
-        "awayScore": 17,
+        "awayScore": 23,
         "weekday": "Sunday",
         "status": "In Progress"
       },
