@@ -1737,14 +1737,6 @@
     "week": 15,
     "games": [
       {
-        "homeTeam": "Seattle Seahawks",
-        "homeScore": 13,
-        "awayTeam": "Green Bay Packers",
-        "awayScore": 30,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Cleveland Browns",
         "homeScore": 7,
         "awayTeam": "Kansas City Chiefs",
@@ -1837,6 +1829,14 @@
         "homeScore": 17,
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 40,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Seattle Seahawks",
+        "homeScore": 13,
+        "awayTeam": "Green Bay Packers",
+        "awayScore": 30,
         "weekday": "Sunday",
         "status": "Completed"
       },
