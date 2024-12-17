@@ -1738,9 +1738,9 @@
     "games": [
       {
         "homeTeam": "Minnesota Vikings",
-        "homeScore": 13,
+        "homeScore": 20,
         "awayTeam": "Chicago Bears",
-        "awayScore": 3,
+        "awayScore": 6,
         "weekday": "Monday",
         "status": "In Progress"
       },
@@ -1748,7 +1748,7 @@
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 3,
         "awayTeam": "Atlanta Falcons",
-        "awayScore": 9,
+        "awayScore": 12,
         "weekday": "Monday",
         "status": "In Progress"
       },
