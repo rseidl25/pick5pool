@@ -1737,18 +1737,18 @@
     "week": 15,
     "games": [
       {
-        "homeTeam": "Las Vegas Raiders",
-        "homeScore": 9,
-        "awayTeam": "Atlanta Falcons",
-        "awayScore": 15,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Minnesota Vikings",
         "homeScore": 30,
         "awayTeam": "Chicago Bears",
         "awayScore": 12,
+        "weekday": "Monday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Las Vegas Raiders",
+        "homeScore": 9,
+        "awayTeam": "Atlanta Falcons",
+        "awayScore": 15,
         "weekday": "Monday",
         "status": "Completed"
       },
