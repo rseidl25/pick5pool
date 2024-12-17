@@ -2031,7 +2031,7 @@
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
         "awayScore": 0,
-        "weekday": "Sunday",
+        "weekday": "Saturday",
         "status": "Scheduled"
       },
       {
@@ -2039,7 +2039,7 @@
         "homeScore": 0,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
-        "weekday": "Sunday",
+        "weekday": "Saturday",
         "status": "Scheduled"
       },
       {
