@@ -2027,6 +2027,14 @@
         "status": "Scheduled"
       },
       {
+        "homeTeam": "New England Patriots",
+        "homeScore": 0,
+        "awayTeam": "Los Angeles Chargers",
+        "awayScore": 0,
+        "weekday": "Saturday",
+        "status": "Scheduled"
+      },
+      {
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
@@ -2040,30 +2048,6 @@
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
         "weekday": "Saturday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "New England Patriots",
-        "homeScore": 0,
-        "awayTeam": "Los Angeles Chargers",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "New York Giants",
-        "homeScore": 0,
-        "awayTeam": "Indianapolis Colts",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Washington Commanders",
-        "homeScore": 0,
-        "awayTeam": "Atlanta Falcons",
-        "awayScore": 0,
-        "weekday": "Sunday",
         "status": "Scheduled"
       },
       {
@@ -2091,6 +2075,14 @@
         "status": "Scheduled"
       },
       {
+        "homeTeam": "New York Giants",
+        "homeScore": 0,
+        "awayTeam": "Indianapolis Colts",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 0,
         "awayTeam": "Carolina Panthers",
@@ -2107,6 +2099,14 @@
         "status": "Scheduled"
       },
       {
+        "homeTeam": "Cleveland Browns",
+        "homeScore": 0,
+        "awayTeam": "Miami Dolphins",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 0,
         "awayTeam": "Dallas Cowboys",
@@ -2115,9 +2115,9 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Cleveland Browns",
+        "homeTeam": "Washington Commanders",
         "homeScore": 0,
-        "awayTeam": "Miami Dolphins",
+        "awayTeam": "Atlanta Falcons",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
