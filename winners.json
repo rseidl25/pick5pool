@@ -1738,19 +1738,19 @@
     "games": [
       {
         "homeTeam": "Minnesota Vikings",
-        "homeScore": 0,
+        "homeScore": 13,
         "awayTeam": "Chicago Bears",
         "awayScore": 0,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Las Vegas Raiders",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Atlanta Falcons",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "San Francisco 49ers",
