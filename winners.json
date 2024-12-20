@@ -1871,9 +1871,9 @@
     "games": [
       {
         "homeTeam": "Los Angeles Chargers",
-        "homeScore": 13,
+        "homeScore": 19,
         "awayTeam": "Denver Broncos",
-        "awayScore": 21,
+        "awayScore": 24,
         "weekday": "Thursday",
         "status": "In Progress"
       },
