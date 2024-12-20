@@ -1871,11 +1871,11 @@
     "games": [
       {
         "homeTeam": "Los Angeles Chargers",
-        "homeScore": 0,
+        "homeScore": 10,
         "awayTeam": "Denver Broncos",
-        "awayScore": 0,
+        "awayScore": 14,
         "weekday": "Thursday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Kansas City Chiefs",
