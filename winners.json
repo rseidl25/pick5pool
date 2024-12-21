@@ -1871,9 +1871,9 @@
     "games": [
       {
         "homeTeam": "Baltimore Ravens",
-        "homeScore": 17,
+        "homeScore": 24,
         "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 10,
+        "awayScore": 17,
         "weekday": "Saturday",
         "status": "In Progress"
       },
