@@ -17,12 +17,12 @@
       890
     ],
     [
-      "Kelly",
-      865
+      "Steve",
+      871
     ],
     [
-      "Steve",
-      861
+      "Kelly",
+      865
     ],
     [
       "Cal",
@@ -54,7 +54,7 @@
     ],
     [
       "Kalysta",
-      735
+      745
     ],
     [
       "Sam",
@@ -62,7 +62,7 @@
     ],
     [
       "Brayden",
-      598
+      608
     ],
     [
       "Brett",
@@ -357,7 +357,7 @@
   "Week 16": {
     "Fred": 0,
     "Judy": 0,
-    "Steve": 10,
+    "Steve": 20,
     "Kelly": 0,
     "Ben": 0,
     "Ryan": 0,
@@ -369,9 +369,9 @@
     "Bryan": 0,
     "Paul": 0,
     "Angie": 0,
-    "Kalysta": 0,
+    "Kalysta": 10,
     "Brett": 0,
-    "Brayden": 0
+    "Brayden": 10
   },
   "Week 17": {
     "Fred": 0,
