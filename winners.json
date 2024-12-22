@@ -1887,7 +1887,7 @@
       },
       {
         "homeTeam": "Cincinnati Bengals",
-        "homeScore": 17,
+        "homeScore": 24,
         "awayTeam": "Cleveland Browns",
         "awayScore": 6,
         "weekday": "Sunday",
@@ -1897,7 +1897,7 @@
         "homeTeam": "Indianapolis Colts",
         "homeScore": 38,
         "awayTeam": "Tennessee Titans",
-        "awayScore": 22,
+        "awayScore": 30,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1911,7 +1911,7 @@
       },
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 21,
+        "homeScore": 28,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 27,
         "weekday": "Sunday",
