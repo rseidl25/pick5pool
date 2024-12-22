@@ -1871,7 +1871,7 @@
     "games": [
       {
         "homeTeam": "Seattle Seahawks",
-        "homeScore": 0,
+        "homeScore": 6,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -1881,7 +1881,7 @@
         "homeTeam": "Buffalo Bills",
         "homeScore": 0,
         "awayTeam": "New England Patriots",
-        "awayScore": 6,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1908,14 +1908,6 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 36,
-        "awayTeam": "Arizona Cardinals",
-        "awayScore": 30,
-        "weekday": "Sunday",
-        "status": "Completed"
       },
       {
         "homeTeam": "Atlanta Falcons",
@@ -1962,6 +1954,14 @@
         "homeScore": 36,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 33,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 36,
+        "awayTeam": "Arizona Cardinals",
+        "awayScore": 30,
         "weekday": "Sunday",
         "status": "Completed"
       },
