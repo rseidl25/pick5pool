@@ -1871,9 +1871,9 @@
     "games": [
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 28,
+        "homeScore": 34,
         "awayTeam": "Philadelphia Eagles",
-        "awayScore": 30,
+        "awayScore": 33,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1881,7 +1881,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 30,
         "awayTeam": "Arizona Cardinals",
-        "awayScore": 27,
+        "awayScore": 30,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1889,7 +1889,7 @@
         "homeTeam": "Seattle Seahawks",
         "homeScore": 0,
         "awayTeam": "Minnesota Vikings",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1942,18 +1942,18 @@
         "status": "Completed"
       },
       {
-        "homeTeam": "Indianapolis Colts",
-        "homeScore": 38,
-        "awayTeam": "Tennessee Titans",
-        "awayScore": 30,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 24,
         "awayTeam": "Cleveland Browns",
         "awayScore": 6,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Indianapolis Colts",
+        "homeScore": 38,
+        "awayTeam": "Tennessee Titans",
+        "awayScore": 30,
         "weekday": "Sunday",
         "status": "Completed"
       },
