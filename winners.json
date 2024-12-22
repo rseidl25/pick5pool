@@ -1871,9 +1871,9 @@
     "games": [
       {
         "homeTeam": "Seattle Seahawks",
-        "homeScore": 14,
+        "homeScore": 17,
         "awayTeam": "Minnesota Vikings",
-        "awayScore": 17,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
