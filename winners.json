@@ -1871,7 +1871,7 @@
     "games": [
       {
         "homeTeam": "Atlanta Falcons",
-        "homeScore": 17,
+        "homeScore": 24,
         "awayTeam": "New York Giants",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -1895,7 +1895,7 @@
       },
       {
         "homeTeam": "Indianapolis Colts",
-        "homeScore": 24,
+        "homeScore": 31,
         "awayTeam": "Tennessee Titans",
         "awayScore": 7,
         "weekday": "Sunday",
