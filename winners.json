@@ -1873,7 +1873,7 @@
         "homeTeam": "Seattle Seahawks",
         "homeScore": 7,
         "awayTeam": "Minnesota Vikings",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1881,7 +1881,7 @@
         "homeTeam": "Buffalo Bills",
         "homeScore": 0,
         "awayTeam": "New England Patriots",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1889,7 +1889,7 @@
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 0,
         "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 0,
+        "awayScore": 7,
         "weekday": "Sunday",
         "status": "In Progress"
       },
