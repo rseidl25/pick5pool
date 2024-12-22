@@ -1879,9 +1879,9 @@
       },
       {
         "homeTeam": "Chicago Bears",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Detroit Lions",
-        "awayScore": 20,
+        "awayScore": 27,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1895,7 +1895,7 @@
       },
       {
         "homeTeam": "Indianapolis Colts",
-        "homeScore": 17,
+        "homeScore": 24,
         "awayTeam": "Tennessee Titans",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -1921,7 +1921,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 20,
         "awayTeam": "Arizona Cardinals",
-        "awayScore": 10,
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "In Progress"
       },
