@@ -1870,18 +1870,18 @@
     "week": 16,
     "games": [
       {
-        "homeTeam": "Baltimore Ravens",
-        "homeScore": 24,
-        "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 17,
-        "weekday": "Saturday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Kansas City Chiefs",
         "homeScore": 27,
         "awayTeam": "Houston Texans",
         "awayScore": 19,
+        "weekday": "Saturday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Baltimore Ravens",
+        "homeScore": 34,
+        "awayTeam": "Pittsburgh Steelers",
+        "awayScore": 17,
         "weekday": "Saturday",
         "status": "Completed"
       },
