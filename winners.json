@@ -1870,22 +1870,6 @@
     "week": 16,
     "games": [
       {
-        "homeTeam": "Washington Commanders",
-        "homeScore": 34,
-        "awayTeam": "Philadelphia Eagles",
-        "awayScore": 33,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Carolina Panthers",
-        "homeScore": 30,
-        "awayTeam": "Arizona Cardinals",
-        "awayScore": 30,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Seattle Seahawks",
         "homeScore": 0,
         "awayTeam": "Minnesota Vikings",
@@ -1897,9 +1881,9 @@
         "homeTeam": "Buffalo Bills",
         "homeScore": 0,
         "awayTeam": "New England Patriots",
-        "awayScore": 0,
+        "awayScore": 6,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Las Vegas Raiders",
@@ -1907,7 +1891,7 @@
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Miami Dolphins",
@@ -1915,7 +1899,7 @@
         "awayTeam": "San Francisco 49ers",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Dallas Cowboys",
@@ -1924,6 +1908,14 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Carolina Panthers",
+        "homeScore": 36,
+        "awayTeam": "Arizona Cardinals",
+        "awayScore": 30,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Atlanta Falcons",
@@ -1962,6 +1954,14 @@
         "homeScore": 9,
         "awayTeam": "Los Angeles Rams",
         "awayScore": 19,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Washington Commanders",
+        "homeScore": 36,
+        "awayTeam": "Philadelphia Eagles",
+        "awayScore": 33,
         "weekday": "Sunday",
         "status": "Completed"
       },
