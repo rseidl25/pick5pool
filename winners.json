@@ -1871,7 +1871,7 @@
     "games": [
       {
         "homeTeam": "Seattle Seahawks",
-        "homeScore": 17,
+        "homeScore": 24,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 20,
         "weekday": "Sunday",
@@ -1879,7 +1879,7 @@
       },
       {
         "homeTeam": "Buffalo Bills",
-        "homeScore": 17,
+        "homeScore": 23,
         "awayTeam": "New England Patriots",
         "awayScore": 14,
         "weekday": "Sunday",
@@ -1889,7 +1889,7 @@
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 13,
         "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 7,
+        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
