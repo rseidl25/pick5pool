@@ -1897,7 +1897,7 @@
         "homeTeam": "Indianapolis Colts",
         "homeScore": 38,
         "awayTeam": "Tennessee Titans",
-        "awayScore": 15,
+        "awayScore": 22,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -1905,13 +1905,13 @@
         "homeTeam": "New York Jets",
         "homeScore": 9,
         "awayTeam": "Los Angeles Rams",
-        "awayScore": 16,
+        "awayScore": 19,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 14,
+        "homeScore": 21,
         "awayTeam": "Philadelphia Eagles",
         "awayScore": 27,
         "weekday": "Sunday",
@@ -1921,7 +1921,7 @@
         "homeTeam": "Carolina Panthers",
         "homeScore": 30,
         "awayTeam": "Arizona Cardinals",
-        "awayScore": 20,
+        "awayScore": 27,
         "weekday": "Sunday",
         "status": "In Progress"
       },
