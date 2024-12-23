@@ -1870,14 +1870,6 @@
     "week": 16,
     "games": [
       {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 26,
-        "awayTeam": "Tampa Bay Buccaneers",
-        "awayScore": 24,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 34,
         "awayTeam": "New York Giants",
@@ -1962,6 +1954,14 @@
         "homeScore": 29,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 17,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 26,
+        "awayTeam": "Tampa Bay Buccaneers",
+        "awayScore": 24,
         "weekday": "Sunday",
         "status": "Completed"
       },
