@@ -1870,38 +1870,6 @@
     "week": 16,
     "games": [
       {
-        "homeTeam": "Seattle Seahawks",
-        "homeScore": 24,
-        "awayTeam": "Minnesota Vikings",
-        "awayScore": 20,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Buffalo Bills",
-        "homeScore": 23,
-        "awayTeam": "New England Patriots",
-        "awayScore": 14,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Las Vegas Raiders",
-        "homeScore": 13,
-        "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 14,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Miami Dolphins",
-        "homeScore": 19,
-        "awayTeam": "San Francisco 49ers",
-        "awayScore": 10,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Dallas Cowboys",
         "homeScore": 0,
         "awayTeam": "Tampa Bay Buccaneers",
@@ -1962,6 +1930,38 @@
         "homeScore": 36,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 30,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Seattle Seahawks",
+        "homeScore": 24,
+        "awayTeam": "Minnesota Vikings",
+        "awayScore": 27,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Buffalo Bills",
+        "homeScore": 24,
+        "awayTeam": "New England Patriots",
+        "awayScore": 21,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Las Vegas Raiders",
+        "homeScore": 19,
+        "awayTeam": "Jacksonville Jaguars",
+        "awayScore": 14,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Miami Dolphins",
+        "homeScore": 29,
+        "awayTeam": "San Francisco 49ers",
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "Completed"
       },
