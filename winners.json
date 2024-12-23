@@ -1870,6 +1870,38 @@
     "week": 16,
     "games": [
       {
+        "homeTeam": "Green Bay Packers",
+        "homeScore": 0,
+        "awayTeam": "New Orleans Saints",
+        "awayScore": 0,
+        "weekday": "Monday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Los Angeles Chargers",
+        "homeScore": 34,
+        "awayTeam": "Denver Broncos",
+        "awayScore": 27,
+        "weekday": "Thursday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Kansas City Chiefs",
+        "homeScore": 27,
+        "awayTeam": "Houston Texans",
+        "awayScore": 19,
+        "weekday": "Saturday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Baltimore Ravens",
+        "homeScore": 34,
+        "awayTeam": "Pittsburgh Steelers",
+        "awayScore": 17,
+        "weekday": "Saturday",
+        "status": "Completed"
+      },
+      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 34,
         "awayTeam": "New York Giants",
@@ -1964,38 +1996,6 @@
         "awayScore": 24,
         "weekday": "Sunday",
         "status": "Completed"
-      },
-      {
-        "homeTeam": "Los Angeles Chargers",
-        "homeScore": 34,
-        "awayTeam": "Denver Broncos",
-        "awayScore": 27,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Kansas City Chiefs",
-        "homeScore": 27,
-        "awayTeam": "Houston Texans",
-        "awayScore": 19,
-        "weekday": "Saturday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Baltimore Ravens",
-        "homeScore": 34,
-        "awayTeam": "Pittsburgh Steelers",
-        "awayScore": 17,
-        "weekday": "Saturday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Green Bay Packers",
-        "homeScore": 0,
-        "awayTeam": "New Orleans Saints",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Scheduled"
       }
     ]
   },
