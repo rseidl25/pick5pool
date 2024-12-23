@@ -2059,14 +2059,6 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Minnesota Vikings",
-        "homeScore": 0,
-        "awayTeam": "Green Bay Packers",
-        "awayScore": 0,
-        "weekday": "Sunday",
-        "status": "Scheduled"
-      },
-      {
         "homeTeam": "New Orleans Saints",
         "homeScore": 0,
         "awayTeam": "Las Vegas Raiders",
@@ -2078,6 +2070,14 @@
         "homeTeam": "New York Giants",
         "homeScore": 0,
         "awayTeam": "Indianapolis Colts",
+        "awayScore": 0,
+        "weekday": "Sunday",
+        "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Philadelphia Eagles",
+        "homeScore": 0,
+        "awayTeam": "Dallas Cowboys",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
@@ -2107,9 +2107,9 @@
         "status": "Scheduled"
       },
       {
-        "homeTeam": "Philadelphia Eagles",
+        "homeTeam": "Minnesota Vikings",
         "homeScore": 0,
-        "awayTeam": "Dallas Cowboys",
+        "awayTeam": "Green Bay Packers",
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
