@@ -2,19 +2,23 @@
   "totalScores": [
     [
       "Angie",
-      1025
+      1035
     ],
     [
       "Ryan",
-      961
+      971
+    ],
+    [
+      "Alex",
+      941
     ],
     [
       "Emily/Aiden",
       939
     ],
     [
-      "Alex",
-      931
+      "Steve",
+      915
     ],
     [
       "Cal",
@@ -25,12 +29,12 @@
       910
     ],
     [
-      "Steve",
-      905
-    ],
-    [
       "Lisa",
       896
+    ],
+    [
+      "Kelly",
+      895
     ],
     [
       "Bryan",
@@ -41,16 +45,12 @@
       889
     ],
     [
-      "Kelly",
-      885
-    ],
-    [
       "Fred",
       852
     ],
     [
       "Judy",
-      832
+      842
     ],
     [
       "Kalysta",
@@ -356,19 +356,19 @@
   },
   "Week 16": {
     "Fred": 20,
-    "Judy": 54,
-    "Steve": 54,
-    "Kelly": 20,
+    "Judy": 64,
+    "Steve": 64,
+    "Kelly": 30,
     "Ben": 64,
-    "Ryan": 64,
+    "Ryan": 74,
     "Sam": 64,
     "Lisa": 54,
-    "Alex": 10,
+    "Alex": 20,
     "Cal": 54,
     "Emily/Aiden": 49,
     "Bryan": 54,
     "Paul": 30,
-    "Angie": 74,
+    "Angie": 84,
     "Kalysta": 64,
     "Brett": 64,
     "Brayden": 20
