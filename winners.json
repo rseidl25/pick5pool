@@ -1871,11 +1871,11 @@
     "games": [
       {
         "homeTeam": "Green Bay Packers",
-        "homeScore": 0,
+        "homeScore": 14,
         "awayTeam": "New Orleans Saints",
         "awayScore": 0,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Los Angeles Chargers",
