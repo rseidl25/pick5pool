@@ -1870,14 +1870,6 @@
     "week": 16,
     "games": [
       {
-        "homeTeam": "Green Bay Packers",
-        "homeScore": 34,
-        "awayTeam": "New Orleans Saints",
-        "awayScore": 0,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Los Angeles Chargers",
         "homeScore": 34,
         "awayTeam": "Denver Broncos",
@@ -1995,6 +1987,14 @@
         "awayTeam": "Tampa Bay Buccaneers",
         "awayScore": 24,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Green Bay Packers",
+        "homeScore": 34,
+        "awayTeam": "New Orleans Saints",
+        "awayScore": 0,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
