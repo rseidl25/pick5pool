@@ -2003,20 +2003,20 @@
     "week": 17,
     "games": [
       {
-        "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 10,
-        "awayTeam": "Kansas City Chiefs",
-        "awayScore": 29,
-        "weekday": "Wednesday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Houston Texans",
         "homeScore": 0,
         "awayTeam": "Baltimore Ravens",
         "awayScore": 0,
         "weekday": "Wednesday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Pittsburgh Steelers",
+        "homeScore": 10,
+        "awayTeam": "Kansas City Chiefs",
+        "awayScore": 29,
+        "weekday": "Wednesday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Chicago Bears",
