@@ -2003,6 +2003,14 @@
     "week": 17,
     "games": [
       {
+        "homeTeam": "Chicago Bears",
+        "homeScore": 0,
+        "awayTeam": "Seattle Seahawks",
+        "awayScore": 0,
+        "weekday": "Thursday",
+        "status": "Scheduled"
+      },
+      {
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 10,
         "awayTeam": "Kansas City Chiefs",
@@ -2017,14 +2025,6 @@
         "awayScore": 31,
         "weekday": "Wednesday",
         "status": "Completed"
-      },
-      {
-        "homeTeam": "Chicago Bears",
-        "homeScore": 0,
-        "awayTeam": "Seattle Seahawks",
-        "awayScore": 0,
-        "weekday": "Thursday",
-        "status": "Scheduled"
       },
       {
         "homeTeam": "New England Patriots",
