@@ -2004,9 +2004,9 @@
     "games": [
       {
         "homeTeam": "Chicago Bears",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Seattle Seahawks",
-        "awayScore": 3,
+        "awayScore": 6,
         "weekday": "Thursday",
         "status": "In Progress"
       },
