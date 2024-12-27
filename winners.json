@@ -2006,9 +2006,9 @@
         "homeTeam": "Chicago Bears",
         "homeScore": 0,
         "awayTeam": "Seattle Seahawks",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Thursday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
