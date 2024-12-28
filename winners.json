@@ -2003,14 +2003,6 @@
     "week": 17,
     "games": [
       {
-        "homeTeam": "New England Patriots",
-        "homeScore": 7,
-        "awayTeam": "Los Angeles Chargers",
-        "awayScore": 37,
-        "weekday": "Saturday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Cincinnati Bengals",
         "homeScore": 0,
         "awayTeam": "Denver Broncos",
@@ -2025,6 +2017,14 @@
         "awayScore": 0,
         "weekday": "Saturday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "New England Patriots",
+        "homeScore": 7,
+        "awayTeam": "Los Angeles Chargers",
+        "awayScore": 40,
+        "weekday": "Saturday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
