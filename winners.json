@@ -2003,30 +2003,6 @@
     "week": 17,
     "games": [
       {
-        "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 10,
-        "awayTeam": "Kansas City Chiefs",
-        "awayScore": 29,
-        "weekday": "Wednesday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Houston Texans",
-        "homeScore": 2,
-        "awayTeam": "Baltimore Ravens",
-        "awayScore": 31,
-        "weekday": "Wednesday",
-        "status": "Completed"
-      },
-      {
-        "homeTeam": "Chicago Bears",
-        "homeScore": 3,
-        "awayTeam": "Seattle Seahawks",
-        "awayScore": 6,
-        "weekday": "Thursday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "New England Patriots",
         "homeScore": 0,
         "awayTeam": "Los Angeles Chargers",
@@ -2049,6 +2025,30 @@
         "awayScore": 0,
         "weekday": "Saturday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Pittsburgh Steelers",
+        "homeScore": 10,
+        "awayTeam": "Kansas City Chiefs",
+        "awayScore": 29,
+        "weekday": "Wednesday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Houston Texans",
+        "homeScore": 2,
+        "awayTeam": "Baltimore Ravens",
+        "awayScore": 31,
+        "weekday": "Wednesday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Chicago Bears",
+        "homeScore": 3,
+        "awayTeam": "Seattle Seahawks",
+        "awayScore": 6,
+        "weekday": "Thursday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Buffalo Bills",
