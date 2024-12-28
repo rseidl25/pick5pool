@@ -5,20 +5,24 @@
       1045
     ],
     [
+      "Kelly",
+      999
+    ],
+    [
       "Ryan",
       981
+    ],
+    [
+      "Alex",
+      971
     ],
     [
       "Emily/Aiden",
       969
     ],
     [
-      "Alex",
-      961
-    ],
-    [
-      "Kelly",
-      949
+      "Lisa",
+      966
     ],
     [
       "Cal",
@@ -31,10 +35,6 @@
     [
       "Ben",
       930
-    ],
-    [
-      "Lisa",
-      916
     ],
     [
       "Steve",
@@ -377,12 +377,12 @@
     "Fred": 20,
     "Judy": 0,
     "Steve": 0,
-    "Kelly": 10,
+    "Kelly": 60,
     "Ben": 10,
     "Ryan": 0,
     "Sam": 10,
-    "Lisa": 10,
-    "Alex": 10,
+    "Lisa": 60,
+    "Alex": 20,
     "Cal": 10,
     "Emily/Aiden": 20,
     "Bryan": 0,
