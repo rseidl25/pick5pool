@@ -2014,7 +2014,7 @@
         "homeTeam": "New Orleans Saints",
         "homeScore": 7,
         "awayTeam": "Las Vegas Raiders",
-        "awayScore": 3,
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -2022,13 +2022,13 @@
         "homeTeam": "New York Giants",
         "homeScore": 14,
         "awayTeam": "Indianapolis Colts",
-        "awayScore": 3,
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 7,
+        "homeScore": 14,
         "awayTeam": "Dallas Cowboys",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -2036,7 +2036,7 @@
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
-        "homeScore": 13,
+        "homeScore": 20,
         "awayTeam": "Carolina Panthers",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -2044,7 +2044,7 @@
       },
       {
         "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 10,
+        "homeScore": 13,
         "awayTeam": "Tennessee Titans",
         "awayScore": 0,
         "weekday": "Sunday",
