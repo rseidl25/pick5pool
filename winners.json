@@ -2003,30 +2003,6 @@
     "week": 17,
     "games": [
       {
-        "homeTeam": "Buffalo Bills",
-        "homeScore": 40,
-        "awayTeam": "New York Jets",
-        "awayScore": 8,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "New Orleans Saints",
-        "homeScore": 10,
-        "awayTeam": "Las Vegas Raiders",
-        "awayScore": 25,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "New York Giants",
-        "homeScore": 45,
-        "awayTeam": "Indianapolis Colts",
-        "awayScore": 33,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Cleveland Browns",
         "homeScore": 0,
         "awayTeam": "Miami Dolphins",
@@ -2049,6 +2025,30 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Buffalo Bills",
+        "homeScore": 40,
+        "awayTeam": "New York Jets",
+        "awayScore": 14,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "New Orleans Saints",
+        "homeScore": 10,
+        "awayTeam": "Las Vegas Raiders",
+        "awayScore": 25,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "New York Giants",
+        "homeScore": 45,
+        "awayTeam": "Indianapolis Colts",
+        "awayScore": 33,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Philadelphia Eagles",
