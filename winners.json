@@ -2004,7 +2004,7 @@
     "games": [
       {
         "homeTeam": "Buffalo Bills",
-        "homeScore": 19,
+        "homeScore": 26,
         "awayTeam": "New York Jets",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -2028,7 +2028,7 @@
       },
       {
         "homeTeam": "Philadelphia Eagles",
-        "homeScore": 27,
+        "homeScore": 34,
         "awayTeam": "Dallas Cowboys",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -2036,7 +2036,7 @@
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
-        "homeScore": 34,
+        "homeScore": 41,
         "awayTeam": "Carolina Panthers",
         "awayScore": 14,
         "weekday": "Sunday",
@@ -2044,7 +2044,7 @@
       },
       {
         "homeTeam": "Jacksonville Jaguars",
-        "homeScore": 13,
+        "homeScore": 20,
         "awayTeam": "Tennessee Titans",
         "awayScore": 10,
         "weekday": "Sunday",
