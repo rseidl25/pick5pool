@@ -2004,7 +2004,7 @@
     "games": [
       {
         "homeTeam": "Buffalo Bills",
-        "homeScore": 7,
+        "homeScore": 9,
         "awayTeam": "New York Jets",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -2020,7 +2020,7 @@
       },
       {
         "homeTeam": "New York Giants",
-        "homeScore": 14,
+        "homeScore": 21,
         "awayTeam": "Indianapolis Colts",
         "awayScore": 6,
         "weekday": "Sunday",
