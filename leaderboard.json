@@ -2,15 +2,19 @@
   "totalScores": [
     [
       "Angie",
-      1045
+      1055
     ],
     [
       "Kelly",
-      999
+      1009
     ],
     [
       "Ryan",
-      981
+      991
+    ],
+    [
+      "Lisa",
+      976
     ],
     [
       "Alex",
@@ -21,28 +25,24 @@
       969
     ],
     [
-      "Lisa",
-      966
-    ],
-    [
       "Cal",
-      935
+      945
     ],
     [
       "Paul",
-      933
+      943
     ],
     [
       "Ben",
-      930
+      940
     ],
     [
       "Steve",
-      915
+      925
     ],
     [
       "Bryan",
-      899
+      909
     ],
     [
       "Fred",
@@ -58,7 +58,7 @@
     ],
     [
       "Sam",
-      765
+      775
     ],
     [
       "Brett",
@@ -376,18 +376,18 @@
   "Week 17": {
     "Fred": 20,
     "Judy": 0,
-    "Steve": 0,
-    "Kelly": 60,
-    "Ben": 10,
-    "Ryan": 0,
-    "Sam": 10,
-    "Lisa": 60,
+    "Steve": 10,
+    "Kelly": 70,
+    "Ben": 20,
+    "Ryan": 10,
+    "Sam": 20,
+    "Lisa": 70,
     "Alex": 20,
-    "Cal": 10,
+    "Cal": 20,
     "Emily/Aiden": 20,
-    "Bryan": 0,
-    "Paul": 0,
-    "Angie": 10,
+    "Bryan": 10,
+    "Paul": 10,
+    "Angie": 20,
     "Kalysta": 10,
     "Brett": 20,
     "Brayden": 0
