@@ -2004,9 +2004,9 @@
     "games": [
       {
         "homeTeam": "Cincinnati Bengals",
-        "homeScore": 17,
+        "homeScore": 24,
         "awayTeam": "Denver Broncos",
-        "awayScore": 10,
+        "awayScore": 24,
         "weekday": "Saturday",
         "status": "In Progress"
       },
