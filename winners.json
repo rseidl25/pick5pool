@@ -2006,7 +2006,7 @@
         "homeTeam": "Buffalo Bills",
         "homeScore": 40,
         "awayTeam": "New York Jets",
-        "awayScore": 0,
+        "awayScore": 8,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -2020,25 +2020,9 @@
       },
       {
         "homeTeam": "New York Giants",
-        "homeScore": 35,
+        "homeScore": 45,
         "awayTeam": "Indianapolis Colts",
         "awayScore": 33,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Philadelphia Eagles",
-        "homeScore": 41,
-        "awayTeam": "Dallas Cowboys",
-        "awayScore": 7,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Tampa Bay Buccaneers",
-        "homeScore": 48,
-        "awayTeam": "Carolina Panthers",
-        "awayScore": 14,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -2048,7 +2032,7 @@
         "awayTeam": "Miami Dolphins",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Minnesota Vikings",
@@ -2065,6 +2049,22 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Philadelphia Eagles",
+        "homeScore": 41,
+        "awayTeam": "Dallas Cowboys",
+        "awayScore": 7,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Tampa Bay Buccaneers",
+        "homeScore": 48,
+        "awayTeam": "Carolina Panthers",
+        "awayScore": 14,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Jacksonville Jaguars",
