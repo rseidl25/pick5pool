@@ -2003,14 +2003,6 @@
     "week": 17,
     "games": [
       {
-        "homeTeam": "Los Angeles Rams",
-        "homeScore": 13,
-        "awayTeam": "Arizona Cardinals",
-        "awayScore": 9,
-        "weekday": "Saturday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "New England Patriots",
         "homeScore": 7,
         "awayTeam": "Los Angeles Chargers",
@@ -2023,6 +2015,14 @@
         "homeScore": 30,
         "awayTeam": "Denver Broncos",
         "awayScore": 24,
+        "weekday": "Saturday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Los Angeles Rams",
+        "homeScore": 13,
+        "awayTeam": "Arizona Cardinals",
+        "awayScore": 9,
         "weekday": "Saturday",
         "status": "Completed"
       },
