@@ -2003,26 +2003,26 @@
     "week": 17,
     "games": [
       {
-        "homeTeam": "Cincinnati Bengals",
-        "homeScore": 24,
-        "awayTeam": "Denver Broncos",
-        "awayScore": 24,
-        "weekday": "Saturday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Los Angeles Rams",
         "homeScore": 0,
         "awayTeam": "Arizona Cardinals",
         "awayScore": 0,
         "weekday": "Saturday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "New England Patriots",
         "homeScore": 7,
         "awayTeam": "Los Angeles Chargers",
         "awayScore": 40,
+        "weekday": "Saturday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Cincinnati Bengals",
+        "homeScore": 30,
+        "awayTeam": "Denver Broncos",
+        "awayScore": 24,
         "weekday": "Saturday",
         "status": "Completed"
       },
