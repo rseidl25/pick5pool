@@ -2003,14 +2003,6 @@
     "week": 17,
     "games": [
       {
-        "homeTeam": "Washington Commanders",
-        "homeScore": 30,
-        "awayTeam": "Atlanta Falcons",
-        "awayScore": 24,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Buffalo Bills",
         "homeScore": 40,
         "awayTeam": "New York Jets",
@@ -2071,6 +2063,14 @@
         "homeScore": 27,
         "awayTeam": "Green Bay Packers",
         "awayScore": 25,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Washington Commanders",
+        "homeScore": 30,
+        "awayTeam": "Atlanta Falcons",
+        "awayScore": 24,
         "weekday": "Sunday",
         "status": "Completed"
       },
