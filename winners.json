@@ -2004,11 +2004,11 @@
     "games": [
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 24,
+        "homeScore": 30,
         "awayTeam": "Atlanta Falcons",
         "awayScore": 24,
         "weekday": "Sunday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Buffalo Bills",
