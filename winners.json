@@ -2004,9 +2004,9 @@
     "games": [
       {
         "homeTeam": "Washington Commanders",
-        "homeScore": 21,
+        "homeScore": 24,
         "awayTeam": "Atlanta Falcons",
-        "awayScore": 17,
+        "awayScore": 24,
         "weekday": "Sunday",
         "status": "In Progress"
       },
