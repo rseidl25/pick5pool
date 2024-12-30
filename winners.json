@@ -2003,22 +2003,6 @@
     "week": 17,
     "games": [
       {
-        "homeTeam": "Cleveland Browns",
-        "homeScore": 3,
-        "awayTeam": "Miami Dolphins",
-        "awayScore": 13,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Minnesota Vikings",
-        "homeScore": 27,
-        "awayTeam": "Green Bay Packers",
-        "awayScore": 10,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Washington Commanders",
         "homeScore": 0,
         "awayTeam": "Atlanta Falcons",
@@ -2071,6 +2055,22 @@
         "homeScore": 20,
         "awayTeam": "Tennessee Titans",
         "awayScore": 13,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Cleveland Browns",
+        "homeScore": 3,
+        "awayTeam": "Miami Dolphins",
+        "awayScore": 20,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Minnesota Vikings",
+        "homeScore": 27,
+        "awayTeam": "Green Bay Packers",
+        "awayScore": 25,
         "weekday": "Sunday",
         "status": "Completed"
       },
