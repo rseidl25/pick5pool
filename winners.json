@@ -2004,9 +2004,9 @@
     "games": [
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 21,
+        "homeScore": 28,
         "awayTeam": "Detroit Lions",
-        "awayScore": 13,
+        "awayScore": 21,
         "weekday": "Monday",
         "status": "In Progress"
       },
