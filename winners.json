@@ -2004,11 +2004,11 @@
     "games": [
       {
         "homeTeam": "San Francisco 49ers",
-        "homeScore": 0,
+        "homeScore": 14,
         "awayTeam": "Detroit Lions",
-        "awayScore": 0,
+        "awayScore": 13,
         "weekday": "Monday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Pittsburgh Steelers",
