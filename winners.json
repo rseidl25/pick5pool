@@ -2003,14 +2003,6 @@
     "week": 17,
     "games": [
       {
-        "homeTeam": "San Francisco 49ers",
-        "homeScore": 34,
-        "awayTeam": "Detroit Lions",
-        "awayScore": 40,
-        "weekday": "Monday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 10,
         "awayTeam": "Kansas City Chiefs",
@@ -2128,6 +2120,14 @@
         "awayTeam": "Atlanta Falcons",
         "awayScore": 24,
         "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "San Francisco 49ers",
+        "homeScore": 34,
+        "awayTeam": "Detroit Lions",
+        "awayScore": 40,
+        "weekday": "Monday",
         "status": "Completed"
       }
     ]
