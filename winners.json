@@ -2147,7 +2147,7 @@
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 10,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 9,
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -2169,9 +2169,9 @@
       },
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 17,
+        "homeScore": 20,
         "awayTeam": "San Francisco 49ers",
-        "awayScore": 10,
+        "awayScore": 17,
         "weekday": "Sunday",
         "status": "In Progress"
       },
