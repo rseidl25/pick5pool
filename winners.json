@@ -2144,30 +2144,6 @@
         "status": "In Progress"
       },
       {
-        "homeTeam": "Dallas Cowboys",
-        "homeScore": 19,
-        "awayTeam": "Washington Commanders",
-        "awayScore": 22,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Indianapolis Colts",
-        "homeScore": 23,
-        "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 23,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
-        "homeTeam": "Tampa Bay Buccaneers",
-        "homeScore": 26,
-        "awayTeam": "New Orleans Saints",
-        "awayScore": 19,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Denver Broncos",
         "homeScore": 0,
         "awayTeam": "Kansas City Chiefs",
@@ -2214,6 +2190,30 @@
         "awayScore": 0,
         "weekday": "Sunday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Indianapolis Colts",
+        "homeScore": 26,
+        "awayTeam": "Jacksonville Jaguars",
+        "awayScore": 23,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Tampa Bay Buccaneers",
+        "homeScore": 27,
+        "awayTeam": "New Orleans Saints",
+        "awayScore": 19,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Dallas Cowboys",
+        "homeScore": 19,
+        "awayTeam": "Washington Commanders",
+        "awayScore": 23,
+        "weekday": "Sunday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Green Bay Packers",
