@@ -2137,7 +2137,7 @@
     "games": [
       {
         "homeTeam": "Denver Broncos",
-        "homeScore": 31,
+        "homeScore": 38,
         "awayTeam": "Kansas City Chiefs",
         "awayScore": 0,
         "weekday": "Sunday",
@@ -2147,7 +2147,7 @@
         "homeTeam": "Las Vegas Raiders",
         "homeScore": 13,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 20,
+        "awayScore": 27,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -2171,7 +2171,7 @@
         "homeTeam": "Arizona Cardinals",
         "homeScore": 26,
         "awayTeam": "San Francisco 49ers",
-        "awayScore": 17,
+        "awayScore": 24,
         "weekday": "Sunday",
         "status": "In Progress"
       },
