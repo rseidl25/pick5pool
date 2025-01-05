@@ -2145,7 +2145,7 @@
       },
       {
         "homeTeam": "Dallas Cowboys",
-        "homeScore": 12,
+        "homeScore": 18,
         "awayTeam": "Washington Commanders",
         "awayScore": 16,
         "weekday": "Sunday",
@@ -2171,7 +2171,7 @@
         "homeTeam": "Indianapolis Colts",
         "homeScore": 20,
         "awayTeam": "Jacksonville Jaguars",
-        "awayScore": 13,
+        "awayScore": 20,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -2193,7 +2193,7 @@
       },
       {
         "homeTeam": "Tampa Bay Buccaneers",
-        "homeScore": 13,
+        "homeScore": 20,
         "awayTeam": "New Orleans Saints",
         "awayScore": 19,
         "weekday": "Sunday",
