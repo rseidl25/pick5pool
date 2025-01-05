@@ -54,7 +54,7 @@
     ],
     [
       "Kalysta",
-      829
+      839
     ],
     [
       "Sam",
@@ -62,7 +62,7 @@
     ],
     [
       "Brayden",
-      696
+      706
     ],
     [
       "Brett",
@@ -407,8 +407,8 @@
     "Bryan": 0,
     "Paul": 0,
     "Angie": 0,
-    "Kalysta": 0,
+    "Kalysta": 10,
     "Brett": 10,
-    "Brayden": 10
+    "Brayden": 20
   }
 }
