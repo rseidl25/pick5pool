@@ -2145,15 +2145,15 @@
       },
       {
         "homeTeam": "Las Vegas Raiders",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Los Angeles Chargers",
-        "awayScore": 0,
+        "awayScore": 3,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Los Angeles Rams",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "Seattle Seahawks",
         "awayScore": 7,
         "weekday": "Sunday",
@@ -2163,13 +2163,13 @@
         "homeTeam": "New York Jets",
         "homeScore": 0,
         "awayTeam": "Miami Dolphins",
-        "awayScore": 3,
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Arizona Cardinals",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 3,
         "weekday": "Sunday",
