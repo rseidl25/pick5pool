@@ -2137,7 +2137,7 @@
     "games": [
       {
         "homeTeam": "Atlanta Falcons",
-        "homeScore": 24,
+        "homeScore": 31,
         "awayTeam": "Carolina Panthers",
         "awayScore": 31,
         "weekday": "Sunday",
@@ -2145,7 +2145,7 @@
       },
       {
         "homeTeam": "Dallas Cowboys",
-        "homeScore": 18,
+        "homeScore": 19,
         "awayTeam": "Washington Commanders",
         "awayScore": 16,
         "weekday": "Sunday",
@@ -2153,7 +2153,7 @@
       },
       {
         "homeTeam": "Green Bay Packers",
-        "homeScore": 13,
+        "homeScore": 19,
         "awayTeam": "Chicago Bears",
         "awayScore": 21,
         "weekday": "Sunday",
@@ -2161,7 +2161,7 @@
       },
       {
         "homeTeam": "Tennessee Titans",
-        "homeScore": 6,
+        "homeScore": 14,
         "awayTeam": "Houston Texans",
         "awayScore": 23,
         "weekday": "Sunday",
@@ -2169,7 +2169,7 @@
       },
       {
         "homeTeam": "Indianapolis Colts",
-        "homeScore": 20,
+        "homeScore": 23,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 20,
         "weekday": "Sunday",
