@@ -2139,7 +2139,7 @@
         "homeTeam": "Atlanta Falcons",
         "homeScore": 24,
         "awayTeam": "Carolina Panthers",
-        "awayScore": 24,
+        "awayScore": 31,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -2147,7 +2147,7 @@
         "homeTeam": "Dallas Cowboys",
         "homeScore": 12,
         "awayTeam": "Washington Commanders",
-        "awayScore": 10,
+        "awayScore": 16,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -2155,7 +2155,7 @@
         "homeTeam": "Green Bay Packers",
         "homeScore": 13,
         "awayTeam": "Chicago Bears",
-        "awayScore": 14,
+        "awayScore": 21,
         "weekday": "Sunday",
         "status": "In Progress"
       },
@@ -2177,7 +2177,7 @@
       },
       {
         "homeTeam": "New England Patriots",
-        "homeScore": 17,
+        "homeScore": 20,
         "awayTeam": "Buffalo Bills",
         "awayScore": 16,
         "weekday": "Sunday",
@@ -2187,7 +2187,7 @@
         "homeTeam": "Philadelphia Eagles",
         "homeScore": 17,
         "awayTeam": "New York Giants",
-        "awayScore": 10,
+        "awayScore": 13,
         "weekday": "Sunday",
         "status": "In Progress"
       },
