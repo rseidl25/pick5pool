@@ -2163,13 +2163,13 @@
         "homeTeam": "Tennessee Titans",
         "homeScore": 3,
         "awayTeam": "Houston Texans",
-        "awayScore": 13,
+        "awayScore": 16,
         "weekday": "Sunday",
         "status": "In Progress"
       },
       {
         "homeTeam": "Indianapolis Colts",
-        "homeScore": 17,
+        "homeScore": 20,
         "awayTeam": "Jacksonville Jaguars",
         "awayScore": 13,
         "weekday": "Sunday",
@@ -2195,7 +2195,7 @@
         "homeTeam": "Tampa Bay Buccaneers",
         "homeScore": 6,
         "awayTeam": "New Orleans Saints",
-        "awayScore": 13,
+        "awayScore": 16,
         "weekday": "Sunday",
         "status": "In Progress"
       },
