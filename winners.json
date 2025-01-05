@@ -2137,11 +2137,11 @@
     "games": [
       {
         "homeTeam": "Pittsburgh Steelers",
-        "homeScore": 14,
+        "homeScore": 17,
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 19,
         "weekday": "Saturday",
-        "status": "In Progress"
+        "status": "Completed"
       },
       {
         "homeTeam": "Baltimore Ravens",
