@@ -2136,20 +2136,20 @@
     "week": 18,
     "games": [
       {
-        "homeTeam": "Baltimore Ravens",
-        "homeScore": 21,
-        "awayTeam": "Cleveland Browns",
-        "awayScore": 3,
-        "weekday": "Saturday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Pittsburgh Steelers",
         "homeScore": 0,
         "awayTeam": "Cincinnati Bengals",
         "awayScore": 0,
         "weekday": "Saturday",
         "status": "Scheduled"
+      },
+      {
+        "homeTeam": "Baltimore Ravens",
+        "homeScore": 35,
+        "awayTeam": "Cleveland Browns",
+        "awayScore": 10,
+        "weekday": "Saturday",
+        "status": "Completed"
       },
       {
         "homeTeam": "Atlanta Falcons",
