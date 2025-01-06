@@ -2152,14 +2152,6 @@
         "status": "Completed"
       },
       {
-        "homeTeam": "Tampa Bay Buccaneers",
-        "homeScore": 27,
-        "awayTeam": "New Orleans Saints",
-        "awayScore": 19,
-        "weekday": "Sunday",
-        "status": "In Progress"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 38,
         "awayTeam": "Carolina Panthers",
@@ -2212,6 +2204,14 @@
         "homeScore": 20,
         "awayTeam": "New York Giants",
         "awayScore": 13,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Tampa Bay Buccaneers",
+        "homeScore": 27,
+        "awayTeam": "New Orleans Saints",
+        "awayScore": 19,
         "weekday": "Sunday",
         "status": "Completed"
       },
