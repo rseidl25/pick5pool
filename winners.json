@@ -2137,9 +2137,9 @@
     "games": [
       {
         "homeTeam": "Detroit Lions",
-        "homeScore": 7,
+        "homeScore": 10,
         "awayTeam": "Minnesota Vikings",
-        "awayScore": 0,
+        "awayScore": 6,
         "weekday": "Sunday",
         "status": "In Progress"
       },
