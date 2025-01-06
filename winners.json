@@ -2136,14 +2136,6 @@
     "week": 18,
     "games": [
       {
-        "homeTeam": "Detroit Lions",
-        "homeScore": 31,
-        "awayTeam": "Minnesota Vikings",
-        "awayScore": 9,
-        "weekday": "Sunday",
-        "status": "Completed"
-      },
-      {
         "homeTeam": "Atlanta Falcons",
         "homeScore": 38,
         "awayTeam": "Carolina Panthers",
@@ -2244,6 +2236,14 @@
         "homeScore": 47,
         "awayTeam": "San Francisco 49ers",
         "awayScore": 24,
+        "weekday": "Sunday",
+        "status": "Completed"
+      },
+      {
+        "homeTeam": "Detroit Lions",
+        "homeScore": 31,
+        "awayTeam": "Minnesota Vikings",
+        "awayScore": 9,
         "weekday": "Sunday",
         "status": "Completed"
       },
