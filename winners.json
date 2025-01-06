@@ -2137,11 +2137,11 @@
     "games": [
       {
         "homeTeam": "Detroit Lions",
-        "homeScore": 0,
+        "homeScore": 7,
         "awayTeam": "Minnesota Vikings",
         "awayScore": 0,
         "weekday": "Sunday",
-        "status": "Scheduled"
+        "status": "In Progress"
       },
       {
         "homeTeam": "Atlanta Falcons",
