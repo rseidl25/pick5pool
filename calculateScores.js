@@ -1,82 +1,74 @@
 const fs = require('fs');
 const path = require('path');
 
-// Load winners and players data
+// Load data paths
 const winnersFilePath = path.join(__dirname, 'winners.json');
 const playersFilePath = path.join(__dirname, 'players.json');
-const leaderboardFilePath = path.join(__dirname, 'leaderboard.json');
+const leaderboardFilePath = path.join(__dirname, 'leaderboard_newRules.json');
 
 async function calculateScores() {
     try {
-        // Read winners and players data
         const winnersData = JSON.parse(fs.readFileSync(winnersFilePath, 'utf8'));
         const playersData = JSON.parse(fs.readFileSync(playersFilePath, 'utf8'));
-        
-        // Initialize leaderboard object
+
         const leaderboard = {
             totalScores: {}
         };
-
-        // Initialize total scores object
         const totalScores = {};
 
-        // Process each week
         for (const weekData of winnersData) {
             const weekNumber = weekData.week;
-            const weekKey = `Week ${weekNumber}`; // Use the format "Week X"
+            const weekKey = `Week ${weekNumber}`;
             const weeklyWinners = weekData.games.reduce((acc, game) => {
                 if (game.status === 'Completed') {
-                    // Determine the winning team
-                    const winningTeam = parseInt(game.homeScore) > parseInt(game.awayScore) ? game.homeTeam : game.awayTeam;
-                    acc[winningTeam] = parseInt(game.homeScore) > parseInt(game.awayScore) ? parseInt(game.homeScore) : parseInt(game.awayScore);
+                    const homeScore = parseInt(game.homeScore);
+                    const awayScore = parseInt(game.awayScore);
+                    const homeTeam = game.homeTeam;
+                    const awayTeam = game.awayTeam;
+
+                    if (homeScore > awayScore) {
+                        acc[homeTeam] = homeScore;
+                    } else {
+                        acc[awayTeam] = awayScore;
+                    }
                 }
                 return acc;
             }, {});
 
-            // Process each player's picks
             for (const [player, weeks] of Object.entries(playersData)) {
-                const playerPicks = weeks[`week${weekNumber}`];
-                
-                if (!playerPicks) continue;
+                const picks = weeks[`week${weekNumber}`];
+                if (!picks) continue;
 
-                // Initialize player score for this week
                 let playerScore = 0;
 
-                playerPicks.forEach((pick, index) => {
-                    if (weeklyWinners[pick]) {
-                        // Bonus pick score
+                picks.forEach((pick, index) => {
+                    const winningScore = weeklyWinners[pick];
+                    if (winningScore !== undefined) {
                         if (index === 0) {
-                            playerScore += 10 + weeklyWinners[pick];
+                            // Bonus pick: double the score
+                            playerScore += winningScore * 2;
                         } else {
-                            playerScore += 10;
+                            // Regular pick: exact score
+                            playerScore += winningScore;
                         }
                     }
                 });
 
-                // Initialize total score if not already
-                if (!totalScores[player]) {
-                    totalScores[player] = 0;
-                }
+                if (!totalScores[player]) totalScores[player] = 0;
                 totalScores[player] += playerScore;
 
-                // Initialize leaderboard week entry if not already
-                if (!leaderboard[weekKey]) {
-                    leaderboard[weekKey] = {};
-                }
+                if (!leaderboard[weekKey]) leaderboard[weekKey] = {};
                 leaderboard[weekKey][player] = playerScore;
             }
         }
 
-        // Prepare total scores for totalScores entry
         leaderboard.totalScores = Object.entries(totalScores).sort((a, b) => b[1] - a[1]);
 
-        // Write leaderboard to file
         fs.writeFileSync(leaderboardFilePath, JSON.stringify(leaderboard, null, 2));
-        console.log('Leaderboard has been successfully calculated and saved to leaderboard.json.');
+        console.log('New leaderboard (scoring by points scored) saved as leaderboard_newRules.json');
     } catch (error) {
-        console.error('Error calculating scores:', error);
+        console.error('Error:', error);
     }
 }
 
-// Run the calculation
 calculateScores();
